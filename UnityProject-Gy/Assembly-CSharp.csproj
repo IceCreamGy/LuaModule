@@ -205,19 +205,19 @@
     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
     <None Include="Assets\XLua\Resources\tdr\tdr.lua.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity-Application/2018-4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -421,31 +421,31 @@
       <HintPath>D:/Unity-Application/2018-4/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTween43">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/GitProject/LuaModel/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Unity-Application/2018-4/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

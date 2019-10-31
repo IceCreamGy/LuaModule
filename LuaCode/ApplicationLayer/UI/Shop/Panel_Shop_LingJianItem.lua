@@ -18,4 +18,18 @@ function Panel_Shop_LingJianItem:ctor(GoParam, uitalbeParam, dataParam)
     end)
 end
 
+function Panel_Shop_LingJianItem:Refresh(data)
+    self.uitable.Text_CarName.text = data.name                     --初始化名字显示
+    self.uitable.ImagePro_Car:SetImage(data.icon)                  --初始化商品图片
+    self.uitable.Text_Money.text=data.moneyCount                   --初始化商品价格
+end
+
+function Panel_Shop_LingJianItem:Hide()
+    --self.Go 开
+
+end
+function Panel_Shop_LingJianItem:Show()
+    --self.Go 关
+end
+
 return Panel_Shop_LingJianItem

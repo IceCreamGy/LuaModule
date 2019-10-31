@@ -13,6 +13,7 @@ function Panel_Shop:On_Init(args)
     Panel_Shop.selectButton = LoadManager.LoadGameObject("ImagePro_ShopSelectButtonItem")           --需要被复制的按钮
     Panel_Shop.showContentArea = self.panel.transform:Find("Panel_ShowArea")                                    --存放展示面板的位置
 
+    --Lua排序
     table.sort(DataManager.GetShopData().ButtonList, function(a, b)
         return a.showOrder < b.showOrder
     end)

@@ -267,73 +267,73 @@ ShopData.ALingJian={
 ShopData.BCLingJian={
     {
         showOrder = 0, --展示顺序
-        name = "V16引擎",
-        icon="Shop/LingJianS/carRefit_280101",
+        name = "V8引擎",
+        icon="Shop/LingJianBC/refit_030101",
         moneyType="DianJuan",
         moneyCount="50000",
     },
     {
-        showOrder = 1,
-        name = "碳瓷制动器",
-        icon="Shop/LingJianS/carRefit_280201",
+        showOrder = 1, --展示顺序
+        name = "V8引擎",
+        icon="Shop/LingJianBC/refit_030101",
         moneyType="DianJuan",
-        moneyCount="16000",
+        moneyCount="50000",
     },
     {
         showOrder = 2, --展示顺序
-        name = "半热熔胎",
-        icon="Shop/LingJianS/carRefit_280301",
+        name = "水冷涡轮",
+        icon="Shop/LingJianBC/refit_030401",
         moneyType="DianJuan",
         moneyCount="12000",
     },
     {
-        showOrder = 3, --展示顺序
-        name = "运动胎",
-        icon="Shop/LingJianS/carRefit_280302",
+        showOrder = 3,
+        name = "盘式制动",
+        icon="Shop/LingJianBC/refit_030201",
+        moneyType="DianJuan",
+        moneyCount="16000",
+    },
+    {
+        showOrder = 4, --展示顺序
+        name = "水冷涡轮",
+        icon="Shop/LingJianBC/refit_030401",
+        moneyType="DianJuan",
+        moneyCount="12000",
+    },
+    {
+        showOrder = 5, --展示顺序
+        name = "全热熔胎",
+        icon="Shop/LingJianBC/refit_140301",
         moneyType="DianJuan",
         moneyCount="7000",
     },
     {
-        showOrder = 4, --展示顺序
+        showOrder = 6, --展示顺序
         name = "全热熔胎",
-        icon="Shop/LingJianS/carRefit_280303",
+        icon="Shop/LingJianBC/refit_140301",
+        moneyType="DianJuan",
+        moneyCount="7000",
+    },
+    {
+        showOrder = 7, --展示顺序
+        name = "盘式制动",
+        icon="Shop/LingJianBC/refit_230201",
         moneyType="DianJuan",
         moneyCount="18000",
     },
     {
-        showOrder = 5, --展示顺序
-        name = "双重涡轮",
-        icon="Shop/LingJianS/carRefit_280401",
-        moneyType="DianJuan",
-        moneyCount="32000",
-    },
-    {
-        showOrder = 6, --展示顺序
-        name = "可调尾翼",
-        icon="Shop/LingJianS/carRefit_280501",
-        moneyType="DianJuan",
-        moneyCount="20000",
-    },
-    {
-        showOrder = 7, --展示顺序
-        name = "失速尾翼",
-        icon="Shop/LingJianS/carRefit_280502",
-        moneyType="DianJuan",
-        moneyCount="23000",
-    },
-    {
         showOrder = 8, --展示顺序
-        name = "扰流翼",
-        icon="Shop/LingJianS/carRefit_280503",
+        name = "V6引擎",
+        icon="Shop/LingJianBC/refit_260101",
         moneyType="DianJuan",
-        moneyCount="17000",
+        moneyCount="18000",
     },
     {
         showOrder = 9, --展示顺序
-        name = "合金排气",
-        icon="Shop/LingJianS/carRefit_280601",
+        name = "V6引擎",
+        icon="Shop/LingJianBC/refit_260101",
         moneyType="DianJuan",
-        moneyCount="7500",
+        moneyCount="18000",
     },
 }
 ShopData.XiaoHaoPin={
@@ -411,5 +411,9 @@ ShopData.XiaoHaoPin={
 
 ShopData.MoneyIcon_DianQuan="Shop/Money/money_stamp_token"
 ShopData.MoneyIcon_DianQuan="Shop/Money/money_gold_token"
+
+function ShopData:GetData(name)
+    return ShopData[name]
+end
 
 return ShopData
