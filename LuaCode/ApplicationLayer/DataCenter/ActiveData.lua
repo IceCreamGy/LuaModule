@@ -43,8 +43,7 @@ local ActiveData = {
         ImageNormal = "Active/Button/Button7",
         ImageSelect = "Active/Button/Button7Mask",
         TargetModel = "ApplicationLayer/UI/HuoDong/Panel_Active_QuanMingXing"
-    }
-,
+    },
 }
 
 return ActiveData

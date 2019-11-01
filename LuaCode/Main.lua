@@ -14,13 +14,7 @@ Color = UnityEngine.Color
 function init()
     print("GameMain start...")
 
-    playerInfo = {
-        icon = "Icon/headIcon_11",
-        name = "Kakara Asuka",
-        level = "72"
-    }
-
-    UIManager.OpenUI("ApplicationLayer/UI/Panel_MainScene", playerInfo)
+    UIManager.OpenUI("ApplicationLayer/UI/Panel_MainScene",nil)
 end
 
 --c# update

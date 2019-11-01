@@ -1,6 +1,6 @@
 --主场景初始面板（大厅）
 local BaseUI = require("Framework/Base/BaseUI")
-local Panel_MainScene = Class("Panel_MainScene",BaseUI)
+local Panel_MainScene = Class("Panel_MainScene", BaseUI)
 
 --暂存变量
 local GameObjectPanel
@@ -12,8 +12,10 @@ function Panel_MainScene:On_Init(args)
     self.uitable.ImagePro_QianDao:AddClickListener(self.ClickButton_QianDao)          --签到
     self.uitable.ImagePro_OpenSupply:AddClickListener(self.ClickButton_OpenSupply)    --码头
     self.uitable.ImagePro_HuoDong:AddClickListener(self.ClickButton_HuoDong)          --活动
+
+    local data = DataManager.GetPlayerInfo()
     --初始化 数据
-    self:InitData(args)
+    self:InitData(data)
     --初始化 按钮动画
     self:InitButton()
 end
