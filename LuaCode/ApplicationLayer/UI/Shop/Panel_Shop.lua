@@ -24,21 +24,24 @@ function Panel_Shop:On_Init(args)
             Panel_Shop.ClassifySelectButtons[v.showOrder] = createdButton
         end)
     end
+
+    --Panel_Shop.ClassifySelectButtons[0]:Select()        --设置一个默认值
+    --Panel_Shop:OnSelectButton(Panel_Shop.ClassifySelectButtons[0])
 end
 
 --当选择左边按钮时，
-lastSelect = nil
+Panel_Shop.lastSelect = nil
 function Panel_Shop:OnSelectButton(button)
-    if (lastSelect) then
-        if (lastSelect.data.type ~= button.data.type) then
-            lastSelect:CancleSelect(true)
+    if (Panel_Shop.lastSelect) then
+        if (Panel_Shop.lastSelect.data.type ~= button.data.type) then
+            Panel_Shop.lastSelect:CancleSelect(true)
         else
-            lastSelect:CancleSelect(false)
+            Panel_Shop.lastSelect:CancleSelect(false)
         end
     end
 
     button:Select()
-    lastSelect = button
+    Panel_Shop. lastSelect = button
 end
 
 --当点击关闭
@@ -46,8 +49,7 @@ function Panel_Shop.OnClick_Close()
     UIManager.CloseUI()
 end
 
-function Panel_Shop:On_Show()
-    --当打开时
+function Panel_Shop:On_Re_Show()
     self.canvas_group.alpha = 1
 end
 
