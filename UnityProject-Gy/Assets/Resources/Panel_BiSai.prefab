@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 7607031862245548701}
   - component: {fileID: 1731169716165464307}
   m_Layer: 5
-  m_Name: ImagePro_DuiZhan
+  m_Name: ImagePro_DaTing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 8305336636010883925}
   - component: {fileID: 2002919993719802726}
   m_Layer: 5
-  m_Name: ImagePro_JingSu
+  m_Name: ImagePro_PiPei
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
