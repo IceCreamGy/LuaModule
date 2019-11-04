@@ -1,0 +1,3 @@
+1-UI
+当CanvasGroup组件透明度为0.并不会增加DrawCall。他是不走渲染流程的。
+所以，透明度为0，不需要强制设置 GameObject.SetActive(false)

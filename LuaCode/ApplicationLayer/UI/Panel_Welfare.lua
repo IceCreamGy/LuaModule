@@ -17,7 +17,7 @@ tweener = nil
 function Panel_Welfare:On_Show()
     --当打开时
 
-    self.canvas_group.alpha = 1
+    self.CG.alpha = 1
     self.uitable.ImagePro_Bg.Rt.anchoredPosition = Vector2(-1800, 0)
     tweener = self.uitable.ImagePro_Bg.Rt:DOAnchorPos(Vector2(0, 0), 1)
     tweener:SetAutoKill(false)
@@ -25,7 +25,7 @@ end
 
 function Panel_Welfare:On_Close()
     --当关闭时
-    self.canvas_group:DOFade(0, 1)
+    self.CG:DOFade(0, 1)
     tweener:PlayBackwards()             --DoTween 的反向使用
 end
 

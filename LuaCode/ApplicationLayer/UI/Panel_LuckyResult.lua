@@ -15,7 +15,7 @@ end
 
 --当打开时
 function Panel_LuckyResult:On_Show()
-    self.canvas_group.alpha = 1
+    self.CG.alpha = 1
     self.uitable.ImagePro_MaskArea.Rt.sizeDelta = Vector2(0, 520)
     self.uitable.ImagePro_MaskArea.Rt:DOSizeDelta(Vector2(1336, 750), 0.4)
 end
@@ -24,7 +24,7 @@ end
 function Panel_LuckyResult:On_Close()
     self.tweenerClose = self.uitable.ImagePro_MaskArea.Rt:DOSizeDelta(Vector2(0, 750), 0.4)
     self.tweenerClose:OnComplete(function()                                                             --DoTween 动画事件回调
-        self.canvas_group.alpha = 0
+        self.CG.alpha = 0
     end)
 end
 

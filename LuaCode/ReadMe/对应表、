@@ -1,0 +1,24 @@
+BaseUI 相关组件
+CG = CanvasGroup
+    self.CG.alpha = 1                       透明度
+    self.CG:DOFade(0, 0.6)                  透明度动画
+    self.CG.interactable = true             打开交互
+    self.CG.blocksRaycasts = true           打开射线拦截
+
+Rt  挂在了ImagePro才能用到
+    self.uitable.ImagePro_PiPei.Rt.anchoredPosition = Vector2(-1314, 0)       --Rt位置
+    self.uitable.ImagePro_PiPei.Rt:DOAnchorPos(Vector2(0, 0), 0.3)            --Rt动画
+
+DoTween 事件回调
+    Panel_BiSai.CloseTweener = self.uitable.ImagePro_PiPei.Rt:DOAnchorPos(Vector2(-1314, 0), 0.3)
+
+    Panel_BiSai.CloseTweener:OnComplete(function()      --位移动画完成后，关闭所有面板
+        self.canvas_group.alpha = 0
+    end)
+
+
+DoTween 动画逆向播放
+    self.tweener = self.uitable.ImagePro_Bg.Rt:DOAnchorPos(Vector2(0, 0), 0.7)
+    self.tweener:SetAutoKill(false)
+
+    self.tweener:PlayBackwards()             --DoTween 的反向使用

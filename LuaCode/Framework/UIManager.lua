@@ -25,7 +25,7 @@ function UIManager.OpenUI(panelPath, args)
     if panel_instance then
         --有的话，重新显示
         if panel_instance:is_panel_released() == false then
-            panel_instance:Re_Show()
+            panel_instance:Show()
             self.Push_panel(panel_instance)
             return
         else
@@ -68,7 +68,7 @@ function UIManager.OpenPoPupUI(panelPath, args)
     if panel_instance then
         --有的话，重新显示
         if panel_instance:is_panel_released() == false then
-            panel_instance:Re_Show()
+            panel_instance:Show()
             panel_instance:SetPriority()
             return
         else
@@ -88,7 +88,7 @@ function UIManager.OpenPoPupUIWithParent(panelPath, parent, args)
     if panel_instance then
         --有的话，重新显示
         if panel_instance:is_panel_released() == false then
-            panel_instance:Re_Show(args)
+            panel_instance:Show(args)
             panel_instance:SetPriority()
             return
         else
