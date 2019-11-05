@@ -5,6 +5,9 @@ CG = CanvasGroup
     self.CG.interactable = true             打开交互
     self.CG.blocksRaycasts = true           打开射线拦截
 
+注册按钮的事件
+    self.uitable.ImagePro_OpenShop:AddClickListener(self.ClickButton_OpenShop)
+
 Rt  挂在了ImagePro才能用到
     self.uitable.ImagePro_PiPei.Rt.anchoredPosition = Vector2(-1314, 0)       --Rt位置
     self.uitable.ImagePro_PiPei.Rt:DOAnchorPos(Vector2(0, 0), 0.3)            --Rt动画
@@ -22,6 +25,10 @@ DoTween 动画逆向播放
     self.tweener:SetAutoKill(false)
 
     self.tweener:PlayBackwards()             --DoTween 的反向使用
+
+DoTween 动画设置动画曲线
+   local twLeft = self.uitable.ImagePro_PiPei.Rt:DOAnchorPos(Vector2(0, 0), 0.3)
+   twLeft:SetEase(CS.DG.Tweening.Ease.OutBack)
 
 
 Panel

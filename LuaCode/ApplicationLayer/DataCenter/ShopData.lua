@@ -1,5 +1,5 @@
 --商店的数据中心
-ShopData = {}
+local ShopData = {}
 ShopData.ButtonList = {
     {
         showOrder = 0, --展示顺序

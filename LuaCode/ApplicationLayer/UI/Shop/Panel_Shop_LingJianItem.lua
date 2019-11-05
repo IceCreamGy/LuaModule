@@ -3,9 +3,9 @@
 
 local Panel_Shop_LingJianItem = Class("Panel_Shop_LingJianItem")
 
-function Panel_Shop_LingJianItem:ctor(GoParam, uitalbeParam, dataParam)
+function Panel_Shop_LingJianItem:ctor(GoParam, uitableParam, dataParam)
     self.Go = GoParam
-    self.uitable = uitalbeParam
+    self.uitable = uitableParam
     self.data = dataParam
     self.uitable.Text_CarName.text = self.data.name                     --初始化名字显示
 

@@ -14,6 +14,9 @@ public class QiGuai : MonoBehaviour
         rt.sizeDelta = new Vector2(0, 0);
         Tweener tw = rt.DOSizeDelta(Vector2.one, 1);
         tw.OnComplete(Hello);
+        tw.SetEase(Ease.OutBack);
+        
+
 
         ScrollRect SR = GetComponent<ScrollRect>();
         //SR.content

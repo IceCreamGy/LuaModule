@@ -555,7 +555,7 @@ GameObject:
   - component: {fileID: 9199915717003497834}
   - component: {fileID: 5666615452369659225}
   m_Layer: 5
-  m_Name: ImagePro_ReturnToMain
+  m_Name: ImagePro_Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -733,7 +733,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000029977145, y: 0}
+  m_AnchoredPosition: {x: 0.000003103573, y: 0}
   m_SizeDelta: {x: 0, y: 796.1}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5303279646126207258
@@ -783,7 +783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7946826365336198544}
   m_Layer: 5
-  m_Name: Panel_BiSai_Map
+  m_Name: Panel_DuiZhanDaTing_Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1251,7 +1251,7 @@ GameObject:
   - component: {fileID: 4117013386483135538}
   - component: {fileID: 1855961993329519467}
   m_Layer: 5
-  m_Name: Scroll View
+  m_Name: ScrollView_MapContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
