@@ -56,12 +56,12 @@ function Base_UI:clear_res_and_register()
 end
 
 --UI 显示
-function Base_UI:Show()
+function Base_UI:Show(args)
     self.isclose = false
     self:set_panel_visible()
     if self.On_Show then
         --子类写on_show
-        self:On_Show()
+        self:On_Show(args)
     end
 end
 

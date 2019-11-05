@@ -10,12 +10,12 @@ function Panel_Shop_ZhanGui:On_Init(args)
 
 end
 
-function Panel_Shop_ZhanGui:Re_Show()
-    self.canvas_group.alpha = 1
+function Panel_Shop_ZhanGui:On_Show()
+    self.CG.alpha = 1
 end
 
-function Panel_Shop_ZhanGui:On_Hide()
-    self.canvas_group.alpha = 0
+function Panel_Shop_ZhanGui:On_Close()
+    self.CG.alpha = 0
 end
 
 return Panel_Shop_ZhanGui

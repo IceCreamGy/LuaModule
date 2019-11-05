@@ -22,3 +22,15 @@ DoTween 动画逆向播放
     self.tweener:SetAutoKill(false)
 
     self.tweener:PlayBackwards()             --DoTween 的反向使用
+
+
+Panel
+function Panel_Shop:On_Show()
+    --当打开时
+    self.CG.alpha = 1
+end
+
+function Panel_Shop:On_Close()
+    --当关闭时
+    self.CG.alpha = 0
+end

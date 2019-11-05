@@ -1,6 +1,7 @@
 --商店的零件面板
 
 local Panel_Shop_LingJianItem = require("ApplicationLayer/UI/Shop/Panel_Shop_LingJianItem")
+local BundleConfig = require("Framework/Config/BundleConfig")
 
 local BaseUI = require("Framework/Base/BaseUI")
 local Panel_Shop_LingJian = Class("Panel_Shop_LingJian", BaseUI)
@@ -9,9 +10,10 @@ Panel_Shop_LingJian.ClassifySelectButtons = {}  --对已经创建的按钮的持
 
 function Panel_Shop_LingJian:On_Init(args)
     Panel_Shop_LingJian.putButtonPos = self.panel.transform:Find("ScrollView_DownCar/Viewport/Content")             --存放按钮的位置
-    Panel_Shop_LingJian.selectButton = LoadManager.LoadGameObject("Panel_Shop_LingJianItem")           --需要被复制的按钮
+    local itemPath = BundleConfig.Get_UI("Panel_Shop_LingJianItem")
+    Panel_Shop_LingJian.selectButton = LoadManager.LoadGameObject(itemPath)           --需要被复制的按钮
 
-    for k, v in pairs(DataManager.GetShopData().SLingJian) do
+    for k, v in pairs(DataManager.GetShopData():GetData(args)) do
         LoadManager.CopyUI_WithParent(Panel_Shop_LingJian.selectButton, Panel_Shop_LingJian.putButtonPos, function(go, uitable)
             local createdButton = Panel_Shop_LingJianItem.New(go, uitable, v)
             Panel_Shop_LingJian.ClassifySelectButtons[v.showOrder] = createdButton
@@ -19,9 +21,10 @@ function Panel_Shop_LingJian:On_Init(args)
     end
 end
 
-function Panel_Shop_LingJian:Re_Show(args)
+function Panel_Shop_LingJian:On_Show(args)
+
     local data = DataManager.GetShopData():GetData(args)
-    self.canvas_group.alpha = 1
+    self.CG.alpha = 1
 
     if (data) then
         for k, v in pairs(data) do
@@ -39,7 +42,7 @@ function Panel_Shop_LingJian:Re_Show(args)
 end
 
 function Panel_Shop_LingJian:On_Hide()
-    self.canvas_group.alpha = 0
+    self.CG.alpha = 0
 end
 
 return Panel_Shop_LingJian
