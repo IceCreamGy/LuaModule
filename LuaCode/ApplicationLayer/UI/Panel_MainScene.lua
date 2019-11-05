@@ -34,7 +34,7 @@ end
 
 --打开补给码头
 function Panel_MainScene:ClickButton_OpenSupply()
-    UIManager.OpenUI("ApplicationLayer/UI/Panel_Lucky", nil)
+    UIManager.OpenUI("ApplicationLayer/UI/BuJi/Panel_BuJi", nil)
 end
 
 --打开签到
