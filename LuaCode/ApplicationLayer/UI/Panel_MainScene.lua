@@ -11,7 +11,6 @@ function Panel_MainScene:On_Init(args)
     self.uitable.ImagePro_OpenShop:AddClickListener(self.ClickButton_OpenShop)        --商店
     self.uitable.ImagePro_QianDao:AddClickListener(self.ClickButton_QianDao)          --签到
     self.uitable.ImagePro_OpenSupply:AddClickListener(self.ClickButton_OpenSupply)    --码头
-    self.uitable.ImagePro_HuoDong:AddClickListener(self.ClickButton_HuoDong)          --活动
     self.uitable.ImagePro_OpenPVP:AddClickListener(self.ClickButton_BiSai)            --比赛
 
     local data = DataManager.GetPlayerInfo()
@@ -40,12 +39,7 @@ end
 
 --打开签到
 function Panel_MainScene:ClickButton_QianDao()
-    UIManager.OpenUI("ApplicationLayer/UI/Panel_Welfare", nil)
-end
-
---打开活动
-function Panel_MainScene:ClickButton_HuoDong()
-    UIManager.OpenUI("ApplicationLayer/UI/HuoDong/Panel_Active", DataManager.GetActiveData())
+    UIManager.OpenUI("ApplicationLayer/UI/Panel_QianDao", nil)
 end
 
 --打开多人对战

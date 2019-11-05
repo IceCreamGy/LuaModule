@@ -1,7 +1,6 @@
 UIManager = require "Framework/UIManager"       --ui管理类
 LoadManager = require("Framework/CS_Interface/LoadManager")
 UIEventHelper = require("Framework/CS_Interface/UIEventHelper")
-Panel_Active = require("ApplicationLayer/UI/HuoDong/Panel_Active")
 DataManager = require("ApplicationLayer/DataCenter/DataManager")
 
 --暂时放到这里，后期整理

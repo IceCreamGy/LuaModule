@@ -12,7 +12,12 @@ local BundleConfig = {
         ["ImagePro_ShopSelectButtonItem"]="UI/Shop/Prefab/ImagePro_ShopSelectButtonItem",
         ["Panel_Shop_ZhanGui"]="UI/Shop/Prefab/Panel_Shop_ZhanGui",
         ["Panel_Shop_LingJian"]="UI/Shop/Prefab/Panel_Shop_LingJian",
-
+        ["Panel_QianDao"]="UI/QianDao/Panel_QianDao",
+        ["xxxxx"]="UI/Shop",
+        ["xxxxxx"]="UI/Shop",
+        ["xxxxxxx"]="UI/Shop",
+        ["xxxxxxxx"]="UI/Shop",
+        ["xxxxxxxxx"]="UI/Shop",
     }
 }
 
