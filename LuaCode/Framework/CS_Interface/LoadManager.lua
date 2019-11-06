@@ -3,7 +3,7 @@
 --真正的加载，在C#端实现
 local CS_LoadManager = CS.AppFacade.instance:GetLoadManager()
 
-LoadManager = {}
+local LoadManager = {}
 
 --加载UI
 function LoadManager.LoadUI(bundleName, func)

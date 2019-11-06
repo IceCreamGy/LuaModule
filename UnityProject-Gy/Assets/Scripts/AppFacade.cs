@@ -39,6 +39,7 @@ public class AppFacade : MonoBehaviour
     {
         managerDic.Add(typeof(LuaManager), gameObject.AddComponent<LuaManager>());
         managerDic.Add(typeof(LoadManager), gameObject.AddComponent<LoadManager>());
+        managerDic.Add(typeof(TimerManager), gameObject.AddComponent<TimerManager>());
     }
 
     public LuaManager GetLuaManager()
@@ -49,5 +50,10 @@ public class AppFacade : MonoBehaviour
     public LoadManager GetLoadManager()
     {
         return managerDic[typeof(LoadManager)] as LoadManager;
+    }
+
+    public TimerManager GetTimerManager()
+    {
+        return managerDic[typeof(TimerManager)] as TimerManager;
     }
 }

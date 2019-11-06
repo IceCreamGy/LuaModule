@@ -1,5 +1,6 @@
 UIManager = require "Framework/UIManager"       --ui管理类
 LoadManager = require("Framework/CS_Interface/LoadManager")
+TimerManager = require("Framework/CS_Interface/TimerManager")
 UIEventHelper = require("Framework/CS_Interface/UIEventHelper")
 DataManager = require("ApplicationLayer/DataCenter/DataManager")
 
@@ -13,7 +14,7 @@ Color = UnityEngine.Color
 function init()
     print("GameMain start...")
 
-    UIManager.OpenUI("ApplicationLayer/UI/Panel_MainScene",nil)
+    UIManager.OpenUI("ApplicationLayer/UI/Panel_MainScene", nil)
 end
 
 --c# update
