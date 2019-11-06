@@ -97,7 +97,7 @@ function UIManager.OpenPoPupUIWithParent(panelPath, parent, args)
         end
     else
         --没有的话，从磁盘加载，实例化面板
-        self. LoadUI_WithParent(panelPath, parent,args, function(panel_instance)
+        self. LoadUI_WithParent(panelPath, parent, args, function(panel_instance)
             self.SaveUI(panel_instance)
         end)
     end
@@ -119,7 +119,7 @@ function UIManager.LoadUI(panelPath, args, callBack)
     --从硬盘加载面板
     local prefix = string.match(panelPath, '.*/')
     local panelName = string.sub(panelPath, string.len(prefix) + 1)
-    local panelPathInUnity= BundleConfig.Get_UI(panelName)   --根据Panel名，对应资源加载的路径
+    local panelPathInUnity = BundleConfig.Get_UI(panelName)   --根据Panel名，对应资源加载的路径
 
     LoadManager.LoadUI(panelPathInUnity, function(Panel, UiTable, CanvasGroup)
         local panel_instance = self.InitPanel(panelPath, Panel, UiTable, CanvasGroup, args)
@@ -130,9 +130,9 @@ function UIManager.LoadUI_WithParent(panelPath, parent, args, callBack)
     --从硬盘加载面板
     local prefix = string.match(panelPath, '.*/')
     local panelName = string.sub(panelPath, string.len(prefix) + 1)
-    local panelPathInUnity= BundleConfig.Get_UI(panelName)   --根据Panel名，对应资源加载的路径
+    local panelPathInUnity = BundleConfig.Get_UI(panelName)   --根据Panel名，对应资源加载的路径
 
-    LoadManager.LoadUI_WithParent(panelPathInUnity,parent, function(Panel, UiTable, CanvasGroup)
+    LoadManager.LoadUI_WithParent(panelPathInUnity, parent, function(Panel, UiTable, CanvasGroup)
         local panel_instance = self.InitPanel(panelPath, Panel, UiTable, CanvasGroup, args)
         callBack(panel_instance)
     end)
