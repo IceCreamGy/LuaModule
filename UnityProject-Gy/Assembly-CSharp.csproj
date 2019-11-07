@@ -69,12 +69,14 @@
     <Compile Include="Assets\Scripts\DeleteMeta.cs" />
     <Compile Include="Assets\Scripts\LoadManager.cs" />
     <Compile Include="Assets\Scripts\LuaManager.cs" />
+    <Compile Include="Assets\Scripts\TimerManager.cs" />
     <Compile Include="Assets\Scripts\Tools\UIComponentCollector.cs" />
     <Compile Include="Assets\Scripts\Tools\UIEventHelper.cs" />
     <Compile Include="Assets\Scripts\Tools\UnityExtension.cs" />
     <Compile Include="Assets\Scripts\Tools\Util.cs" />
     <Compile Include="Assets\Scripts\UI\ImagePro.cs" />
     <Compile Include="Assets\Scripts\UI\QiGuai.cs" />
+    <Compile Include="Assets\Scripts\UI\TogglePro.cs" />
     <Compile Include="Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />
     <Compile Include="Assets\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
     <Compile Include="Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />

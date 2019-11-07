@@ -9,6 +9,7 @@ UnityEngine = CS.UnityEngine
 Vector3 = UnityEngine.Vector3
 Vector2 = UnityEngine.Vector2
 Color = UnityEngine.Color
+Quaternion = UnityEngine.Quaternion
 
 -- 进入游戏
 function init()

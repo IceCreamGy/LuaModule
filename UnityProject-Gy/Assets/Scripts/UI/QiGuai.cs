@@ -15,16 +15,9 @@ public class QiGuai : MonoBehaviour
         Tweener tw = rt.DOSizeDelta(Vector2.one, 1);
         tw.OnComplete(Hello);
         tw.SetEase(Ease.OutBack);
-        
 
-
-        ScrollRect SR = GetComponent<ScrollRect>();
-        //SR.content
-
-        //transform.Find
-        Text tx = GetComponent<Text>();
-        //tx.color=Color.black
-        //tx.color = Color.white
+        rt.rotation = Quaternion.Euler(0,45,0);
+        rt.DORotate(Vector3.zero, 0);
     }
 
     void Hello()

@@ -41,3 +41,6 @@ function Panel_Shop:On_Close()
     --当关闭时
     self.CG.alpha = 0
 end
+
+ 物体打开关闭
+ gameObject:SetActive(true)

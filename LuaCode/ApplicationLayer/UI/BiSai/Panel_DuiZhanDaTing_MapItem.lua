@@ -33,6 +33,14 @@ function Panel_DuiZhanDaTing_MapItem.PlayTween(item)
     item.uitable.ImagePro_Container.RT:DOAnchorPos(Vector2(0, 0), 0.3)
 end
 
+function Panel_DuiZhanDaTing_MapItem.PlayTweenOnlyCG(item)
+    --出场动画
+    item.uitable.ImagePro_Container.CG.alpha = 0
+    item.uitable.ImagePro_Container.CG:DOFade(1, 0.6)
+    item.uitable.ImagePro_Container.Rt.rotation=Quaternion.Euler(0,-60,0)
+    item.uitable.ImagePro_Container.Rt:DORotate(Vector3.zero, 0.6);
+end
+
 function Panel_DuiZhanDaTing_MapItem.Hide(item)
     item.uitable.ImagePro_Container.CG.alpha = 0
 end
