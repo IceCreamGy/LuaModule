@@ -3,6 +3,7 @@ LoadManager = require("Framework/CS_Interface/LoadManager")
 TimerManager = require("Framework/CS_Interface/TimerManager")
 UIEventHelper = require("Framework/CS_Interface/UIEventHelper")
 DataManager = require("ApplicationLayer/DataCenter/DataManager")
+BundleConfig = require("Framework/Config/BundleConfig")
 
 --暂时放到这里，后期整理
 UnityEngine = CS.UnityEngine
