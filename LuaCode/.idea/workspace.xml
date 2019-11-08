@@ -2,141 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ba5f4f-dabd-47d3-8a04-b3540a480b9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/ImagePro_ButtonItem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/ImagePro_ButtonItem.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button/corner_mark_black_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button/corner_mark_black_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button/corner_mark_black_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button/corner_mark_black_pressed.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button/corner_mark_white_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button/corner_mark_white_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button/corner_mark_white_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Button/corner_mark_white_pressed.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000101.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000201.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000201.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000301.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000301.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000302.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000302.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000303.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000303.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000401.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000401.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000501.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000502.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000502.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000503.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000503.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000601.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianA/carRefit_000601.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_030101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_030101.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_030201.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_030201.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_030401.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_030401.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_140301.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_140301.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_230201.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_230201.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_260101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianBC/refit_260101.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280101.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280201.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280201.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280301.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280301.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280302.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280302.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280303.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280303.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280401.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280401.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280501.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280502.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280502.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280503.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280503.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280601.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/LingJianS/carRefit_280601.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Money.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Money/money_gold_token.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Money/money_gold_token.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Money/money_stamp_token.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Money/money_stamp_token.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/ImagePro_ShopSelectButtonItem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/ImagePro_ShopSelectButtonItem.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/Panel_Shop.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/Panel_Shop.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/Panel_Shop_LingJian.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/Panel_Shop_LingJian.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/Panel_Shop_LingJianItem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/Panel_Shop_LingJianItem.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/Panel_Shop_ZhanGui.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/Prefab/Panel_Shop_ZhanGui.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/XiaoHaoPin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1000.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1001.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1002.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1003.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_A_1004.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1001.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1002.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1003.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1004.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_B_1005.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1000.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1001.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1002.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1003.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_C_1004.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_S_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_S_1000.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_S_1001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_S_1001.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_S_1002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/DownCar/Car_S_1002.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Shop/ZhanGui/TopCar/Poster_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/metadata/6d/6d8249e87aeeb5e418d8e51c9af1dd13.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Panel_MainScene.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/Panel_MainScene.prefab.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,17 +39,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="440">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="132">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -194,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="405" column="21" selection-start-line="405" selection-start-column="21" selection-end-line="405" selection-end-column="21" />
+            <state relative-caret-position="649">
+              <caret line="380" column="6" selection-start-line="380" selection-start-column="6" selection-end-line="380" selection-end-column="6" />
               <folding>
                 <element signature="e#52#1687#1" />
                 <element signature="e#1706#3440#1" />
@@ -213,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="132">
+              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -231,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJianItem.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="110">
+              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -322,8 +191,8 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/PlayerInfo.lua" />
-        <option value="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" />
+        <option value="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" />
       </list>
     </option>
   </component>
@@ -678,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJianItem.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Framework/Base/BaseUI.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -720,31 +582,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua">
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJianItem.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="110">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="132">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="440">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="405" column="21" selection-start-line="405" selection-start-column="21" selection-end-line="405" selection-end-column="21" />
+        <state relative-caret-position="649">
+          <caret line="380" column="6" selection-start-line="380" selection-start-column="6" selection-end-line="380" selection-end-column="6" />
           <folding>
             <element signature="e#52#1687#1" />
             <element signature="e#1706#3440#1" />
@@ -752,6 +614,13 @@
             <element signature="e#5214#6948#1" />
             <element signature="e#6969#8683#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>

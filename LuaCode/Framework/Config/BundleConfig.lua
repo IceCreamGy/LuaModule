@@ -4,7 +4,7 @@
 
 local BundleConfig = {
     UI = {
-        ["Panel_MainScene"] = "UI/Panel_MainScene",
+        ["Panel_MainScene"] = "UI/MainScene/Panel_MainScene",
 
         ["Panel_Shop"] = "UI/Shop/Panel_Shop",
         ["ImagePro_ShopSelectButtonItem"] = "UI/Shop/ImagePro_ShopSelectButtonItem",
