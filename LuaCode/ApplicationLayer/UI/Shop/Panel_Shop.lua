@@ -12,13 +12,14 @@ local putButtonPos = nil    --左边，实例化按钮的位置
 local selectButtonGo = nil   --左边选择的按钮
 
 function Panel_Shop:On_Init(args)
-    showContentArea = self.panel.transform:Find("Panel_ShowArea")     --存放展示面板的位置
     self:LoadShopButtonItem()     --实例化左边选择的按钮
     self:OnSelectButton(ClassifySelectButtons[0])      --设置一个默认值
     self.uitable.ImagePro_FromShopReturnToMain:AddClickListener(self.OnClick_Close)     --注册关闭事件
 end
 
 function Panel_Shop:LoadShopButtonItem()
+    showContentArea = self.panel.transform:Find("Panel_ShowArea")     --存放展示面板的位置
+
     local buttonPath = BundleConfig.Get_UI("ImagePro_ShopSelectButtonItem")
     selectButtonGo = LoadManager.LoadGameObject(buttonPath)           --需要被复制的按钮
     putButtonPos = self.panel.transform:Find("ScrollView_ButtonSelect/Viewport/Content")             --存放按钮的位置
