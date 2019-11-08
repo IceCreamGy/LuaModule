@@ -41,7 +41,7 @@ function Panel_Shop_LingJian:On_Show(args)
 
 end
 
-function Panel_Shop_LingJian:On_Hide()
+function Panel_Shop_LingJian:On_Close()
     self.CG.alpha = 0
 end
 
