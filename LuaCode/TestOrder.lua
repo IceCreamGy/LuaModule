@@ -4,11 +4,22 @@
 --- DateTime: 2019/10/22 8:52
 ---
 
-function fun1()
-    print("do one ")
-    fun2()
+tableAdd = {}
+tableAdd.a = 10
+tableAdd.b = 20
+
+function tableAdd:Add(a, b)
+    local result = self.a + self.b
+    print(result)
 end
 
-function fun2()
-    print("do two")
-end
+tableA = {}
+tableA.a = 555
+tableA.b = 666
+
+tableB = {}
+tableB.a = 777777777
+tableB.b = 888888888
+
+classTemp = tableAdd
+classTemp:Add(0, 0)

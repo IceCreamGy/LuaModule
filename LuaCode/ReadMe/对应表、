@@ -44,3 +44,9 @@ end
 
  物体打开关闭
  gameObject:SetActive(true)
+
+
+ Toggle 改变内容，字体颜色
+     self.togglePro.Text_lable.text = data.name
+     self. togglePro.Text_lable.color = Color.black
+     self. togglePro.Text_lable.color = Color.white

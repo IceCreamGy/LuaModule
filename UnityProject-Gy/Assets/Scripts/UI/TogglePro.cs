@@ -8,17 +8,17 @@ public class TogglePro : MonoBehaviour
 {
     Toggle myToggle;
     public Text Text_lable;
-    void Start()
+    void Awake()
     {
         myToggle = GetComponent<Toggle>();
-        myToggle.onValueChanged.AddListener(OnClick);
-        Text_lable = transform.Find("Label").GetComponent<Text>();           
+        myToggle.onValueChanged.AddListener(OnChange);
+        Text_lable = transform.Find("Label").GetComponent<Text>();
     }
 
     Action OnSelect;    //当选中
     Action CancleSelect;    //当取消选择
 
-    void OnClick(bool state)
+    void OnChange(bool state)
     {
         if (state)
         {
