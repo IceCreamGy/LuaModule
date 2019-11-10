@@ -1,16 +1,23 @@
 --主场景初始面板（大厅）
+local Panel_Left=require("ApplicationLayer/UI/MainScene/Panel_WindowOnLeft")
+
 local BaseUI = require("Framework/Base/BaseUI")
 local Panel_MainScene = Class("Panel_MainScene", BaseUI)
 
+
 --暂存变量
 local GameObjectPanel
+
+local function InitLeftPanel()
+    Panel_Left.Init()
+end
 
 function Panel_MainScene:On_Init(args)
     GameObjectPanel = self.panel
 
     self.uitable.ImagePro_OpenShop:AddClickListener(self.ClickButton_OpenShop)        --商店
     self.uitable.ImagePro_QianDao:AddClickListener(self.ClickButton_QianDao)          --签到
-    self.uitable.ImagePro_OpenSupply:AddClickListener(self.ClickButton_OpenSupply)    --码头
+    --self.uitable.ImagePro_OpenSupply:AddClickListener(self.ClickButton_OpenSupply)    --码头
     self.uitable.ImagePro_OpenPVP:AddClickListener(self.ClickButton_BiSai)            --比赛
 
     local data = DataManager.GetPlayerInfo()
@@ -32,6 +39,8 @@ function Panel_MainScene:ClickButton_OpenShop()
     UIManager.OpenUI("ApplicationLayer/UI/Shop/Panel_Shop", nil)
 end
 
+
+
 --打开补给码头
 function Panel_MainScene:ClickButton_OpenSupply()
     UIManager.OpenUI("ApplicationLayer/UI/BuJi/Panel_BuJi", nil)
@@ -39,7 +48,7 @@ end
 
 --打开签到
 function Panel_MainScene:ClickButton_QianDao()
-    UIManager.OpenUI("ApplicationLayer/UI/Panel_QianDao", nil)
+    UIManager.OpenUI("ApplicationLayer/UI/QianDao/Panel_QianDao", nil)
 end
 
 --打开多人对战

@@ -16,7 +16,7 @@ Quaternion = UnityEngine.Quaternion
 function init()
     print("GameMain start...")
 
-    UIManager.OpenUI("ApplicationLayer/UI/Panel_MainScene", nil)
+    UIManager.OpenUI("ApplicationLayer/UI/MainScene/Panel_MainScene", nil)
 end
 
 --c# update
