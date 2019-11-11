@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95ba5f4f-dabd-47d3-8a04-b3540a480b9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg/QianDao_Bg_Car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg/QianDao_Bg_DiTu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg/QianDao_Bg_DiTu.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg/QianDao_Bg_Font.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg/QianDao_Bg_Font.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg/signReward0403.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg/signReward0403.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/SignReward_07.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/signReward0401.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/signReward0401.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/signReward0402.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/signReward0402.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/signReward0405.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/signReward0405.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/signReward0406.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/signReward0406.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/QianDao/Panel_QianDao.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/QianDao/Panel_QianDao.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/对应表、" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/对应表、" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/Panel_Welfare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/Panel_Welfare.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/QianDao/Bg/QianDao_Bg_Car.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/BiSai/raceenter_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/BiSai/raceenter_02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/QianDao/Panel_QianDao.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/QianDao/Panel_QianDao.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/UI/TogglePro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/UI/TogglePro.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/Hierarchy/9cf899-32266fab1f2e05446a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/Hierarchy/9cf899-32266fab1f2e05446a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/Hierarchy/9cf899-be405de515ae7374ea.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/Hierarchy/9cf899-be405de515ae7374ea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/SceneView/d9b8b2-32266fab1f2e05446a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/SceneView/d9b8b2-32266fab1f2e05446a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/SceneView/d9b8b2-be405de515ae7374ea.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/SceneView/d9b8b2-be405de515ae7374ea.json" afterDir="false" />
-    </list>
+    <list default="true" id="95ba5f4f-dabd-47d3-8a04-b3540a480b9d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/QianDao/Panel_QianDao.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="198">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
               <folding>
                 <element signature="e#159#431#0" />
                 <element signature="e#493#765#0" />
@@ -384,7 +336,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-13" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -657,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/QianDao/Panel_QianDao.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
             <element signature="e#159#431#0" />
             <element signature="e#493#765#0" />
