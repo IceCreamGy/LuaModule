@@ -5,8 +5,8 @@ ShopData.ButtonList = {
         showOrder = 0, --展示顺序
         name = "推荐展柜", --按钮名字
         type="TuiJian",
-        normalImage = "Texture/Button/corner_mark_black_normal", --常态图片
-        selectImage = "Texture/Button/corner_mark_black_pressed", --按住后的图片
+        normalImage = "Texture/Common/Button/corner_mark_black_normal", --常态图片
+        selectImage = "Texture/Common/Button/corner_mark_black_pressed", --按住后的图片
         TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_ZhanGui",         --对应的目标模块控制器
         TargetData="ZhanGui",
     },
@@ -14,8 +14,8 @@ ShopData.ButtonList = {
         showOrder = 1,
         name = "S车零件",
         type="ZhanShi",
-        normalImage = "Texture/Button/corner_mark_black_normal",
-        selectImage = "Texture/Button/corner_mark_black_pressed",
+        normalImage = "Texture/Common/Button/corner_mark_black_normal",
+        selectImage = "Texture/Common/Button/corner_mark_black_pressed",
         TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_LingJian",
         TargetData="SLingJian",
     },
@@ -23,8 +23,8 @@ ShopData.ButtonList = {
         showOrder = 2,
         name = "A车零件",
         type="ZhanShi",
-        normalImage = "Texture/Button/corner_mark_black_normal",
-        selectImage = "Texture/Button/corner_mark_black_pressed",
+        normalImage = "Texture/Common/Button/corner_mark_black_normal",
+        selectImage = "Texture/Common/Button/corner_mark_black_pressed",
         TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_LingJian",
         TargetData="ALingJian",
     },
@@ -32,8 +32,8 @@ ShopData.ButtonList = {
         showOrder = 3,
         name = "B车C车零件",
         type="ZhanShi",
-        normalImage = "Texture/Button/corner_mark_black_normal",
-        selectImage = "Texture/Button/corner_mark_black_pressed",
+        normalImage = "Texture/Common/Button/corner_mark_black_normal",
+        selectImage = "Texture/Common/Button/corner_mark_black_pressed",
         TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_LingJian",
         TargetData="BCLingJian",
     },
@@ -41,8 +41,8 @@ ShopData.ButtonList = {
         showOrder = 4,
         name = "消耗品",
         type="ZhanShi",
-        normalImage = "Texture/Button/corner_mark_black_normal",
-        selectImage = "Texture/Button/corner_mark_black_pressed",
+        normalImage = "Texture/Common/Button/corner_mark_black_normal",
+        selectImage = "Texture/Common/Button/corner_mark_black_pressed",
         TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_LingJian",
         TargetData="XiaoHaoPin",
     }

@@ -2,17 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ba5f4f-dabd-47d3-8a04-b3540a480b9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_MainScene.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_MainScene.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnBelow.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnBelow.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnLeft.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnLeft.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJian.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJian.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ZhanGui.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ZhanGui.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/对应表、" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/对应表、" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/UnityProject-Gy.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/UnityProject-Gy.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/TODO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/Btn_Close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/Btn_Close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/Btn_Return.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/Btn_Return.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/Btn_Return.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/Btn_Return.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_PVE.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_PVE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_PVE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_PVE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_PVP.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_PVP.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_PVP.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_PVP.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_SaiShi.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_SaiShi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_SaiShi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_SaiShi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_Shop.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_Shop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_Shop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_Shop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_Supply.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_Supply.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Button/System/Btn_Supply.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Below/Btn_Supply.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/BiSai.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/BiSai.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/BiSai/raceenter_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/BiSai/raceenter_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/BiSai/raceenter_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/BiSai/raceenter_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/BiSai/raceenter_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/BiSai/raceenter_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/BiSai/raceenter_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/BiSai/raceenter_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/BiSai/sp_common_bg_04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/sp_common_bg_04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Arts/Panel/BiSai/sp_common_bg_04.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/sp_common_bg_04.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button/corner_mark_black_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_black_normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button/corner_mark_black_normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_black_normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button/corner_mark_black_pressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_black_pressed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button/corner_mark_black_pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_black_pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button/corner_mark_white_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_white_normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button/corner_mark_white_normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_white_normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button/corner_mark_white_pressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_white_pressed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Button/corner_mark_white_pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_white_pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/btn_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/btn_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/btn_close.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/btn_close.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/btn_propstorage_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/btn_propstorage_add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/btn_propstorage_add.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/btn_propstorage_add.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/btn_propstorage_minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/btn_propstorage_minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/btn_propstorage_minus.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/btn_propstorage_minus.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/corner_mark_yellow_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_yellow_normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/corner_mark_yellow_normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_yellow_normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/corner_mark_yellow_pressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_yellow_pressed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/corner_mark_yellow_pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/Common/Button/corner_mark_yellow_pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew11.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew12.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew15.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew16.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew19.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew19.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew21.png" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/mainhallnew21.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Texture/UI/MainScene/Left/mainhallnew21.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/QianDao/Panel_QianDao.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/QianDao/Panel_QianDao.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/metadata/3c/3c17093265e48b6438cfaf8d94b78fe9.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/metadata/3c/3c17093265e48b6438cfaf8d94b78fe9.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/metadata/f5/f576cf955feeb4d459a25c8621b6af4b.info" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +75,93 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="e#58#416#1" />
+                <element signature="e#423#733#1" />
+                <element signature="e#740#1050#1" />
+                <element signature="e#1056#1369#1" />
+                <element signature="e#1376#1686#1" />
+                <element signature="e#1707#3446#1" />
+                <element signature="e#1713#1887#1" />
+                <element signature="e#1893#2055#1" />
+                <element signature="e#2061#2229#1" />
+                <element signature="e#2235#2401#1" />
+                <element signature="e#2407#2575#1" />
+                <element signature="e#2581#2749#1" />
+                <element signature="e#2755#2923#1" />
+                <element signature="e#2929#3097#1" />
+                <element signature="e#3103#3270#1" />
+                <element signature="e#3276#3443#1" />
+                <element signature="e#3466#5250#1" />
+                <element signature="e#3472#3646#1" />
+                <element signature="e#3652#3819#1" />
+                <element signature="e#3825#3998#1" />
+                <element signature="e#4004#4175#1" />
+                <element signature="e#4181#4354#1" />
+                <element signature="e#4360#4533#1" />
+                <element signature="e#4539#4712#1" />
+                <element signature="e#4718#4891#1" />
+                <element signature="e#4897#5069#1" />
+                <element signature="e#5075#5247#1" />
+                <element signature="e#5270#7054#1" />
+                <element signature="e#5276#5450#1" />
+                <element signature="e#5456#5623#1" />
+                <element signature="e#5629#5802#1" />
+                <element signature="e#5808#5979#1" />
+                <element signature="e#5985#6158#1" />
+                <element signature="e#6164#6337#1" />
+                <element signature="e#6343#6516#1" />
+                <element signature="e#6522#6695#1" />
+                <element signature="e#6701#6873#1" />
+                <element signature="e#6879#7051#1" />
+                <element signature="e#7075#8839#1" />
+                <element signature="e#7081#7252#1" />
+                <element signature="e#7258#7429#1" />
+                <element signature="e#7435#7606#1" />
+                <element signature="e#7612#7776#1" />
+                <element signature="e#7782#7953#1" />
+                <element signature="e#7959#8129#1" />
+                <element signature="e#8135#8305#1" />
+                <element signature="e#8311#8482#1" />
+                <element signature="e#8488#8659#1" />
+                <element signature="e#8665#8836#1" />
+                <element signature="e#8860#9892#1" />
+                <element signature="e#8866#9034#1" />
+                <element signature="e#9040#9200#1" />
+                <element signature="e#9206#9373#1" />
+                <element signature="e#9379#9546#1" />
+                <element signature="e#9552#9718#1" />
+                <element signature="e#9724#9889#1" />
+                <element signature="e#10048#10049#0" />
+                <element signature="e#10076#10079#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe/TODO.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_MainScene.lua">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -34,11 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            <state relative-caret-position="330">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -58,8 +194,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnBelow.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="440">
               <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding>
+                <element signature="e#631#1326#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,37 +222,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReadMe/对应表、">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
               <caret line="11" column="71" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_BiSai.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_DuiZhanDaTing_Map.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -173,7 +285,6 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJianItem.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_BiSai.lua" />
         <option value="$PROJECT_DIR$/Framework/UIManager.lua" />
-        <option value="$PROJECT_DIR$/ReadMe/TODO.txt" />
         <option value="$PROJECT_DIR$/Framework/CS_Interface/TimerManager.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/MapData.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_DuiZhanDaTing_MapItem.lua" />
@@ -181,7 +292,6 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/PlayerInfo.lua" />
-        <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" />
         <option value="$PROJECT_DIR$/TestOrder.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/MapNanDuButton.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_ToggleGroup.lua" />
@@ -196,6 +306,8 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ZhanGui.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJian.lua" />
         <option value="$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua" />
+        <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" />
+        <option value="$PROJECT_DIR$/ReadMe/TODO.txt" />
       </list>
     </option>
   </component>
@@ -236,21 +348,13 @@
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
               <item name="ApplicationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="DataCenter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
               <item name="ApplicationLayer" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="MainScene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
@@ -462,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8360">
-          <caret line="380" column="6" selection-start-line="380" selection-start-column="6" selection-end-line="380" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -498,13 +595,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_DuiZhanDaTing_MapItem.lua" />
-    <entry file="file://$PROJECT_DIR$/ReadMe/TODO.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/BiSai/MapNanDuButton.lua" />
     <entry file="lua-dummy://root/main" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_ToggleGroup.lua" />
@@ -527,13 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -565,34 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_MainScene.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnBelow.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe/对应表、">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="71" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnLeft.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding>
-            <element signature="e#360#909#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,8 +671,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        <state relative-caret-position="330">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_MainScene.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnBelow.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#631#1326#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnLeft.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="e#360#909#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#58#416#1" />
+            <element signature="e#423#733#1" />
+            <element signature="e#740#1050#1" />
+            <element signature="e#1056#1369#1" />
+            <element signature="e#1376#1686#1" />
+            <element signature="e#1707#3446#1" />
+            <element signature="e#1713#1887#1" />
+            <element signature="e#1893#2055#1" />
+            <element signature="e#2061#2229#1" />
+            <element signature="e#2235#2401#1" />
+            <element signature="e#2407#2575#1" />
+            <element signature="e#2581#2749#1" />
+            <element signature="e#2755#2923#1" />
+            <element signature="e#2929#3097#1" />
+            <element signature="e#3103#3270#1" />
+            <element signature="e#3276#3443#1" />
+            <element signature="e#3466#5250#1" />
+            <element signature="e#3472#3646#1" />
+            <element signature="e#3652#3819#1" />
+            <element signature="e#3825#3998#1" />
+            <element signature="e#4004#4175#1" />
+            <element signature="e#4181#4354#1" />
+            <element signature="e#4360#4533#1" />
+            <element signature="e#4539#4712#1" />
+            <element signature="e#4718#4891#1" />
+            <element signature="e#4897#5069#1" />
+            <element signature="e#5075#5247#1" />
+            <element signature="e#5270#7054#1" />
+            <element signature="e#5276#5450#1" />
+            <element signature="e#5456#5623#1" />
+            <element signature="e#5629#5802#1" />
+            <element signature="e#5808#5979#1" />
+            <element signature="e#5985#6158#1" />
+            <element signature="e#6164#6337#1" />
+            <element signature="e#6343#6516#1" />
+            <element signature="e#6522#6695#1" />
+            <element signature="e#6701#6873#1" />
+            <element signature="e#6879#7051#1" />
+            <element signature="e#7075#8839#1" />
+            <element signature="e#7081#7252#1" />
+            <element signature="e#7258#7429#1" />
+            <element signature="e#7435#7606#1" />
+            <element signature="e#7612#7776#1" />
+            <element signature="e#7782#7953#1" />
+            <element signature="e#7959#8129#1" />
+            <element signature="e#8135#8305#1" />
+            <element signature="e#8311#8482#1" />
+            <element signature="e#8488#8659#1" />
+            <element signature="e#8665#8836#1" />
+            <element signature="e#8860#9892#1" />
+            <element signature="e#8866#9034#1" />
+            <element signature="e#9040#9200#1" />
+            <element signature="e#9206#9373#1" />
+            <element signature="e#9379#9546#1" />
+            <element signature="e#9552#9718#1" />
+            <element signature="e#9724#9889#1" />
+            <element signature="e#10048#10049#0" />
+            <element signature="e#10076#10079#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
