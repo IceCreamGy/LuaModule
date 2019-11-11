@@ -118,7 +118,21 @@ namespace XLua.CSObjectWrap
                 LoadManager gen_to_be_invoked = (LoadManager)translator.FastGetCSObj(L, 1);
             
             
-                
+			    int gen_param_count = LuaAPI.lua_gettop(L);
+            
+                if(gen_param_count == 4&& (LuaAPI.lua_isnil(L, 2) || LuaAPI.lua_type(L, 2) == LuaTypes.LUA_TSTRING)&& translator.Assignable<UnityEngine.GameObject>(L, 3)&& translator.Assignable<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 4)) 
+                {
+                    string _bundleName = LuaAPI.lua_tostring(L, 2);
+                    UnityEngine.GameObject _go = (UnityEngine.GameObject)translator.GetObject(L, 3, typeof(UnityEngine.GameObject));
+                    System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup> _callback = translator.GetDelegate<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 4);
+                    
+                    gen_to_be_invoked.LoadUI_WithParent( _bundleName, _go, _callback );
+                    
+                    
+                    
+                    return 0;
+                }
+                if(gen_param_count == 4&& (LuaAPI.lua_isnil(L, 2) || LuaAPI.lua_type(L, 2) == LuaTypes.LUA_TSTRING)&& translator.Assignable<UnityEngine.Transform>(L, 3)&& translator.Assignable<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 4)) 
                 {
                     string _bundleName = LuaAPI.lua_tostring(L, 2);
                     UnityEngine.Transform _parent = (UnityEngine.Transform)translator.GetObject(L, 3, typeof(UnityEngine.Transform));
@@ -134,6 +148,8 @@ namespace XLua.CSObjectWrap
             } catch(System.Exception gen_e) {
                 return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
             }
+            
+            return LuaAPI.luaL_error(L, "invalid arguments to LoadManager.LoadUI_WithParent!");
             
         }
         

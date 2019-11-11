@@ -10,7 +10,7 @@ public class LoadManager : BaseManager
     public void LoadUI(string bundleName, Action<GameObject, LuaTable, CanvasGroup> callback)
     {
         GameObject panel = Resources.Load<GameObject>(bundleName);
-        panel = GameObject.Instantiate(panel);        
+        panel = GameObject.Instantiate(panel);
 
         UIComponentCollector uIComponentCollector = panel.GetOrAddComponent<UIComponentCollector>();
         uIComponentCollector.Collect();
@@ -30,6 +30,11 @@ public class LoadManager : BaseManager
         callback(panel, uIComponentCollector.uitable, canvasGroup);
     }
     //加载UI，并设置父物体
+    public void LoadUI_WithParent(string bundleName, GameObject go, Action<GameObject, LuaTable, CanvasGroup> callback)
+    {
+        LoadUI_WithParent(bundleName, go.transform, callback);
+    }
+    //加载UI，并设置父物体
     public void LoadUI_WithParent(string bundleName, Transform parent, Action<GameObject, LuaTable, CanvasGroup> callback)
     {
         GameObject panel = Resources.Load<GameObject>(bundleName);
@@ -42,11 +47,8 @@ public class LoadManager : BaseManager
         canvasGroup.alpha = 1;
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
+
         RectTransform rectTransform = panel.transform as RectTransform;
-        rectTransform.anchorMin = Vector2.zero;
-        rectTransform.anchorMax = Vector2.one;
-        rectTransform.offsetMax = Vector2.zero;
-        rectTransform.offsetMin = Vector2.zero;
         rectTransform.localScale = Vector3.one;
         rectTransform.localEulerAngles = Vector3.zero;
 
@@ -73,7 +75,7 @@ public class LoadManager : BaseManager
         return GameObject.Instantiate(go);
     }
     //复制UI，并设置父物体
-    public void CopyUI_WithParent(GameObject go, Transform parent,Action <GameObject, LuaTable> callback)
+    public void CopyUI_WithParent(GameObject go, Transform parent, Action<GameObject, LuaTable> callback)
     {
         GameObject tempGO = GameObject.Instantiate(go);
         tempGO.transform.SetParent(parent);

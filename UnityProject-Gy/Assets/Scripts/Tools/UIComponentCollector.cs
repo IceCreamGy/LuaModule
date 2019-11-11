@@ -92,6 +92,8 @@ public class UIComponentCollector : MonoBehaviour
 
     private void CollectUIComponent(Transform tran)
     {
+        uitable.Set<string, RectTransform>("Rt", GetComponent<RectTransform>());
+
         string transName = tran.name;
         int spit_index = transName.IndexOf('_');
         if (spit_index < 0)

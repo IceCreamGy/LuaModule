@@ -50,3 +50,7 @@ end
      self.togglePro.Text_lable.text = data.name
      self. togglePro.Text_lable.color = Color.black
      self. togglePro.Text_lable.color = Color.white
+
+
+计时器
+    TimerManager.Add(0.2, 1, Panel_DuiZhanDaTing_Map.ShowTween)
