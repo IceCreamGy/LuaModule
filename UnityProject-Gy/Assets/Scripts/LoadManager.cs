@@ -20,6 +20,7 @@ public class LoadManager : BaseManager
         canvasGroup.blocksRaycasts = true;
         panel.transform.SetParent(Canvas);
         RectTransform rectTransform = panel.transform as RectTransform;
+        rectTransform.anchoredPosition3D = new Vector3(rectTransform.anchoredPosition3D.x, rectTransform.anchoredPosition3D.y, 0);
         rectTransform.anchorMin = Vector2.zero;
         rectTransform.anchorMax = Vector2.one;
         rectTransform.offsetMax = Vector2.zero;
@@ -49,6 +50,7 @@ public class LoadManager : BaseManager
         canvasGroup.blocksRaycasts = true;
 
         RectTransform rectTransform = panel.transform as RectTransform;
+        rectTransform.anchoredPosition3D = new Vector3(rectTransform.anchoredPosition3D.x, rectTransform.anchoredPosition3D.y, 0);
         rectTransform.localScale = Vector3.one;
         rectTransform.localEulerAngles = Vector3.zero;
 
