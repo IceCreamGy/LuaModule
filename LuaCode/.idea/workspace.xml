@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ba5f4f-dabd-47d3-8a04-b3540a480b9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_BiSai.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_BiSai.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_DuiZhanDaTing_Map.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_DuiZhanDaTing_Map.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_DuiZhanDaTing_MapItem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_DuiZhanDaTing_MapItem.prefab.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework/Tools/Tools.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/UIManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/UIManager.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Main.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestOrder.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,15 +22,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnBelow.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -59,10 +49,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua">
+        <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+            <state relative-caret-position="176">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -70,17 +60,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="57" />
+            <state relative-caret-position="242">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Framework/UIManager.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+              <folding>
+                <element signature="e#220#375#0" />
+                <element signature="e#572#746#0" />
+                <element signature="e#664#665#0" />
+                <element signature="e#728#731#0" />
+                <element signature="e#793#1547#0" />
+                <element signature="e#1456#1867#0" />
+                <element signature="e#1902#1904#0" />
+                <element signature="e#2056#2541#0" />
+                <element signature="e#2610#3080#0" />
+                <element signature="e#3137#3437#0" />
+                <element signature="e#3512#3832#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnLeft.lua">
+        <entry file="file://$PROJECT_DIR$/Framework/Tools/Tools.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="22">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -139,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ApplicationLayer/UI/Panel_Welfare.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/HuoDong/Panel_Active.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Panel_LuckyResult.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Panel_QianDao.lua" />
@@ -151,7 +162,6 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_DuiZhanDaTIng_MapItem.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJianItem.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_BiSai.lua" />
-        <option value="$PROJECT_DIR$/Framework/UIManager.lua" />
         <option value="$PROJECT_DIR$/Framework/CS_Interface/TimerManager.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/MapData.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_DuiZhanDaTing_MapItem.lua" />
@@ -180,7 +190,6 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_BiSai.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BuJi/Panel_BuJi.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnBelow.lua" />
-        <option value="$PROJECT_DIR$/Main.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnLeft.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnBelow.lua" />
@@ -190,6 +199,9 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" />
         <option value="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" />
+        <option value="$PROJECT_DIR$/Main.lua" />
+        <option value="$PROJECT_DIR$/Framework/Tools/Tools.lua" />
+        <option value="$PROJECT_DIR$/Framework/UIManager.lua" />
       </list>
     </option>
   </component>
@@ -201,8 +213,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1560" />
-    <option name="y" value="-13" />
+    <option name="x" value="-423" />
+    <option name="y" value="-11" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -228,32 +240,13 @@
             <path>
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="DataCenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="MainScene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
               <item name="Framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
               <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Config" type="462c0819:PsiDirectoryNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,7 +327,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.24186552" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.24186552" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4219089" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -355,7 +348,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Framework/Tools/XLua/coruntine_test.lua.txt" />
     <entry file="file://$PROJECT_DIR$/Framework/Tools/XLua/coruntine_test.txt" />
     <entry file="file://$PROJECT_DIR$/Framework/Tools/XLua/coruntine_test.lua">
       <provider selected="true" editor-type-id="text-editor">
@@ -440,13 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestOrder.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="lua-dummy://root/main" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_ToggleGroup.lua" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/ToggleItem.lua" />
@@ -461,13 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -540,30 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/UIManager.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
-          <folding>
-            <element signature="e#287#1164#0" />
-            <element signature="e#1196#1607#0" />
-            <element signature="e#1641#1642#0" />
-            <element signature="e#1668#1671#0" />
-            <element signature="e#1720#2324#0" />
-            <element signature="e#2393#3000#0" />
-            <element signature="e#3052#3128#0" />
-            <element signature="e#3178#3333#0" />
-            <element signature="e#3390#3820#0" />
-            <element signature="e#3895#4344#0" />
-            <element signature="e#4423#4597#0" />
-            <element signature="e#4641#4642#0" />
-            <element signature="e#4728#4731#0" />
-            <element signature="e#4770#4771#0" />
-            <element signature="e#4830#4833#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -589,13 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -634,10 +581,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestOrder.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Tools/Tools.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/UIManager.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#220#375#0" />
+            <element signature="e#572#746#0" />
+            <element signature="e#664#665#0" />
+            <element signature="e#728#731#0" />
+            <element signature="e#793#1547#0" />
+            <element signature="e#1456#1867#0" />
+            <element signature="e#1902#1904#0" />
+            <element signature="e#2056#2541#0" />
+            <element signature="e#2610#3080#0" />
+            <element signature="e#3137#3437#0" />
+            <element signature="e#3512#3832#0" />
+          </folding>
         </state>
       </provider>
     </entry>
