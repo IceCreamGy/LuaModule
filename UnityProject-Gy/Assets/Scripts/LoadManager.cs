@@ -7,34 +7,10 @@ using XLua;
 public class LoadManager : BaseManager
 {
     //加载UI
-    public void LoadUI(string bundleName, Action<GameObject, LuaTable, CanvasGroup> callback)
-    {
-        GameObject panel = Resources.Load<GameObject>(bundleName);
-        panel = GameObject.Instantiate(panel);        
-
-        UIComponentCollector uIComponentCollector = panel.GetOrAddComponent<UIComponentCollector>();
-        uIComponentCollector.Collect();
-        CanvasGroup canvasGroup = panel.GetOrAddComponent<CanvasGroup>();
-        canvasGroup.alpha = 1;
-        canvasGroup.interactable = true;
-        canvasGroup.blocksRaycasts = true;
-        panel.transform.SetParent(Canvas);
-        RectTransform rectTransform = panel.transform as RectTransform;
-        rectTransform.anchorMin = Vector2.zero;
-        rectTransform.anchorMax = Vector2.one;
-        rectTransform.offsetMax = Vector2.zero;
-        rectTransform.offsetMin = Vector2.zero;
-        rectTransform.localScale = Vector3.one;
-        rectTransform.localEulerAngles = Vector3.zero;
-
-        callback(panel, uIComponentCollector.uitable, canvasGroup);
-    }
-    //加载UI，并设置父物体
-    public void LoadUI_WithParent(string bundleName, Transform parent, Action<GameObject, LuaTable, CanvasGroup> callback)
+    public void LoadUI(string bundleName, Action<GameObject, LuaTable, CanvasGroup> callback, Transform parent)
     {
         GameObject panel = Resources.Load<GameObject>(bundleName);
         panel = GameObject.Instantiate(panel);
-        panel.transform.SetParent(parent);
 
         UIComponentCollector uIComponentCollector = panel.GetOrAddComponent<UIComponentCollector>();
         uIComponentCollector.Collect();
@@ -42,16 +18,34 @@ public class LoadManager : BaseManager
         canvasGroup.alpha = 1;
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
+
         RectTransform rectTransform = panel.transform as RectTransform;
-        rectTransform.anchorMin = Vector2.zero;
-        rectTransform.anchorMax = Vector2.one;
-        rectTransform.offsetMax = Vector2.zero;
-        rectTransform.offsetMin = Vector2.zero;
+
+        if (parent == null)
+        {
+            panel.transform.SetParent(Canvas);
+            rectTransform.anchorMin = Vector2.zero;
+            rectTransform.anchorMax = Vector2.one;
+            rectTransform.offsetMax = Vector2.zero;
+            rectTransform.offsetMin = Vector2.zero;
+        }
+        else
+        {
+            panel.transform.SetParent(parent);
+        }
+
+        rectTransform.anchoredPosition3D = new Vector3(rectTransform.anchoredPosition3D.x, rectTransform.anchoredPosition3D.y, 0);
         rectTransform.localScale = Vector3.one;
         rectTransform.localEulerAngles = Vector3.zero;
 
         callback(panel, uIComponentCollector.uitable, canvasGroup);
     }
+    //加载UI
+    public void LoadUI(string bundleName, Action<GameObject, LuaTable, CanvasGroup> callback, GameObject parent)
+    {
+        LoadUI(bundleName, callback, parent.transform);
+    }
+
     //加载Texture
     public void LoadTexture(string path, Action<Texture> callback)
     {
@@ -73,12 +67,14 @@ public class LoadManager : BaseManager
         return GameObject.Instantiate(go);
     }
     //复制UI，并设置父物体
-    public void CopyUI_WithParent(GameObject go, Transform parent,Action <GameObject, LuaTable> callback)
+    public void CopyUI_WithParent(GameObject go, Transform parent, Action<GameObject, LuaTable> callback)
     {
         GameObject tempGO = GameObject.Instantiate(go);
         tempGO.transform.SetParent(parent);
+        tempGO.transform.localPosition = new Vector3(tempGO.transform.localPosition.x, tempGO.transform.localPosition.y, 0);
         tempGO.transform.localScale = Vector3.one;
         tempGO.transform.localEulerAngles = Vector3.zero;
+
         //未来可以加一些预处理
         UIComponentCollector uIComponentCollector = tempGO.GetOrAddComponent<UIComponentCollector>();
         uIComponentCollector.Collect();

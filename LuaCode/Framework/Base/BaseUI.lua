@@ -12,7 +12,7 @@ function Base_UI:ctor(arg_dlgname, arg_panel, arg_uitable, canvas_group, args)
     self.dlgname = panelName                  --dlg名字
     self.panel = arg_panel                      --ui面板- 加载出来的GameObject对象
     self.uitable = arg_uitable                  --收集的ui控件
-    self.canvas_group = canvas_group            --canvas group 控制显隐
+    self.CG = canvas_group            --canvas group 控制显隐
     --self.dialog_config = arg_dialog_config      --dialog配置文件
     self.timer_table = {}                        --定时器函数列表
     self.lua_event_register_table = {}          --lua面板注册事件
@@ -49,28 +49,19 @@ function Base_UI:clear_res_and_register()
     end
     self.panel = nil
     self.uitable = nil
-    self.canvas_group = nil
+    self.CG = nil
     self:clear_lua_event_register()
     self:clear_net_msg_register()
     self:remove_all_timer()
 end
 
 --UI 显示
-function Base_UI:Show()
+function Base_UI:Show(args)
     self.isclose = false
     self:set_panel_visible()
     if self.On_Show then
         --子类写on_show
-        self:On_Show()
-    end
-end
-
---UI 入栈被覆盖时调用
-function Base_UI:Hide()
-    self:set_panel_invisible()
-    if self.On_Hide then
-        --子类写on_hide
-        self:On_Hide()
+        self:On_Show(args)
     end
 end
 
@@ -81,6 +72,15 @@ function Base_UI:Re_Show(args)
     if self.On_Re_Show then
         --子类写on_re_show
         self:On_Re_Show(args)
+    end
+end
+
+--UI 入栈被覆盖时调用
+function Base_UI:Hide()
+    self:set_panel_invisible()
+    if self.On_Hide then
+        --子类写on_hide
+        self:On_Hide()
     end
 end
 
@@ -120,13 +120,13 @@ function Base_UI:is_panel_close()
 end
 
 function Base_UI:set_panel_visible()
-    self.canvas_group.interactable = true
-    self.canvas_group.blocksRaycasts = true
+    self.CG.interactable = true
+    self.CG.blocksRaycasts = true
 end
 
 function Base_UI:set_panel_invisible()
-    self.canvas_group.interactable = false
-    self.canvas_group.blocksRaycasts = false
+    self.CG.interactable = false
+    self.CG.blocksRaycasts = false
 end
 
 function Base_UI:SetPriority()

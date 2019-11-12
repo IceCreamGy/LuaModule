@@ -19,6 +19,7 @@ public class UICollectorHelper : MonoBehaviour
     public const string INPUTFIELD = "InputField";
     public const string IMAGEPRO = "ImagePro";
     public const string MASK = "Mask";
+    public const string TOGGLEPRO = "TogglePro";
 
     //BaiBing -2019-10-25
     //    public const string ScrollView = "ScrollView";
@@ -35,7 +36,8 @@ public class UICollectorHelper : MonoBehaviour
         {IMAGEPRO,true },
         {UILIST,false },
         {MASK,true },
-        {SCROLLRECT,false }
+        {SCROLLRECT,false },
+        {TOGGLEPRO,false }
     };
 
     private static Dictionary<string, Type> component_type_dic = new Dictionary<string, Type>()
@@ -49,7 +51,7 @@ public class UICollectorHelper : MonoBehaviour
         {INPUTFIELD,typeof(InputField) },
         {IMAGEPRO,typeof(ImagePro) },
         {MASK,typeof(Mask) },
-        
+        {TOGGLEPRO,typeof(TogglePro) },
     };
 
     public static bool IsTransNeedRescursion(string prefix)
@@ -90,6 +92,8 @@ public class UIComponentCollector : MonoBehaviour
 
     private void CollectUIComponent(Transform tran)
     {
+        uitable.Set<string, RectTransform>("Rt", GetComponent<RectTransform>());
+
         string transName = tran.name;
         int spit_index = transName.IndexOf('_');
         if (spit_index < 0)

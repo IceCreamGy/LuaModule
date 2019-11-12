@@ -21,10 +21,9 @@ namespace XLua.CSObjectWrap
         {
 			ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 			System.Type type = typeof(LoadManager);
-			Utils.BeginObjectRegister(type, L, translator, 0, 7, 0, 0);
+			Utils.BeginObjectRegister(type, L, translator, 0, 6, 0, 0);
 			
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "LoadUI", _m_LoadUI);
-			Utils.RegisterFunc(L, Utils.METHOD_IDX, "LoadUI_WithParent", _m_LoadUI_WithParent);
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "LoadTexture", _m_LoadTexture);
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "LoadSprite", _m_LoadSprite);
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "LoadGameObject", _m_LoadGameObject);
@@ -89,42 +88,27 @@ namespace XLua.CSObjectWrap
                 LoadManager gen_to_be_invoked = (LoadManager)translator.FastGetCSObj(L, 1);
             
             
-                
+			    int gen_param_count = LuaAPI.lua_gettop(L);
+            
+                if(gen_param_count == 4&& (LuaAPI.lua_isnil(L, 2) || LuaAPI.lua_type(L, 2) == LuaTypes.LUA_TSTRING)&& translator.Assignable<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 3)&& translator.Assignable<UnityEngine.Transform>(L, 4)) 
                 {
                     string _bundleName = LuaAPI.lua_tostring(L, 2);
                     System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup> _callback = translator.GetDelegate<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 3);
+                    UnityEngine.Transform _parent = (UnityEngine.Transform)translator.GetObject(L, 4, typeof(UnityEngine.Transform));
                     
-                    gen_to_be_invoked.LoadUI( _bundleName, _callback );
+                    gen_to_be_invoked.LoadUI( _bundleName, _callback, _parent );
                     
                     
                     
                     return 0;
                 }
-                
-            } catch(System.Exception gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
-            }
-            
-        }
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _m_LoadUI_WithParent(RealStatePtr L)
-        {
-		    try {
-            
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-            
-            
-                LoadManager gen_to_be_invoked = (LoadManager)translator.FastGetCSObj(L, 1);
-            
-            
-                
+                if(gen_param_count == 4&& (LuaAPI.lua_isnil(L, 2) || LuaAPI.lua_type(L, 2) == LuaTypes.LUA_TSTRING)&& translator.Assignable<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 3)&& translator.Assignable<UnityEngine.GameObject>(L, 4)) 
                 {
                     string _bundleName = LuaAPI.lua_tostring(L, 2);
-                    UnityEngine.Transform _parent = (UnityEngine.Transform)translator.GetObject(L, 3, typeof(UnityEngine.Transform));
-                    System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup> _callback = translator.GetDelegate<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 4);
+                    System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup> _callback = translator.GetDelegate<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 3);
+                    UnityEngine.GameObject _parent = (UnityEngine.GameObject)translator.GetObject(L, 4, typeof(UnityEngine.GameObject));
                     
-                    gen_to_be_invoked.LoadUI_WithParent( _bundleName, _parent, _callback );
+                    gen_to_be_invoked.LoadUI( _bundleName, _callback, _parent );
                     
                     
                     
@@ -134,6 +118,8 @@ namespace XLua.CSObjectWrap
             } catch(System.Exception gen_e) {
                 return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
             }
+            
+            return LuaAPI.luaL_error(L, "invalid arguments to LoadManager.LoadUI!");
             
         }
         

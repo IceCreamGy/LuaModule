@@ -21,10 +21,11 @@ namespace XLua.CSObjectWrap
         {
 			ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 			System.Type type = typeof(AppFacade);
-			Utils.BeginObjectRegister(type, L, translator, 0, 2, 2, 0);
+			Utils.BeginObjectRegister(type, L, translator, 0, 3, 2, 0);
 			
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "GetLuaManager", _m_GetLuaManager);
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "GetLoadManager", _m_GetLoadManager);
+			Utils.RegisterFunc(L, Utils.METHOD_IDX, "GetTimerManager", _m_GetTimerManager);
 			
 			
 			Utils.RegisterFunc(L, Utils.GETTER_IDX, "Canvas", _g_get_Canvas);
@@ -119,6 +120,34 @@ namespace XLua.CSObjectWrap
                 {
                     
                         LoadManager gen_ret = gen_to_be_invoked.GetLoadManager(  );
+                        translator.Push(L, gen_ret);
+                    
+                    
+                    
+                    return 1;
+                }
+                
+            } catch(System.Exception gen_e) {
+                return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
+            }
+            
+        }
+        
+        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+        static int _m_GetTimerManager(RealStatePtr L)
+        {
+		    try {
+            
+                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
+            
+            
+                AppFacade gen_to_be_invoked = (AppFacade)translator.FastGetCSObj(L, 1);
+            
+            
+                
+                {
+                    
+                        TimerManager gen_ret = gen_to_be_invoked.GetTimerManager(  );
                         translator.Push(L, gen_ret);
                     
                     

@@ -11,15 +11,33 @@ public class ImagePro : Image, IPointerClickHandler
     //方便Lua端获取
     public Image mImage;
     public RectTransform Rt;
+    public RectTransform RT;
     protected override void Awake()
     {
         mImage = GetComponent<Image>();
         Rt = GetComponent<RectTransform>();
+        RT = Rt;
     }
 
     //方便Lua端获取
     CanvasGroup _Cg;
+    //方便开发，大小写不敏感。（瞎鸡儿堆功能，捂脸.jpg）
     public CanvasGroup Cg
+    {
+        get
+        {
+            if (_Cg == null)    //尝试获取
+            {
+                _Cg = gameObject.GetComponent<CanvasGroup>();
+            }
+            if (_Cg == null)    //获取不到，就添加
+            {
+                _Cg = gameObject.AddComponent<CanvasGroup>();
+            }
+            return _Cg;
+        }
+    }
+    public CanvasGroup CG
     {
         get
         {

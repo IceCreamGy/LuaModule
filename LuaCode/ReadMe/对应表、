@@ -1,0 +1,60 @@
+BaseUI 相关组件
+CG = CanvasGroup
+    self.CG.alpha = 1                       透明度
+    self.CG:DOFade(0, 0.6)                  透明度动画
+    self.CG.interactable = true             打开交互
+    self.CG.blocksRaycasts = true           打开射线拦截
+
+Rt  挂在了ImagePro才能用到
+    self.uitable.ImagePro_PiPei.Rt.anchoredPosition = Vector2(-1314, 0)       --Rt位置
+    self.uitable.ImagePro_PiPei.Rt:DOAnchorPos(Vector2(0, 0), 0.3)            --Rt动画
+
+
+DoTween 动画设置动画曲线
+   local twLeft = self.uitable.ImagePro_PiPei.Rt:DOAnchorPos(Vector2(0, 0), 0.3)
+   twLeft:SetEase(CS.DG.Tweening.Ease.OutBack)
+
+
+DoTween 动画逆向播放
+    self.tweener = self.uitable.ImagePro_Bg.Rt:DOAnchorPos(Vector2(0, 0), 0.7)
+    self.tweener:SetAutoKill(false)
+
+    self.tweener:PlayBackwards()             --DoTween 的反向使用
+
+
+
+DoTween 事件回调
+    Panel_BiSai.CloseTweener = self.uitable.ImagePro_PiPei.Rt:DOAnchorPos(Vector2(-1314, 0), 0.3)
+
+    Panel_BiSai.CloseTweener:OnComplete(function()      --位移动画完成后，关闭所有面板
+        self.canvas_group.alpha = 0
+    end)
+
+
+注册按钮的事件
+    self.uitable.ImagePro_OpenShop:AddClickListener(self.ClickButton_OpenShop)
+
+
+Panel
+function Panel_Shop:On_Show()
+    --当打开时
+    self.CG.alpha = 1
+end
+
+function Panel_Shop:On_Close()
+    --当关闭时
+    self.CG.alpha = 0
+end
+
+ 物体打开关闭
+ gameObject:SetActive(true)
+
+
+ Toggle 改变内容，字体颜色
+     self.togglePro.Text_lable.text = data.name
+     self. togglePro.Text_lable.color = Color.black
+     self. togglePro.Text_lable.color = Color.white
+
+
+计时器
+    TimerManager.Add(0.2, 1, Panel_DuiZhanDaTing_Map.ShowTween)

@@ -3,21 +3,16 @@
 --真正的加载，在C#端实现
 local CS_LoadManager = CS.AppFacade.instance:GetLoadManager()
 
-LoadManager = {}
+local LoadManager = {}
 
 --加载UI
-function LoadManager.LoadUI(bundleName, func)
-    CS_LoadManager:LoadUI(bundleName, func)
-end
-
---加载UI，并设置父物体
-function LoadManager.LoadUI_WithParent(bundleName, parent, func)
-    CS_LoadManager:LoadUI_WithParent(bundleName,parent, func)
+function LoadManager.LoadUI(bundleName, func, parent)
+    CS_LoadManager:LoadUI(bundleName, func, parent)
 end
 
 --复制UI，并设置父物体
 function LoadManager.CopyUI_WithParent(gameobject, parent, func)
-    return CS_LoadManager:CopyUI_WithParent(gameobject,parent,func)
+    return CS_LoadManager:CopyUI_WithParent(gameobject, parent, func)
 end
 
 --加载Texture
@@ -32,7 +27,7 @@ end
 
 --加载GameObject
 function LoadManager.LoadGameObject(bundleName)
-    return  CS_LoadManager:LoadGameObject(bundleName)
+    return CS_LoadManager:LoadGameObject(bundleName)
 end
 
 --复制GameObject
