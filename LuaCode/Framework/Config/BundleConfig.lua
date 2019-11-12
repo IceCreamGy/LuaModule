@@ -22,6 +22,8 @@ local BundleConfig = {
 
         ["Panel_BiSai"] = "UI/BiSai/Panel_BiSai",
         ["Panel_DuiZhanDaTing_Map"] = "UI/BiSai/Panel_DuiZhanDaTing_Map",
+        ["Panel_TiaoZhan"] = "UI/MainScene/TiaoZhan/Panel_TiaoZhan",
+
 
 
         ["xxxxx"] = "UI/Shop",

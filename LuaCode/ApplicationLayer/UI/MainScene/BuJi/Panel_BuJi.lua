@@ -17,26 +17,25 @@ end
 
 --点击金币十连抽
 function Panel_BuJi:OnClickJinBi10()
-    UIManager.OpenUI("ApplicationLayer/UI/BuJi/Panel_BuJiResult")
+    UIManager.OpenUI("ApplicationLayer/UI/MainScene/BuJi/Panel_BuJiResult")
 end
 
 --点击金币十连抽
 function Panel_BuJi:OnClickDianJuan10()
-    UIManager.OpenUI("ApplicationLayer/UI/BuJi/Panel_BuJiResult")
+    UIManager.OpenUI("ApplicationLayer/UI/MainScene/BuJi/Panel_BuJiResult")
 end
 
 function Panel_BuJi:On_Show()
-    --当打开时
     self.CG.alpha = 1
-    self.uitable.ImagePro_Bg.Rt.anchoredPosition = Vector2(0, -800)
-    self.tweener = self.uitable.ImagePro_Bg.Rt:DOAnchorPos(Vector2(0, 0), 0.45)
-    self.tweener:SetAutoKill(false)
+    self.uitable.ImagePro_Mask.Rt.sizeDelta = Vector2(0, 1080)
+    self.uitable.ImagePro_Mask.Rt:DOSizeDelta(Vector2(1920, 1080), 0.4)
 end
 
 function Panel_BuJi:On_Close()
-    --当关闭时
-    self.CG:DOFade(0, 0.45)
-    self.tweener:PlayBackwards()             --DoTween 的反向使用
+    local tweenerBack = self.uitable.ImagePro_Mask.Rt:DOSizeDelta(Vector2(0, 1080), 0.4)
+    tweenerBack:OnComplete(function()
+        self.CG.alpha = 0
+    end)
 end
 
 return Panel_BuJi

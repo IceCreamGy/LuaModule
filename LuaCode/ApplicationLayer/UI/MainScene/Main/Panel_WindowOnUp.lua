@@ -34,7 +34,7 @@ function Panel_WindowOnUp:Init(args)
 
             AnchoredPosition[i] = v.Rt.anchoredPosition         --记录按钮的位置
             v.Rt.anchoredPosition = Vector2(AnchoredPosition[i].x, 100)                   --修改位置
-            v.Rt:DOAnchorPos(AnchoredPosition[i], 0.3)          --DoTween 位置动画
+            v.Rt:DOAnchorPos(AnchoredPosition[i], 1- i*0.13)          --DoTween 位置动画
         end
     end
     AddButtonAnimation()

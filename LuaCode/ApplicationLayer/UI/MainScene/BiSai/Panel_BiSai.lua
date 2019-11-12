@@ -18,7 +18,7 @@ end
 
 --对战大厅
 function Panel_BiSai:OnClick_DuiZhanDaTing()
-    UIManager.OpenUI("ApplicationLayer/UI/BiSai/Panel_DuiZhanDaTing_Map", nil)
+    UIManager.OpenUI("ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map", nil)
 end
 
 function Panel_BiSai:OnClick_Close()
