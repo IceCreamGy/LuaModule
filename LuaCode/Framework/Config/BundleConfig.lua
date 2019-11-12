@@ -9,19 +9,19 @@ local BundleConfig = {
         ["Panel_WindowOnBelow"] = "UI/MainScene/Panel_WindowOnBelow",
         ["Panel_WindowOnUp"] = "UI/MainScene/Panel_WindowOnUp",
 
-        ["Panel_Shop"] = "UI/Shop/Panel_Shop",
-        ["ImagePro_ShopSelectButtonItem"] = "UI/Shop/ImagePro_ShopSelectButtonItem",
-        ["Panel_Shop_ZhanGui"] = "UI/Shop/Panel_Shop_ZhanGui",
-        ["Panel_Shop_LingJian"] = "UI/Shop/Panel_Shop_LingJian",
-        ["Panel_Shop_LingJianItem"] = "UI/Shop/Panel_Shop_LingJianItem",
+        ["Panel_Shop"] = "UI/MainScene/Shop/Panel_Shop",
+        ["ImagePro_ShopSelectButtonItem"] = "UI/MainScene/Shop/ImagePro_ShopSelectButtonItem",
+        ["Panel_Shop_ZhanGui"] = "UI/MainScene/Shop/Panel_Shop_ZhanGui",
+        ["Panel_Shop_LingJian"] = "UI/MainScene/Shop/Panel_Shop_LingJian",
+        ["Panel_Shop_LingJianItem"] = "UI/MainScene/Shop/Panel_Shop_LingJianItem",
 
-        ["Panel_QianDao"] = "UI/QianDao/Panel_QianDao",
+        ["Panel_QianDao"] = "UI/MainScene/QianDao/Panel_QianDao",
 
-        ["Panel_BuJi"] = "UI/BuJi/Panel_BuJi",
-        ["Panel_BuJiResult"] = "UI/BuJi/Panel_BuJiResult",
+        ["Panel_BuJi"] = "UI/MainScene/BuJi/Panel_BuJi",
+        ["Panel_BuJiResult"] = "UI/MainScene/BuJi/Panel_BuJiResult",
 
-        ["Panel_BiSai"] = "UI/BiSai/Panel_BiSai",
-        ["Panel_DuiZhanDaTing_Map"] = "UI/BiSai/Panel_DuiZhanDaTing_Map",
+        ["Panel_BiSai"] = "UI/MainScene/BiSai/Panel_BiSai",
+        ["Panel_DuiZhanDaTing_Map"] = "UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map",
         ["Panel_TiaoZhan"] = "UI/MainScene/TiaoZhan/Panel_TiaoZhan",
 
 

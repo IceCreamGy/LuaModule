@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ba5f4f-dabd-47d3-8a04-b3540a480b9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnBelow.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnBelow.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnLeft.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnLeft.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/QianDao/Panel_QianDao.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJian.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJianItem.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJianItem.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ZhanGui.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ZhanGui.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_BiSai.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_BiSai.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_DuiZhanDaTing_Map.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_DuiZhanDaTing_Map.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_DuiZhanDaTing_MapItem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/UI/BiSai/Panel_DuiZhanDaTing_MapItem.prefab.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +31,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="792">
@@ -66,15 +72,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -177,7 +174,6 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/QianDao/Panel_QianDao.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnUp.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/TiaoZhan/Panel_TiaoZhan.lua" />
-        <option value="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/TiaoZhan/Panel_TiaoZhan.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_MapItem.lua" />
@@ -193,6 +189,7 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ZhanGui.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/ShopData.lua" />
+        <option value="$PROJECT_DIR$/Framework/Config/BundleConfig.lua" />
       </list>
     </option>
   </component>
@@ -251,6 +248,12 @@
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
               <item name="Framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,6 +324,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-13" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -471,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -634,6 +631,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="150" column="6" lean-forward="true" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
         </state>
       </provider>
     </entry>
