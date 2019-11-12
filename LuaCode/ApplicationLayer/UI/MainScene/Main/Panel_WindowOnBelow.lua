@@ -9,7 +9,7 @@ local AnchoredPosition = {}
 
 --打开商店
 local function ClickButton_OpenShop()
-    UIManager.OpenUI("ApplicationLayer/UI/Shop/Panel_Shop", nil)
+    UIManager.OpenUI("ApplicationLayer/UI/MainScene/Shop/Panel_Shop", nil)
 end
 --打开挑战
 local function ClickButton_TiaoZhan()

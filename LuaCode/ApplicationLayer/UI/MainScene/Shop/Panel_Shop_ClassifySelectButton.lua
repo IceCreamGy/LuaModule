@@ -1,7 +1,6 @@
 --分类选择按钮，就是面板左边那些按钮
 --分别是，推荐展柜，S车零件，A车零件，B车C车零件，消耗品
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_Shop_ClassifySelectButton = Class("Panel_Shop_ClassifySelectButton")
 
 function Panel_Shop_ClassifySelectButton:ctor(GoParam, uitalbeParam, dataParam,lockPanelShowAreaParam)

@@ -1,6 +1,6 @@
 --商店模块
 
-local selectButton = require("ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton")
+local selectButton = require("ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton")
 
 local BaseUI = require("Framework/Base/BaseUI")
 local Panel_Shop = Class("Panel_Shop", BaseUI)

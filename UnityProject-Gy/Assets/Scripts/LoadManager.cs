@@ -81,8 +81,10 @@ public class LoadManager : BaseManager
     {
         GameObject tempGO = GameObject.Instantiate(go);
         tempGO.transform.SetParent(parent);
+        tempGO.transform.localPosition = new Vector3(tempGO.transform.localPosition.x, tempGO.transform.localPosition.y, 0);
         tempGO.transform.localScale = Vector3.one;
         tempGO.transform.localEulerAngles = Vector3.zero;
+        
         //未来可以加一些预处理
         UIComponentCollector uIComponentCollector = tempGO.GetOrAddComponent<UIComponentCollector>();
         uIComponentCollector.Collect();

@@ -7,7 +7,7 @@ local Panel_WindowOnLeft = Class("Panel_WindowOnLeft", BaseUI)
 local buttons = {}
 --打开签到
 local function ClickButton_QianDao()
-    UIManager.OpenUI("ApplicationLayer/UI/QianDao/Panel_QianDao", nil)
+    UIManager.OpenUI("ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao", nil)
 end
 
 function Panel_WindowOnLeft:Init(args)

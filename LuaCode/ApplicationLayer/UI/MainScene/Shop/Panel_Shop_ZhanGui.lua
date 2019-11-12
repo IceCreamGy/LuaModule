@@ -1,8 +1,5 @@
 --商店的展柜模块
 
-local ShopData = require("ApplicationLayer/DataCenter/ShopData")        --商店数据
-local selectButton = require("ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton")
-
 local BaseUI = require("Framework/Base/BaseUI")
 local Panel_Shop_ZhanGui = Class("Panel_Shop_ZhanGui", BaseUI)
 

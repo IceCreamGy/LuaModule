@@ -1,7 +1,6 @@
 --商店的零件面板
 
-local Panel_Shop_LingJianItem = require("ApplicationLayer/UI/Shop/Panel_Shop_LingJianItem")
-local BundleConfig = require("Framework/Config/BundleConfig")
+local Panel_Shop_LingJianItem = require("ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJianItem")
 
 local BaseUI = require("Framework/Base/BaseUI")
 local Panel_Shop_LingJian = Class("Panel_Shop_LingJian", BaseUI)

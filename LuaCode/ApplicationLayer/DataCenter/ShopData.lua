@@ -7,7 +7,7 @@ ShopData.ButtonList = {
         type="TuiJian",
         normalImage = "Texture/Common/Button/corner_mark_black_normal", --常态图片
         selectImage = "Texture/Common/Button/corner_mark_black_pressed", --按住后的图片
-        TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_ZhanGui",         --对应的目标模块控制器
+        TargetModel = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ZhanGui",         --对应的目标模块控制器
         TargetData="ZhanGui",
     },
      {
@@ -16,7 +16,7 @@ ShopData.ButtonList = {
         type="ZhanShi",
         normalImage = "Texture/Common/Button/corner_mark_black_normal",
         selectImage = "Texture/Common/Button/corner_mark_black_pressed",
-        TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_LingJian",
+        TargetModel = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian",
         TargetData="SLingJian",
     },
      {
@@ -25,7 +25,7 @@ ShopData.ButtonList = {
         type="ZhanShi",
         normalImage = "Texture/Common/Button/corner_mark_black_normal",
         selectImage = "Texture/Common/Button/corner_mark_black_pressed",
-        TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_LingJian",
+        TargetModel = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian",
         TargetData="ALingJian",
     },
     {
@@ -34,7 +34,7 @@ ShopData.ButtonList = {
         type="ZhanShi",
         normalImage = "Texture/Common/Button/corner_mark_black_normal",
         selectImage = "Texture/Common/Button/corner_mark_black_pressed",
-        TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_LingJian",
+        TargetModel = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian",
         TargetData="BCLingJian",
     },
      {
@@ -43,7 +43,7 @@ ShopData.ButtonList = {
         type="ZhanShi",
         normalImage = "Texture/Common/Button/corner_mark_black_normal",
         selectImage = "Texture/Common/Button/corner_mark_black_pressed",
-        TargetModel = "ApplicationLayer/UI/Shop/Panel_Shop_LingJian",
+        TargetModel = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian",
         TargetData="XiaoHaoPin",
     }
 }
