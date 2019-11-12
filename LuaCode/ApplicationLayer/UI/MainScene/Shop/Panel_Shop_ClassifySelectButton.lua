@@ -3,11 +3,11 @@
 
 local Panel_Shop_ClassifySelectButton = Class("Panel_Shop_ClassifySelectButton")
 
-function Panel_Shop_ClassifySelectButton:ctor(GoParam, uitalbeParam, dataParam,lockPanelShowAreaParam)
+function Panel_Shop_ClassifySelectButton:ctor(GoParam, uitalbeParam, dataParam, lockPanelShowAreaParam)
     self.Go = GoParam
     self.uitable = uitalbeParam
     self.data = dataParam
-    self.lockPanelShowArea=lockPanelShowAreaParam       --绑定的面板，实例化区域
+    self.lockPanelShowArea = lockPanelShowAreaParam       --绑定的面板，实例化区域
     self.uitable.ImagePro_ButtonItem:SetImage(self.data.normalImage)                --初始化显示
     self.uitable.Text_Content.text = self.data.name                                 --初始化显
     self.lockdata = self.data.TargetData      --绑定的数据库名字
@@ -24,10 +24,10 @@ function Panel_Shop_ClassifySelectButton:Select()
 
     self.uitable.ImagePro_ButtonItem:SetImage(self.data.selectImage)
     self.uitable.Text_Content.color = Color.black
-   -- self.PutPos = UIManager.GetPanel("Panel_Shop").showContentArea
+    -- self.PutPos = UIManager.GetPanel("Panel_Shop").showContentArea
     --弹出关联面板
 
-    UIManager.OpenPoPupUIWithParent(self.data.TargetModel, self. lockPanelShowArea, self.lockdata)
+    UIManager.OpenPoPupUI(self.data.TargetModel, self.lockdata, self. lockPanelShowArea)
     --记录关联面板
     local prefix = string.match(self.data.TargetModel, '.*/')
     local panelName = string.sub(self.data.TargetModel, string.len(prefix) + 1)

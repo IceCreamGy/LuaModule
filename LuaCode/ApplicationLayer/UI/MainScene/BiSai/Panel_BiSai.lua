@@ -22,7 +22,7 @@ function Panel_BiSai:OnClick_DuiZhanDaTing()
 end
 
 function Panel_BiSai:OnClick_Close()
-    UIManager.   CloseUI()
+    UIManager.CloseUI()
 end
 
 function Panel_BiSai:On_Show()
