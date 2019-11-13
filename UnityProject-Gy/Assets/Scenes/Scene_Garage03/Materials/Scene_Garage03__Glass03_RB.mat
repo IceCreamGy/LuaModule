@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Scene_Garage03__Glass03_RB
+  m_Shader: {fileID: 4800000, guid: 832a709fecf338c4faad3ff4fdd6315a, type: 3}
+  m_ShaderKeywords: DUAL_MIPMAP _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: <noninit>
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: ef0982a5036667042890675cd25e9b69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionScreenTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EnvironmentBack
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EnvironmentFront
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 580854433a6e8124e92f16364bc1ba8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: <noninit>
+      second: 0
+    - first:
+        name: _EnvironmentAttenuation
+      second: 1
+    - first:
+        name: _EnvironmentMipMap
+      second: 1
+    - first:
+        name: _EnvironmentSmoothness
+      second: 1
+    - first:
+        name: _FogBlend
+      second: 0.5
+    - first:
+        name: _FrezOffset
+      second: 0.766
+    - first:
+        name: _FrezPow
+      second: 1.843
+    - first:
+        name: _Gloss
+      second: 1
+    - first:
+        name: _Reflection
+      second: 1
+    - first:
+        name: _Shininess
+      second: 10
+    m_Colors:
+    - first:
+        name: <noninit>
+      second: {r: 0, g: 6.2723754e-34, b: 0, a: 6.272346e-34}
+    - first:
+        name: _Color
+      second: {r: 0.97794116, g: 0.9700065, b: 0.94917816, a: 0.3137255}
+    - first:
+        name: _LightGlassColor
+      second: {r: 0, g: 0, b: 0, a: 0.39215687}
+    - first:
+        name: _SpecColor
+      second: {r: 0.9632353, g: 0.94198745, b: 0.94198745, a: 0.7137255}

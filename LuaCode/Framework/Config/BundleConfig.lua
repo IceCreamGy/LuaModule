@@ -4,6 +4,10 @@
 
 local BundleConfig = {
     UI = {
+        ["Panel_Login"] = "UI/LoginScene/Panel_Login",
+
+        ["Panel_Loading"] = "UI/LoadingScene/Panel_Loading",
+
         ["Panel_MainScene"] = "UI/MainScene/Panel_MainScene",
         ["Panel_WindowOnLeft"] = "UI/MainScene/Panel_WindowOnLeft",
         ["Panel_WindowOnBelow"] = "UI/MainScene/Panel_WindowOnBelow",
@@ -24,8 +28,6 @@ local BundleConfig = {
         ["Panel_DuiZhanDaTing_Map"] = "UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map",
         ["Panel_TiaoZhan"] = "UI/MainScene/TiaoZhan/Panel_TiaoZhan",
         ["Panel_JuQing"] = "UI/MainScene/JuQing/Panel_JuQing",
-
-
 
 
         ["xxxxx"] = "UI/Shop",

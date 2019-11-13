@@ -35,6 +35,10 @@ function LoadManager.CopyGameobject(bundleName)
     return CS_LoadManager:CopyGameobject(bundleName)
 end
 
+function LoadManager.LoadScene(SceneName,EndAction)
+    CS_LoadManager:LoadScene(SceneName,EndAction)
+end
+
 --[[
 
 --/////////////////////////////////////////////////////////////////////

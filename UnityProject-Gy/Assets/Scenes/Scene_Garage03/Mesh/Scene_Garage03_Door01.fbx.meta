@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: f721505f9e8c63d4285f51e5b16e7e76
+timeCreated: 1546482655
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Scene_Garage03_Door01A
+    100004: Scene_Garage03_Door01B
+    100006: Object001
+    100008: Object002
+    100010: polySurface321
+    100012: polySurface325
+    100014: polySurface326
+    100016: polySurface326 1
+    100018: polySurface327
+    100020: polySurface328
+    100022: polySurface329
+    100024: transform71
+    100026: transform72
+    100028: transform76
+    100030: transform77
+    100032: transform78
+    100034: transform79
+    100036: Scene_Garage03_Door01C
+    100038: Scene_Garage03_Door01D
+    400000: //RootNode
+    400002: Scene_Garage03_Door01A
+    400004: Scene_Garage03_Door01B
+    400006: Object001
+    400008: Object002
+    400010: polySurface321
+    400012: polySurface325
+    400014: polySurface326
+    400016: polySurface326 1
+    400018: polySurface327
+    400020: polySurface328
+    400022: polySurface329
+    400024: transform71
+    400026: transform72
+    400028: transform76
+    400030: transform77
+    400032: transform78
+    400034: transform79
+    400036: Scene_Garage03_Door01C
+    400038: Scene_Garage03_Door01D
+    2300000: //RootNode
+    2300002: Scene_Garage03_Door01A
+    2300004: Scene_Garage03_Door01B
+    2300006: Object001
+    2300008: Object002
+    2300010: polySurface329
+    2300012: Scene_Garage03_Door01C
+    2300014: Scene_Garage03_Door01D
+    3300000: //RootNode
+    3300002: Scene_Garage03_Door01A
+    3300004: Scene_Garage03_Door01B
+    3300006: Object001
+    3300008: Object002
+    3300010: polySurface329
+    3300012: Scene_Garage03_Door01C
+    3300014: Scene_Garage03_Door01D
+    4300000: Scene_Garage03_Door01
+    4300002: Scene_Garage03_Door01A
+    4300004: Scene_Garage03_Door01B
+    4300006: Object001
+    4300008: Object002
+    4300010: polySurface329
+    4300012: Scene_Garage03_Door01C
+    4300014: Scene_Garage03_Door01D
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

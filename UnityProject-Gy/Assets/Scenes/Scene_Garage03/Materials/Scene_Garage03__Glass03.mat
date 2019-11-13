@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Scene_Garage03__Glass03
+  m_Shader: {fileID: 4800000, guid: a65285e2c64fcff43a63735d40328a06, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 580854433a6e8124e92f16364bc1ba8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 507fb0df432cf984e88d5b129802b50c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectionCubeMap
+      second:
+        m_Texture: {fileID: 8900000, guid: ef0982a5036667042890675cd25e9b69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _gloss
+      second: 200
+    - first:
+        name: _lightIntensity
+      second: 0.3
+    - first:
+        name: _reflection
+      second: 2.57
+    - first:
+        name: _reflectionFresnel
+      second: 0.6
+    - first:
+        name: _reflectionFresnelWidth
+      second: 10
+    - first:
+        name: _reflectoinBump
+      second: 0.11
+    - first:
+        name: _specular
+      second: 0.3
+    m_Colors:
+    - first:
+        name: _glassColor
+      second: {r: 0, g: 0, b: 0, a: 0.391}
+    - first:
+        name: _specularColor
+      second: {r: 0.89705884, g: 0.96166337, b: 1, a: 1}

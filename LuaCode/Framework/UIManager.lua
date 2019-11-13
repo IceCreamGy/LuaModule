@@ -81,8 +81,14 @@ function UIManager.CloseUI()
         end
     end
 end
-function UIManager.CLoseAllUI()
-
+function UIManager.CloseAllUI()
+    --暂时粗糙一点
+    for i, v in pairs(panel_dic) do
+        v:Close()
+    end
+end
+function UIManager.CloseTarget(panelName)
+    panel_dic[panelName]:Close()
 end
 
 function UIManager.OpenPoPupUI(panelPath, args, parent)

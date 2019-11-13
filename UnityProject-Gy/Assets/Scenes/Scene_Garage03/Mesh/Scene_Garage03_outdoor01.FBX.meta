@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: a14263df598c8d04b98f65fcb90411da
+timeCreated: 1547629069
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Scene_Garage03_Container01
+    100002: Scene_Garage03_Container03
+    100004: Scene_Garage03_Container04
+    100006: Scene_Garage03_Container05
+    100008: Scene_Garage03_Container06
+    100010: //RootNode
+    100012: Scene_Garage03_outdoor01_Ground01
+    100014: Scene_Garage03_Container02
+    100016: xx
+    100018: Scene_Garage03_Lifter_01
+    100020: Scene_Garage03_Lifter_002
+    100022: Scene_Garage03_Object03A
+    400000: Scene_Garage03_Container01
+    400002: Scene_Garage03_Container03
+    400004: Scene_Garage03_Container04
+    400006: Scene_Garage03_Container05
+    400008: Scene_Garage03_Container06
+    400010: //RootNode
+    400012: Scene_Garage03_outdoor01_Ground01
+    400014: Scene_Garage03_Container02
+    400016: xx
+    400018: Scene_Garage03_Lifter_01
+    400020: Scene_Garage03_Lifter_002
+    400022: Scene_Garage03_Object03A
+    2300000: Scene_Garage03_Container01
+    2300002: Scene_Garage03_Container03
+    2300004: Scene_Garage03_Container04
+    2300006: Scene_Garage03_Container05
+    2300008: Scene_Garage03_Container06
+    2300010: Scene_Garage03_outdoor01_Ground01
+    2300012: Scene_Garage03_Container02
+    2300014: xx
+    2300016: Scene_Garage03_Lifter_01
+    2300018: Scene_Garage03_Lifter_002
+    2300020: Scene_Garage03_Object03A
+    3300000: Scene_Garage03_Container01
+    3300002: Scene_Garage03_Container03
+    3300004: Scene_Garage03_Container04
+    3300006: Scene_Garage03_Container05
+    3300008: Scene_Garage03_Container06
+    3300010: Scene_Garage03_outdoor01_Ground01
+    3300012: Scene_Garage03_Container02
+    3300014: xx
+    3300016: Scene_Garage03_Lifter_01
+    3300018: Scene_Garage03_Lifter_002
+    3300020: Scene_Garage03_Object03A
+    4300000: Scene_Garage03_Container05
+    4300002: Scene_Garage03_Container01
+    4300004: Scene_Garage03_Container03
+    4300006: Scene_Garage03_Container06
+    4300008: Scene_Garage03_Container04
+    4300010: Scene_Garage03_outdoor01_Ground01
+    4300012: Scene_Garage03_Container02
+    4300014: xx
+    4300016: Scene_Garage03_Lifter_01
+    4300018: Scene_Garage03_Lifter_002
+    4300020: Scene_Garage03_Object03A
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

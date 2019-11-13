@@ -1,5 +1,6 @@
 UIManager = require "Framework/UIManager"       --ui管理类
 LoadManager = require("Framework/CS_Interface/LoadManager")
+SceneManager = require("Framework/SceneManager")
 TimerManager = require("Framework/CS_Interface/TimerManager")
 UIEventHelper = require("Framework/CS_Interface/UIEventHelper")
 DataManager = require("ApplicationLayer/DataCenter/DataManager")
@@ -17,7 +18,7 @@ Quaternion = UnityEngine.Quaternion
 function init()
     print("GameMain start...")
 
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/Main/Panel_MainScene", nil)
+    UIManager.OpenUI("ApplicationLayer/UI/LoginScene/Panel_Login", nil)
 end
 
 --c# update

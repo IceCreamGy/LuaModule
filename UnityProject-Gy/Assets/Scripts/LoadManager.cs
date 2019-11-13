@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using XLua;
+using UnityEngine.SceneManagement;
 
 public class LoadManager : BaseManager
 {
@@ -81,5 +82,27 @@ public class LoadManager : BaseManager
 
         callback(tempGO, uIComponentCollector.uitable);
         //给Grid组件下面实例化子物体，位置由Layout模块自动处理
+    }
+
+    public void LoadScene(string sceneName, Action endCallback)
+    {
+        StartCoroutine(LoadSA(sceneName, endCallback));
+    }
+    IEnumerator LoadSA(string sceneName, Action myCallback)
+    {
+        AsyncOperation ao = SceneManager.LoadSceneAsync(sceneName);
+        ao.allowSceneActivation = false;
+        float time = 0;
+        while (ao.isDone == false)
+        {
+            time += 0.2f;
+            if (time > 2.2f)    //仅仅是为了动画播放完
+            {
+                ao.allowSceneActivation = true;
+            }
+            yield return new WaitForSeconds(0.2f);
+        }
+
+        myCallback();
     }
 }

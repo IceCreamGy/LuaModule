@@ -24,6 +24,9 @@ public class AppFacade : MonoBehaviour
         Canvas = GameObject.Find("Canvas").transform;
         DontDestroyOnLoad(Canvas.gameObject);
 
+        GameObject uiroot = GameObject.Find("UIRoot");
+        DontDestroyOnLoad(uiroot);
+
         GoContainer = new GameObject("GoContainer").transform;
         GoContainer.transform.SetParent(transform);
 
