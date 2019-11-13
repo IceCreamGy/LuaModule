@@ -28,6 +28,8 @@ local function LoadUI(panelPath, args, callBack, parent)
         local panel_instance = InitPanel(panelPath, Panel, UiTable, CanvasGroup, args)
         callBack(panel_instance)
     end
+    --未来要加入Layer的概念。
+    --local layer = UIConfig[ui_name].Layer
     LoadManager.LoadUI(panelPathInUnity, callbackFromUnity, parent)
 end
 local function SaveUI(panel_instance)

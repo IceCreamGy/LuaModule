@@ -2,10 +2,9 @@
 
 local eventmanager = require "Framework/EventManager"
 local network = require "Framework/NetManager_InLua"
----@class Base_UI
+
 local Base_UI = Class("Base_UI")
 
----@private
 function Base_UI:ctor(arg_dlgname, arg_panel, arg_uitable, canvas_group, args)
     local prefix = string.match(arg_dlgname, '.*/')
     local panelName = string.sub(arg_dlgname, string.len(prefix) + 1)
@@ -13,7 +12,7 @@ function Base_UI:ctor(arg_dlgname, arg_panel, arg_uitable, canvas_group, args)
     self.panel = arg_panel                      --ui面板- 加载出来的GameObject对象
     self.uitable = arg_uitable                  --收集的ui控件
     self.CG = canvas_group            --canvas group 控制显隐
-    --self.dialog_config = arg_dialog_config      --dialog配置文件
+
     self.timer_table = {}                        --定时器函数列表
     self.lua_event_register_table = {}          --lua面板注册事件
     self.net_msg_register_table = {}            --网络层注册事件
