@@ -13,44 +13,28 @@ local selectButtonGo = nil   --左边选择的按钮
 
 function Panel_Shop:On_Init(args)
     self:LoadShopButtonItem()     --实例化左边选择的按钮
-    self:OnSelectButton(ClassifySelectButtons[0])      --设置一个默认值
+    self.uitable.TogglePro_ZhanGui:OnSelect()    --设置一个默认值
     self.uitable.ImagePro_FromShopReturnToMain:AddClickListener(self.OnClick_Close)     --注册关闭事件
 end
 
 function Panel_Shop:LoadShopButtonItem()
     showContentArea = self.gameObject.transform:Find("Panel_ShowArea")     --存放展示面板的位置
-
-    local buttonPath = BundleConfig.Get_UIAsset("ImagePro_ShopSelectButtonItem")
-    selectButtonGo = LoadManager.LoadGameObject(buttonPath)           --需要被复制的按钮
-    putButtonPos = self.gameObject.transform:Find("ScrollView_ButtonSelect/Viewport/Content")             --存放按钮的位置
+    local toggles ={}
+    toggles[1]=self.uitable.TogglePro_ZhanGui
+    toggles[2]=self.uitable.TogglePro_S
+    toggles[3]=self.uitable.TogglePro_A
+    toggles[4]=self.uitable.TogglePro_BC
+    toggles[5]=self.uitable.TogglePro_XHP
 
     --Lua排序
     table.sort(DataManager.GetShopData().ButtonList, function(a, b)
         return a.showOrder < b.showOrder
     end)
 
-    --开始实例化
-    for k, v in pairs(DataManager.GetShopData().ButtonList) do
-        LoadManager.CopyUI_WithParent(selectButtonGo, putButtonPos, function(go, uitable)
-            local createdButton = selectButton.New(go, uitable, v, showContentArea)
-            ClassifySelectButtons[v.showOrder] = createdButton
-        end)
+    for i, data in pairs(DataManager.GetShopData().ButtonList) do
+        local createdButton = selectButton.New( toggles[i], data, showContentArea)
+        ClassifySelectButtons[data.showOrder] = createdButton
     end
-end
-
---当选择左边按钮时，
-Panel_Shop.lastSelect = nil
-function Panel_Shop:OnSelectButton(button)
-    if (Panel_Shop.lastSelect) then
-        if (Panel_Shop.lastSelect.data.type ~= button.data.type) then
-            Panel_Shop.lastSelect:CancleSelect(true)
-        else
-            Panel_Shop.lastSelect:CancleSelect(false)
-        end
-    end
-
-    button:Select()
-    Panel_Shop. lastSelect = button
 end
 
 --当点击关闭

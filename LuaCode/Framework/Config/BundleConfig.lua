@@ -5,30 +5,30 @@
 local BundleConfig = {
     UI = {
         Path = {
-            ["Panel_Login"] = "UI/LoginScene/Panel_Login",
+            ["Panel_Login"] = "Prefab/UI/LoginScene/Panel_Login",
 
-            ["Panel_Loading"] = "UI/LoadingScene/Panel_Loading",
+            ["Panel_Loading"] = "Prefab/UI/LoadingScene/Panel_Loading",
 
-            ["Panel_MainScene"] = "UI/MainScene/Panel_MainScene",
-            ["Panel_WindowOnLeft"] = "UI/MainScene/Panel_WindowOnLeft",
-            ["Panel_WindowOnBelow"] = "UI/MainScene/Panel_WindowOnBelow",
-            ["Panel_WindowOnUp"] = "UI/MainScene/Panel_WindowOnUp",
+            ["Panel_MainScene"] = "Prefab/UI/MainScene/Panel_MainScene",
+            ["Panel_WindowOnLeft"] = "Prefab/UI/MainScene/Panel_WindowOnLeft",
+            ["Panel_WindowOnBelow"] = "Prefab/UI/MainScene/Panel_WindowOnBelow",
+            ["Panel_WindowOnUp"] = "Prefab/UI/MainScene/Panel_WindowOnUp",
 
-            ["Panel_Shop"] = "UI/MainScene/Shop/Panel_Shop",
-            ["ImagePro_ShopSelectButtonItem"] = "UI/MainScene/Shop/ImagePro_ShopSelectButtonItem",
-            ["Panel_Shop_ZhanGui"] = "UI/MainScene/Shop/Panel_Shop_ZhanGui",
-            ["Panel_Shop_LingJian"] = "UI/MainScene/Shop/Panel_Shop_LingJian",
-            ["Panel_Shop_LingJianItem"] = "UI/MainScene/Shop/Panel_Shop_LingJianItem",
+            ["Panel_Shop"] = "Prefab/UI/MainScene/Shop/Panel_Shop",
+            ["ImagePro_ShopSelectButtonItem"] = "Prefab/UI/MainScene/Shop/ImagePro_ShopSelectButtonItem",
+            ["Panel_Shop_ZhanGui"] = "Prefab/UI/MainScene/Shop/Panel_Shop_ZhanGui",
+            ["Panel_Shop_LingJian"] = "Prefab/UI/MainScene/Shop/Panel_Shop_LingJian",
+            ["Panel_Shop_LingJianItem"] = "Prefab/UI/MainScene/Shop/Panel_Shop_LingJianItem",
 
-            ["Panel_QianDao"] = "UI/MainScene/QianDao/Panel_QianDao",
+            ["Panel_QianDao"] = "Prefab/UI/MainScene/QianDao/Panel_QianDao",
 
-            ["Panel_BuJi"] = "UI/MainScene/BuJi/Panel_BuJi",
-            ["Panel_BuJiResult"] = "UI/MainScene/BuJi/Panel_BuJiResult",
+            ["Panel_BuJi"] = "Prefab/UI/MainScene/BuJi/Panel_BuJi",
+            ["Panel_BuJiResult"] = "Prefab/UI/MainScene/BuJi/Panel_BuJiResult",
 
-            ["Panel_BiSai"] = "UI/MainScene/BiSai/Panel_BiSai",
-            ["Panel_DuiZhanDaTing_Map"] = "UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map",
-            ["Panel_TiaoZhan"] = "UI/MainScene/TiaoZhan/Panel_TiaoZhan",
-            ["Panel_JuQing"] = "UI/MainScene/JuQing/Panel_JuQing",
+            ["Panel_BiSai"] = "Prefab/UI/MainScene/BiSai/Panel_BiSai",
+            ["Panel_DuiZhanDaTing_Map"] = "Prefab/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map",
+            ["Panel_TiaoZhan"] = "Prefab/UI/MainScene/TiaoZhan/Panel_TiaoZhan",
+            ["Panel_JuQing"] = "Prefab/UI/MainScene/JuQing/Panel_JuQing",
         },
         Code = {
             ["Panel_Login"] = "ApplicationLayer/UI/LoginScene/Panel_Login",

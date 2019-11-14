@@ -4,7 +4,7 @@
 local Panel_Shop_LingJianItem = Class("Panel_Shop_LingJianItem")
 
 function Panel_Shop_LingJianItem:ctor(GoParam, uitableParam, dataParam)
-    self.Go = GoParam
+    self.gameObject = GoParam
     self.uitable = uitableParam
     self.data = dataParam
     self.uitable.Text_CarName.text = self.data.name                     --初始化名字显示
@@ -20,6 +20,7 @@ function Panel_Shop_LingJianItem:ctor(GoParam, uitableParam, dataParam)
 end
 
 function Panel_Shop_LingJianItem:Refresh(data)
+    self.gameObject:SetActive(true)
     self.uitable.Text_CarName.text = data.name                     --初始化名字显示
     self.uitable.ImagePro_Car:SetImage(data.icon)                  --初始化商品图片
     self.uitable.Text_Money.text=data.moneyCount                   --初始化商品价格

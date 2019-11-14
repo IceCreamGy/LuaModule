@@ -8,11 +8,6 @@ local buttons = {}
 local buttonsDoScale={}
 local AnchoredPosition = {}
 
---打开商店
-local function ClickButton_OpenShop()
-    UIManager.OpenUI("ApplicationLayer/UI/Shop/Panel_Shop", nil)
-end
-
 function Panel_WindowOnUp:Init(args)
     local function AddButtonAnimation()
         buttons[1] = self.uitable.ImagePro_BgPlayerInfoBg         --玩家信息
@@ -54,7 +49,5 @@ function Panel_WindowOnUp:InitData(args)
     self.uitable.Text_Level.text = args.level
     self.uitable.Image_PlayerIcon:SetImage(args.icon)       --改 Image
 end
-
-
 
 return Panel_WindowOnUp

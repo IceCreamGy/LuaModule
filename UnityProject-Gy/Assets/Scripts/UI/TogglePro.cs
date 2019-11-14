@@ -9,7 +9,9 @@ public class TogglePro : MonoBehaviour
     Toggle myToggle;
     [HideInInspector]
     public Text Text_lable;
+    [HideInInspector]
     public RectTransform Rt;
+    [HideInInspector]
     public RectTransform RT;
     void Awake()
     {
@@ -54,8 +56,8 @@ public class TogglePro : MonoBehaviour
         }
     }
 
-    Action OnSelect;    //当选中
-    Action CancleSelect;    //当取消选择
+    public Action OnSelect;    //当选中
+    public Action CancleSelect;    //当取消选择
 
     void OnChange(bool state)
     {

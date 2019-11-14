@@ -36,7 +36,7 @@ public class UICollectorHelper : MonoBehaviour
         {IMAGEPRO,true },
         {UILIST,false },
         {MASK,true },
-        {SCROLLRECT,false },
+        {SCROLLRECT,true },
         {TOGGLEPRO,false }
     };
 
