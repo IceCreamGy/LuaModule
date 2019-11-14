@@ -5,12 +5,11 @@ local Panel_Login = Class("Panel_Login", BaseUI)
 
 local function EnterToMain()
     UIManager.CloseTarget("Panel_Loading")
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/Main/Panel_MainScene", nil)
+    UIManager.OpenUI("Panel_MainScene", nil)
 end
 
 local function LoadMainScene()
     SceneManager.LoadScene("Scene_Garage03", EnterToMain)         --三维场景
-    --SceneManager.LoadScene("QuickScene", EnterToMain)        --快速场景
 end
 
 local uiItem = {}  --InputName InputPassword  LoginButton 仅仅做一些动画

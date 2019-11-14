@@ -33,8 +33,8 @@ end
 --初始化 地图选择卡片的加载
 function Panel_DuiZhanDaTing_Map:InitMapCard()
     mapLenght = #mapData
-    mapItemGo = LoadManager.LoadGameObject("UI/MainScene/BiSai/Panel_DuiZhanDaTing_MapItem")
-    putPos = self.panel.transform:Find("ScrollView_MapContainer/Viewport/Content")
+    mapItemGo = LoadManager.LoadGameObject("Prefab/UI/MainScene/BiSai/Panel_DuiZhanDaTing_MapItem")
+    putPos = self.gameObject.transform:Find("ScrollView_MapContainer/Viewport/Content")
 
     for i, v in ipairs(mapData) do
         LoadManager.CopyUI_WithParent(mapItemGo, putPos, function(go, uitable)

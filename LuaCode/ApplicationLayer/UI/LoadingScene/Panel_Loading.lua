@@ -5,7 +5,7 @@ local CG
 local Rt
 
 function Panel_Loading:On_Init(args)
-    Rt = self.panel.transform:Find("Root")
+    Rt = self.gameObject.transform:Find("Root")
     CG = self.CG
 end
 

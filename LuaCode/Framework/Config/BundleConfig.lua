@@ -46,7 +46,7 @@ local BundleConfig = {
             ["Panel_Shop_LingJian"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian",
             ["Panel_Shop_LingJianItem"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJianItem",
 
-            ["Panel_QianDao"] = "UI/MainScene/QianDao/Panel_QianDao",
+            ["Panel_QianDao"] = "ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao",
 
             ["Panel_BuJi"] = "ApplicationLayer/UI/MainScene/BuJi/Panel_BuJi",
             ["Panel_BuJiResult"] = "ApplicationLayer/UI/MainScene/BuJi/Panel_BuJiResult",

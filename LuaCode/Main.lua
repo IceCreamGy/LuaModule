@@ -18,8 +18,8 @@ Quaternion = UnityEngine.Quaternion
 function init()
     print("GameMain start...")
 
-    --UIManager.OpenUI("ApplicationLayer/UI/LoginScene/Panel_Login", nil)           --登陆场景
-    UIManager.OpenUI("Panel_MainScene", nil)     --跳过登录场景
+    UIManager.OpenUI("Panel_Login", nil)           --登陆场景
+    --UIManager.OpenUI("Panel_MainScene", nil)     --跳过登录场景
 end
 
 --c# update

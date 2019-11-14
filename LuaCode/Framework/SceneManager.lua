@@ -2,7 +2,7 @@
 
 local function LoadScene(Name,EndAction)
     UIManager.CloseAllUI()
-    UIManager.OpenUI("ApplicationLayer/UI/LoadingScene/Panel_Loading")
+    UIManager.OpenUI("Panel_Loading")
     LoadManager.LoadScene(Name,EndAction)
 end
 

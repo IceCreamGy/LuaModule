@@ -18,7 +18,7 @@ function Panel_Shop:On_Init(args)
 end
 
 function Panel_Shop:LoadShopButtonItem()
-    showContentArea = self.gameObject.transform:Find("Panel_ShowArea")     --存放展示面板的位置
+    showContentArea = self.gameObject.transform:Find("ImagePro_Mask/Panel_ShowArea")     --存放展示面板的位置
     local toggles ={}
     toggles[1]=self.uitable.TogglePro_ZhanGui
     toggles[2]=self.uitable.TogglePro_S
@@ -44,10 +44,15 @@ end
 
 function Panel_Shop:On_Show()
     self.CG.alpha = 1
+    self.uitable.ImagePro_Mask.Rt.sizeDelta = Vector2(0, 1080)
+    self.uitable.ImagePro_Mask.Rt:DOSizeDelta(Vector2(1920, 1080), 0.4)
 end
 
 function Panel_Shop:On_Close()
-    self.CG.alpha = 0
+    local tweenerBack = self.uitable.ImagePro_Mask.Rt:DOSizeDelta(Vector2(0, 1080), 0.4)
+    tweenerBack:OnComplete(function()
+        self.CG.alpha = 0
+    end)
 end
 
 return Panel_Shop
