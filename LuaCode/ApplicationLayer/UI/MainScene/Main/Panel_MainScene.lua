@@ -14,15 +14,15 @@ function Panel_MainScene:On_Init(args)
 end
 
 function Panel_MainScene.InitUpPanel()
-    UIManager.OpenPoPupUI("ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp",nil,GameObjectPanel)
+    UIManager.OpenPoPupUI("Panel_WindowOnUp",nil,GameObjectPanel)
 end
 
 function Panel_MainScene.InitDownPanel()
-    UIManager.OpenPoPupUI("ApplicationLayer/UI/MainScene/Main/Panel_WindowOnBelow",nil,GameObjectPanel)
+    UIManager.OpenPoPupUI("Panel_WindowOnBelow",nil,GameObjectPanel)
 end
 
 function Panel_MainScene.InitLeftPanel()
-    UIManager.OpenPoPupUI("ApplicationLayer/UI/MainScene/Main/Panel_WindowOnLeft",nil, GameObjectPanel)
+    UIManager.OpenPoPupUI("Panel_WindowOnLeft",nil, GameObjectPanel)
 end
 
 

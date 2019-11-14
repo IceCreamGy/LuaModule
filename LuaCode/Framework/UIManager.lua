@@ -15,15 +15,16 @@ local function Push_panel(panel_instance)
     end
     panel_stack:push(panel_instance)
 end
-local function InitPanel(panelPath, Panel, UiTable, CanvasGroup, args)
+local function InitPanel(panelName, Panel, UiTable, CanvasGroup, args)
     --初始化面板逻辑
-    local panel_class = require(panelPath)
-    local panel_instance = panel_class.New(panelPath, Panel, UiTable, CanvasGroup, args)
+    local panelCodePath = BundleConfig.Get_UICode(panelName)
+    local panel_class = require(panelCodePath)
+    local panel_instance = panel_class.New(panelName, Panel, UiTable, CanvasGroup, args)
     return panel_instance
 end
 local function LoadUI(panelPath, args, callBack, parent)
     --从硬盘加载面板
-    local panelPathInUnity = BundleConfig.Get_UI(GetPanelName(panelPath))
+    local panelPathInUnity = BundleConfig.Get_UIAsset(panelPath)
     local callbackFromUnity = function(Panel, UiTable, CanvasGroup)
         local panel_instance = InitPanel(panelPath, Panel, UiTable, CanvasGroup, args)
         callBack(panel_instance)
@@ -46,7 +47,7 @@ function UIManager.OpenUI(panelPath, args)
         end
     end
     --/////////////////
-    local panel_instance = panel_dic[GetPanelName(panelPath)]
+    local panel_instance = panel_dic[panelPath]
     if panel_instance then
         --有的话，重新显示
         if panel_instance:is_panel_released() == false then
@@ -92,7 +93,7 @@ function UIManager.CloseTarget(panelName)
 end
 
 function UIManager.OpenPoPupUI(panelPath, args, parent)
-    local panel_instance = panel_dic[GetPanelName(panelPath)]
+    local panel_instance = panel_dic[panelPath]
     if panel_instance then
         if panel_instance:is_panel_released() == false then
             panel_instance:Show(args)

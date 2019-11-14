@@ -9,7 +9,8 @@ local function EnterToMain()
 end
 
 local function LoadMainScene()
-    SceneManager.LoadScene("Scene_Garage03", EnterToMain)
+    SceneManager.LoadScene("Scene_Garage03", EnterToMain)         --三维场景
+    --SceneManager.LoadScene("QuickScene", EnterToMain)        --快速场景
 end
 
 local uiItem = {}  --InputName InputPassword  LoginButton 仅仅做一些动画
@@ -50,6 +51,6 @@ function Panel_Login:On_Show()
     self.uitable.ImagePro_Bg.Rt:DOScale(1, 0.4)
 end
 function Panel_Login:On_Close()
-    self.uitable.Rt:DOAnchorPos(Vector2(-2400, 0), 0.6)
+    self.uitable.Rt:DOAnchorPos(Vector2(-2400, 0), 1.2)
 end
 return Panel_Login

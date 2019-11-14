@@ -12,10 +12,10 @@ end
 function Panel_Loading:On_Show()
     self.CG.alpha = 1
     Rt.anchoredPosition = Vector2(1200, 0)
-    Rt:DOAnchorPos(Vector2(-200, 0), 0.8)
+    Rt:DOAnchorPos(Vector2(-200, 0), 1)
 
     self.uitable.ImagePro_Bg1. Rt.anchoredPosition = Vector2(-325, 0)
-    self.uitable.ImagePro_Bg1. Rt:DOAnchorPos(Vector2(-866, 0), 0.8)
+    self.uitable.ImagePro_Bg1. Rt:DOAnchorPos(Vector2(-866, 0), 1.2)
 
     self.uitable.ImagePro_Bg4. Rt.anchoredPosition = Vector2(220, 54)   --车的动画
     self.uitable.ImagePro_Bg4. Rt:DOAnchorPos(Vector2(-25, -67), 0.6)

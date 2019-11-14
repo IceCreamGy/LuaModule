@@ -29,9 +29,7 @@ function Panel_Shop_ClassifySelectButton:Select()
 
     UIManager.OpenPoPupUI(self.data.TargetModel, self.lockdata, self. lockPanelShowArea)
     --记录关联面板
-    local prefix = string.match(self.data.TargetModel, '.*/')
-    local panelName = string.sub(self.data.TargetModel, string.len(prefix) + 1)
-    self.lockPanel = UIManager.GetPanel(panelName)
+    self.lockPanel = UIManager.GetPanel(self.data.TargetModel)
 end
 
 --取消选择

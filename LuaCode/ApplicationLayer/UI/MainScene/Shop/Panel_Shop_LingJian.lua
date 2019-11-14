@@ -11,7 +11,7 @@ function Panel_Shop_LingJian:On_Init(args)
     self.uitable. Rt.anchoredPosition = Vector2(0, 0)
 
     Panel_Shop_LingJian.putButtonPos = self.panel.transform:Find("ScrollView_DownCar/Viewport/Content")             --存放按钮的位置
-    local itemPath = BundleConfig.Get_UI("Panel_Shop_LingJianItem")
+    local itemPath = BundleConfig.Get_UIAsset("Panel_Shop_LingJianItem")
     Panel_Shop_LingJian.selectButton = LoadManager.LoadGameObject(itemPath)           --需要被复制的按钮
 
     for k, v in pairs(DataManager.GetShopData():GetData(args)) do

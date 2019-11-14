@@ -6,9 +6,7 @@ local network = require "Framework/NetManager_InLua"
 local Base_UI = Class("Base_UI")
 
 function Base_UI:ctor(arg_dlgname, arg_panel, arg_uitable, canvas_group, args)
-    local prefix = string.match(arg_dlgname, '.*/')
-    local panelName = string.sub(arg_dlgname, string.len(prefix) + 1)
-    self.dlgname = panelName                  --dlg名字
+    self.dlgname = arg_dlgname                  --dlg名字
     self.panel = arg_panel                      --ui面板- 加载出来的GameObject对象
     self.uitable = arg_uitable                  --收集的ui控件
     self.CG = canvas_group            --canvas group 控制显隐

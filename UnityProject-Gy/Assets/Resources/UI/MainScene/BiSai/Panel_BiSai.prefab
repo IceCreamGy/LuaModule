@@ -76,6 +76,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   mImage: {fileID: 2944181688513354149}
   Rt: {fileID: 366524292408155391}
+  RT: {fileID: 366524292408155391}
 --- !u!1 &3696880806516624766
 GameObject:
   m_ObjectHideFlags: 0
@@ -87,6 +88,7 @@ GameObject:
   - component: {fileID: 8359962357890060773}
   - component: {fileID: 7607031862245548701}
   - component: {fileID: 1731169716165464307}
+  - component: {fileID: 8365194145348351452}
   m_Layer: 5
   m_Name: ImagePro_DaTing
   m_TagString: Untagged
@@ -152,6 +154,19 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   mImage: {fileID: 1731169716165464307}
   Rt: {fileID: 8359962357890060773}
+  RT: {fileID: 8359962357890060773}
+--- !u!114 &8365194145348351452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3696880806516624766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe6b88a8b5677c4a8fab55d97939058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4311215568665461222
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,6 +178,7 @@ GameObject:
   - component: {fileID: 82321859019048100}
   - component: {fileID: 8305336636010883925}
   - component: {fileID: 2002919993719802726}
+  - component: {fileID: 6213046246354138810}
   m_Layer: 5
   m_Name: ImagePro_PiPei
   m_TagString: Untagged
@@ -228,6 +244,19 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   mImage: {fileID: 2002919993719802726}
   Rt: {fileID: 82321859019048100}
+  RT: {fileID: 82321859019048100}
+--- !u!114 &6213046246354138810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4311215568665461222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe6b88a8b5677c4a8fab55d97939058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5533012932085528040
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,6 +333,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   mImage: {fileID: 2327580427535943269}
   Rt: {fileID: 3214904289386842703}
+  RT: {fileID: 3214904289386842703}
 --- !u!1 &8580807902886950868
 GameObject:
   m_ObjectHideFlags: 0

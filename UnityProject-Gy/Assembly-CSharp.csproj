@@ -121,6 +121,7 @@
     <Compile Include="Assets\Scripts\Tools\UIEventHelper.cs" />
     <Compile Include="Assets\Scripts\Tools\UnityExtension.cs" />
     <Compile Include="Assets\Scripts\Tools\Util.cs" />
+    <Compile Include="Assets\Scripts\UI\ClickLimit.cs" />
     <Compile Include="Assets\Scripts\UI\ImagePro.cs" />
     <Compile Include="Assets\Scripts\UI\TogglePro.cs" />
     <Compile Include="Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />

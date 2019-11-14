@@ -9,23 +9,23 @@ local AnchoredPosition = {}
 
 --打开商店
 local function ClickButton_OpenShop()
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/Shop/Panel_Shop", nil)
+    UIManager.OpenUI("Panel_Shop", nil)
 end
 --打开挑战
 local function ClickButton_TiaoZhan()
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/TiaoZhan/Panel_TiaoZhan", nil)
+    UIManager.OpenUI("Panel_TiaoZhan", nil)
 end
 --打开补给码头
 local function ClickButton_OpenSupply()
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/BuJi/Panel_BuJi", nil)
+    UIManager.OpenUI("Panel_BuJi", nil)
 end
 --打开多人对战
 local function ClickButton_BiSai()
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/BiSai/Panel_BiSai", nil)
+    UIManager.OpenUI("Panel_BiSai", nil)
 end
 --打开剧情
 local function ClickButton_JuQing()
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/JuQing/Panel_JuQing", nil)
+    UIManager.OpenUI("Panel_JuQing", nil)
 end
 
 

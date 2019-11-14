@@ -17,12 +17,12 @@ end
 
 --点击金币十连抽
 function Panel_BuJi:OnClickJinBi10()
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/BuJi/Panel_BuJiResult")
+    UIManager.OpenUI("Panel_BuJiResult")
 end
 
 --点击金币十连抽
 function Panel_BuJi:OnClickDianJuan10()
-    UIManager.OpenUI("ApplicationLayer/UI/MainScene/BuJi/Panel_BuJiResult")
+    UIManager.OpenUI("Panel_BuJiResult")
 end
 
 function Panel_BuJi:On_Show()

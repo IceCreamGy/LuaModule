@@ -20,7 +20,7 @@ end
 function Panel_Shop:LoadShopButtonItem()
     showContentArea = self.panel.transform:Find("Panel_ShowArea")     --存放展示面板的位置
 
-    local buttonPath = BundleConfig.Get_UI("ImagePro_ShopSelectButtonItem")
+    local buttonPath = BundleConfig.Get_UIAsset("ImagePro_ShopSelectButtonItem")
     selectButtonGo = LoadManager.LoadGameObject(buttonPath)           --需要被复制的按钮
     putButtonPos = self.panel.transform:Find("ScrollView_ButtonSelect/Viewport/Content")             --存放按钮的位置
 
