@@ -21,10 +21,8 @@ end
 --被选择
 function Panel_Shop_ClassifySelectButton:Select()
     --改变自身按钮显示
-
     self.uitable.ImagePro_ButtonItem:SetImage(self.data.selectImage)
     self.uitable.Text_Content.color = Color.black
-    -- self.PutPos = UIManager.GetPanel("Panel_Shop").showContentArea
     --弹出关联面板
 
     UIManager.OpenPoPupUI(self.data.TargetModel, self.lockdata, self. lockPanelShowArea)

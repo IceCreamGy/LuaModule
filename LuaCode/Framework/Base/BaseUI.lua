@@ -5,9 +5,9 @@ local network = require "Framework/NetManager_InLua"
 
 local Base_UI = Class("Base_UI")
 
-function Base_UI:ctor(arg_dlgname, arg_panel, arg_uitable, canvas_group, args)
-    self.dlgname = arg_dlgname                  --dlg名字
-    self.panel = arg_panel                      --ui面板- 加载出来的GameObject对象
+function Base_UI:ctor(arg_name, arg_GameObject, arg_uitable, canvas_group, args)
+    self.panelName = arg_name                  --dlg名字
+    self.gameObject = arg_GameObject                      --ui面板- 加载出来的GameObject对象
     self.uitable = arg_uitable                  --收集的ui控件
     self.CG = canvas_group            --canvas group 控制显隐
 
@@ -41,10 +41,10 @@ end
 
 --释放
 function Base_UI:clear_res_and_register()
-    if self.panel ~= nil then
-        LoadManager.DestroyGameobject(self.panel)
+    if self.gameObject ~= nil then
+        LoadManager.DestroyGameobject(self.gameObject)
     end
-    self.panel = nil
+    self.gameObject = nil
     self.uitable = nil
     self.CG = nil
     self:clear_lua_event_register()
@@ -103,7 +103,7 @@ function Base_UI:unregister_lua_event(eventType, register_id)
 end
 
 function Base_UI:get_dlg_name()
-    return self.dlgname
+    return self.panelName
 end
 
 --判断资源是否被释放
@@ -127,7 +127,7 @@ function Base_UI:set_panel_invisible()
 end
 
 function Base_UI:SetPriority()
-    self.panel. transform:SetAsLastSibling()
+    self.gameObject.transform:SetAsLastSibling()
 end
 
 return Base_UI

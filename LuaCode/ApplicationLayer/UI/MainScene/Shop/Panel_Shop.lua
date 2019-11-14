@@ -18,11 +18,11 @@ function Panel_Shop:On_Init(args)
 end
 
 function Panel_Shop:LoadShopButtonItem()
-    showContentArea = self.panel.transform:Find("Panel_ShowArea")     --存放展示面板的位置
+    showContentArea = self.gameObject.transform:Find("Panel_ShowArea")     --存放展示面板的位置
 
     local buttonPath = BundleConfig.Get_UIAsset("ImagePro_ShopSelectButtonItem")
     selectButtonGo = LoadManager.LoadGameObject(buttonPath)           --需要被复制的按钮
-    putButtonPos = self.panel.transform:Find("ScrollView_ButtonSelect/Viewport/Content")             --存放按钮的位置
+    putButtonPos = self.gameObject.transform:Find("ScrollView_ButtonSelect/Viewport/Content")             --存放按钮的位置
 
     --Lua排序
     table.sort(DataManager.GetShopData().ButtonList, function(a, b)

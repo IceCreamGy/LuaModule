@@ -6,7 +6,7 @@ local Panel_MainScene = Class("Panel_MainScene", BaseUI)
 local GameObjectPanel
 
 function Panel_MainScene:On_Init(args)
-    GameObjectPanel = self.panel
+    GameObjectPanel = self.gameObject
 
     Panel_MainScene.InitDownPanel()     --加载下方栏
     TimerManager.Add(0.4,1,Panel_MainScene.InitUpPanel)     --加载上方栏

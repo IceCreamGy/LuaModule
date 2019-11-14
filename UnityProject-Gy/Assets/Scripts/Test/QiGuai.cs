@@ -14,6 +14,8 @@ public class QiGuai : MonoBehaviour
         //Resources.Load();
         //AssetBundle.LoadFromFileAsync();
         //AssetDatabase.LoadAssetAtPath();
+
+        
     }
 
     // Update is called once per frame
