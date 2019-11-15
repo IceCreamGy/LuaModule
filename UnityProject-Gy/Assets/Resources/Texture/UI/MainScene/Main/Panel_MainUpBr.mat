@@ -73,7 +73,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Reprocess: 1
-    - _BlurSize: 5
+    - _BlurSize: 6
     - _BumpAmt: 128
     - _BumpScale: 1
     - _ColorMask: 357.3
@@ -84,7 +84,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _LightAdj: 0
-    - _Lightness: -0.25
+    - _Lightness: -0.1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
