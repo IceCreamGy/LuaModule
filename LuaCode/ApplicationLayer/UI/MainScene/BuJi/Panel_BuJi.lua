@@ -7,12 +7,6 @@ function Panel_BuJi:On_Init(args)
     --初始化
     self.uitable.ImagePro_Card1_Get10:AddClickListener(self.OnClickJinBi10)
     self.uitable.ImagePro_Card2_Get10:AddClickListener(self.OnClickDianJuan10)
-    self.uitable.ImagePro_FromLuckyReturnToMain:AddClickListener(self.OnClick_Close)
-end
-
---当点击关闭
-function Panel_BuJi.OnClick_Close()
-    UIManager.CloseUI()
 end
 
 --点击金币十连抽

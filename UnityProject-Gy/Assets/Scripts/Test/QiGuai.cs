@@ -14,7 +14,7 @@ public class QiGuai : MonoBehaviour
         //Resources.Load();
         //AssetBundle.LoadFromFileAsync();
         //AssetDatabase.LoadAssetAtPath();
-
+        //transform.DOScale
         
     }
 

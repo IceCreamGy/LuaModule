@@ -8,7 +8,6 @@ local Panel_BiSai = Class("Panel_BiSai", BaseUI)
 function Panel_BiSai:On_Init(args)
     self.uitable.ImagePro_PiPei:AddClickListener(self.OnClick_PiPei)
     self.uitable.ImagePro_DaTing:AddClickListener(self.OnClick_DuiZhanDaTing)
-    self.uitable.ImagePro_ReturnToMain:AddClickListener(self.OnClick_Close)
 end
 
 --多人匹配
@@ -19,10 +18,6 @@ end
 --对战大厅
 function Panel_BiSai:OnClick_DuiZhanDaTing()
     UIManager.OpenUI("Panel_DuiZhanDaTing_Map", nil)
-end
-
-function Panel_BiSai:OnClick_Close()
-    UIManager.CloseUI()
 end
 
 function Panel_BiSai:On_Show()

@@ -52,7 +52,7 @@ end
 function Panel_WindowOnUp:InitData(args)
     self.uitable.Rt.anchoredPosition = Vector2(0, 0);
     goPlayerIcon = self.uitable.ImagePro_BgPlayerInfoBg
-    goReturn = self.uitable.ImagePro_ReturnToMainBg
+    goReturn = self.uitable.ImagePro_ReturnToMain
     self.uitable.Text_Name.text = args.name               --改 Text
     self.uitable.Text_Level.text = args.level
     self.uitable.Image_PlayerIcon:SetImage(args.icon)       --改 Image

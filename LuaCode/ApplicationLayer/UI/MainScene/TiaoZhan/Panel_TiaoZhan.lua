@@ -1,12 +1,8 @@
 local BaseUI = require("Framework/Base/BaseUI")
 local Panel_TiaoZhan = Class("Panel_TiaoZhan", BaseUI)
 
-local function OnClick_Close()
-    UIManager.CloseUI()
-end
-
 function Panel_TiaoZhan:On_Init(arg)
-    self.uitable.ImagePro_ReturnToMain:AddClickListener(OnClick_Close)
+
 end
 
 function Panel_TiaoZhan:On_Show()

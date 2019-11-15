@@ -66,9 +66,9 @@ end
 function Base_UI:Re_Show(args)
     self.isclose = false
     self:set_panel_visible()
-    if self.On_Re_Show then
+    if self.On_ReShow then
         --子类写on_re_show
-        self:On_Re_Show(args)
+        self:On_ReShow(args)
     end
 end
 

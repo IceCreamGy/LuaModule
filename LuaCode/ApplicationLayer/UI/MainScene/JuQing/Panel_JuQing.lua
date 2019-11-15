@@ -2,12 +2,8 @@
 local BaseUI = require("Framework/Base/BaseUI")
 local Panel_JuQing = Class("Panel_JuQing",BaseUI)
 
-local function OnClick_Close()
-    UIManager.CloseUI()
-end
-
 function Panel_JuQing:On_Init(args)
-    self.uitable.ImagePro_ReturnToMain:AddClickListener(OnClick_Close)
+
 end
 
 function Panel_JuQing:On_Show()

@@ -3,6 +3,8 @@
 local Evnet_InLua = {
     LeaveMain = 1,
     ReturnMain = 2,
+
+    ChangeShopRightPanel = 3,
 }
 
 return Evnet_InLua

@@ -10,7 +10,8 @@ function Panel_Shop_ClassifySelectButton:ctor(toggle, dataParam, lockPanelShowAr
         UIManager.OpenPoPupUI(dataParam.TargetModel, dataParam.TargetData, lockPanelShowAreaParam)
         --记录关联面板
         self.lockPanel = UIManager.GetPanel(dataParam.TargetModel)
-        --UIManager.GetPanel("Panel_Shop"):OnSelectButton(self)
+
+        EventManager.DispachEvent(Event_InLua.ChangeShopRightPanel)
     end
     local function CancleSelect()
         toggle.Text_lable.color = Color.white

@@ -25,5 +25,13 @@ function Panel_MainScene.InitLeftPanel()
     UIManager.OpenPoPupUI("Panel_WindowOnLeft",nil, GameObjectPanel)
 end
 
+function Panel_MainScene:On_ReShow()
+    print("Show Main")
+    self.CG.alpha = 1
+end
+function Panel_MainScene:On_Hide()
+    self.CG.alpha = 0
+    print("Close Main")
+end
 
 return Panel_MainScene

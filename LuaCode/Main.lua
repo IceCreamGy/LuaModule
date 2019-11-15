@@ -1,5 +1,5 @@
 EventManager = require "Framework/EventManager"
-Event_InLua = require "ApplicationLayer/Config/Event_InLua"
+Event_InLua = require "Framework/Config/Event_InLua"
 UIManager = require "Framework/UIManager"       --ui管理类
 LoadManager = require("Framework/CS_Interface/LoadManager")
 SceneManager = require("Framework/SceneManager")
