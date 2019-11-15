@@ -34,11 +34,7 @@ public class LoadManager : BaseManager
         {
             if (uiLayer == "Normal")
             {
-                panel.transform.SetParent(normalLayer);
-                rectTransform.anchorMin = Vector2.zero;
-                rectTransform.anchorMax = Vector2.one;
-                rectTransform.offsetMax = Vector2.zero;
-                rectTransform.offsetMin = Vector2.zero;
+                panel.transform.SetParent(normalLayer);     
             }
             if (uiLayer == "Top")
             {
@@ -51,7 +47,11 @@ public class LoadManager : BaseManager
             if (uiLayer == "Mask")
             {
                 panel.transform.SetParent(tipsLayer);
-            }            
+            }
+            rectTransform.anchorMin = Vector2.zero;
+            rectTransform.anchorMax = Vector2.one;
+            rectTransform.offsetMax = Vector2.zero;
+            rectTransform.offsetMin = Vector2.zero;
         }
         else
         {

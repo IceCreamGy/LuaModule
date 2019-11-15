@@ -26,7 +26,7 @@ local function BgDiBan(self)
 end
 
 function Panel_QianDao:On_Init(args)
-    --初始化
+    self.uitable.Rt.anchoredPosition = Vector2(0, 0)
     InitToggles(self)   --初始化Toogles
     self.uitable.ImagePro_Close:AddClickListener(self.OnClick_Close)
 end

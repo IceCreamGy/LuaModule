@@ -1,6 +1,8 @@
---储存 AssetBundle的路径等等
---这个最终是由 Unity工具生成的。
---所以是Config，而不是 Data
+--最终是由工具生成的。所以是Config，而不是 Data
+--Normal
+--Top
+--Tips
+--Mask
 
 local BundleConfig = {
     UI = {
@@ -37,7 +39,7 @@ local BundleConfig = {
         ["Panel_Shop_LingJianItem"] = { ["UILayer"] = "Normal",
                                         ["AssetPath"] = "Prefab/UI/MainScene/Shop/Panel_Shop_LingJianItem",
                                         ["CodePath"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJianItem", },
-        ["Panel_QianDao"] = { ["UILayer"] = "Normal",
+        ["Panel_QianDao"] = { ["UILayer"] = "Tips",
                               ["AssetPath"] = "Prefab/UI/MainScene/QianDao/Panel_QianDao",
                               ["CodePath"] = "ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao", },
         ["Panel_BuJi"] = { ["UILayer"] = "Normal",

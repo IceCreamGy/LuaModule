@@ -254,6 +254,7 @@
     <None Include="Assets\Shaders\Terrain.shader" />
     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
     <None Include="Assets\Shaders\MADFINGER-Unlit-Scroll2Layers-Sine-AlphaBlend.shader" />
+    <None Include="Assets\Shaders\GaussianBlur\WIPs\GaussianBlurV2_20170428_2.shader" />
     <None Include="Assets\Shaders\Wall.shader" />
     <None Include="Assets\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
     <None Include="Assets\Shaders\SpotLight.cginc" />
@@ -301,6 +302,7 @@
     <None Include="Assets\Shaders\NssLightmap.cginc" />
     <None Include="Assets\Shaders\SpriteMaskSupportAnimation.shader" />
     <None Include="Assets\Shaders\MobileParticle_Alpha.shader" />
+    <None Include="Assets\Shaders\GaussianBlur\GaussianBlurV1.shader" />
     <None Include="Assets\Shaders\ImageMask.shader" />
     <None Include="Assets\Shaders\MobileParticle_Shadow.shader" />
     <None Include="Assets\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
@@ -331,8 +333,10 @@
     <None Include="Assets\Shaders\GlobalFog.shader" />
     <None Include="Assets\Shaders\MobileBlur.shader" />
     <None Include="Assets\Shaders\Character\CharacterHighQualityBlend.shader" />
+    <None Include="Assets\Shaders\GaussianBlur\GaussianBlurV2.shader" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
     <None Include="Assets\XLua\Resources\perf\profiler.lua.txt" />
+    <None Include="Assets\Shaders\GaussianBlur\WIPs\GaussianBlurV2_20170428_3.shader" />
     <None Include="Assets\Shaders\Cloud.shader" />
     <None Include="Assets\Shaders\Basic_Diffuse.shader" />
     <None Include="Assets\Shaders\ClipRectShader.shader" />
@@ -343,6 +347,7 @@
     <None Include="Assets\Shaders\MobileParticle_Add.shader" />
     <None Include="Assets\Shaders\UIBlendMask.shader" />
     <None Include="Assets\Shaders\LiveScreen.shader" />
+    <None Include="Assets\Shaders\GaussianBlur\WIPs\GaussianBlurV2_20170428_1.shader" />
     <None Include="Assets\Shaders\Particle_AlphaAdditive.shader" />
     <None Include="Assets\Shaders\AnimationUVShader.shader" />
     <None Include="Assets\Shaders\ExcludeBlurMask.shader" />
