@@ -14,7 +14,7 @@ function Panel_MainScene:On_Init(args)
 end
 
 function Panel_MainScene.InitUpPanel()
-    UIManager.OpenPoPupUI("Panel_WindowOnUp",nil,GameObjectPanel)
+    UIManager.OpenPoPupUI("Panel_WindowOnUp",nil)
 end
 
 function Panel_MainScene.InitDownPanel()

@@ -5,8 +5,13 @@ local BaseUI = require("Framework/Base/BaseUI")
 local Panel_WindowOnUp = Class("Panel_WindowOnUp", BaseUI)
 
 local buttons = {}
-local buttonsDoScale={}
+local buttonsDoScale = {}
 local AnchoredPosition = {}
+local goPlayerIcon, goReturn
+
+local function OnClick_Close()
+    UIManager.CloseUI()
+end
 
 function Panel_WindowOnUp:Init(args)
     local function AddButtonAnimation()
@@ -29,25 +34,37 @@ function Panel_WindowOnUp:Init(args)
 
             AnchoredPosition[i] = v.Rt.anchoredPosition         --记录按钮的位置
             v.Rt.anchoredPosition = Vector2(AnchoredPosition[i].x, 100)                   --修改位置
-            v.Rt:DOAnchorPos(AnchoredPosition[i], 1- i*0.13)          --DoTween 位置动画
+            v.Rt:DOAnchorPos(AnchoredPosition[i], 1 - i * 0.13)          --DoTween 位置动画
         end
     end
     AddButtonAnimation()
-
-    self.uitable.Rt.anchoredPosition = Vector2(0, 0);
 
     local data = DataManager.GetPlayerInfo()
     --初始化 数据
     self:InitData(data)
 
-    --self.uitable.ImagePro_OpenShop:AddClickListener(ClickButton_OpenShop)        --商店
+    self.uitable.ImagePro_ReturnToMain:AddClickListener(OnClick_Close)
+    EventManager.AddEvent(Event_InLua.LeaveMain,Panel_WindowOnUp.LeaveMain)
+    EventManager.AddEvent(Event_InLua.ReturnMain,Panel_WindowOnUp.ReturnMain)
 end
 
 --初始化 数据
 function Panel_WindowOnUp:InitData(args)
+    self.uitable.Rt.anchoredPosition = Vector2(0, 0);
+    goPlayerIcon = self.uitable.ImagePro_BgPlayerInfoBg
+    goReturn = self.uitable.ImagePro_ReturnToMainBg
     self.uitable.Text_Name.text = args.name               --改 Text
     self.uitable.Text_Level.text = args.level
     self.uitable.Image_PlayerIcon:SetImage(args.icon)       --改 Image
+end
+
+function Panel_WindowOnUp.LeaveMain()
+    goPlayerIcon.gameObject:SetActive(false)
+    goReturn.gameObject:SetActive(true)
+end
+function Panel_WindowOnUp.ReturnMain()
+    goPlayerIcon.gameObject:SetActive(true)
+    goReturn.gameObject:SetActive(false)
 end
 
 return Panel_WindowOnUp

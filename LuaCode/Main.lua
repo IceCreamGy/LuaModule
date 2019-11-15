@@ -1,3 +1,5 @@
+EventManager = require "Framework/EventManager"
+Event_InLua = require "ApplicationLayer/Config/Event_InLua"
 UIManager = require "Framework/UIManager"       --ui管理类
 LoadManager = require("Framework/CS_Interface/LoadManager")
 SceneManager = require("Framework/SceneManager")
@@ -13,6 +15,7 @@ Vector3 = UnityEngine.Vector3
 Vector2 = UnityEngine.Vector2
 Color = UnityEngine.Color
 Quaternion = UnityEngine.Quaternion
+
 
 -- 进入游戏
 function init()

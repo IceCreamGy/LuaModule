@@ -21,8 +21,9 @@ namespace XLua.CSObjectWrap
         {
 			ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 			System.Type type = typeof(LoadManager);
-			Utils.BeginObjectRegister(type, L, translator, 0, 7, 0, 0);
+			Utils.BeginObjectRegister(type, L, translator, 0, 8, 0, 0);
 			
+			Utils.RegisterFunc(L, Utils.METHOD_IDX, "Init", _m_Init);
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "LoadUI", _m_LoadUI);
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "LoadTexture", _m_LoadTexture);
 			Utils.RegisterFunc(L, Utils.METHOD_IDX, "LoadSprite", _m_LoadSprite);
@@ -79,6 +80,37 @@ namespace XLua.CSObjectWrap
         
         
         [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+        static int _m_Init(RealStatePtr L)
+        {
+		    try {
+            
+                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
+            
+            
+                LoadManager gen_to_be_invoked = (LoadManager)translator.FastGetCSObj(L, 1);
+            
+            
+                
+                {
+                    UnityEngine.Transform _normalLayer = (UnityEngine.Transform)translator.GetObject(L, 2, typeof(UnityEngine.Transform));
+                    UnityEngine.Transform _TopLayer = (UnityEngine.Transform)translator.GetObject(L, 3, typeof(UnityEngine.Transform));
+                    UnityEngine.Transform _tipsLayer = (UnityEngine.Transform)translator.GetObject(L, 4, typeof(UnityEngine.Transform));
+                    UnityEngine.Transform _maskLayer = (UnityEngine.Transform)translator.GetObject(L, 5, typeof(UnityEngine.Transform));
+                    
+                    gen_to_be_invoked.Init( _normalLayer, _TopLayer, _tipsLayer, _maskLayer );
+                    
+                    
+                    
+                    return 0;
+                }
+                
+            } catch(System.Exception gen_e) {
+                return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
+            }
+            
+        }
+        
+        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
         static int _m_LoadUI(RealStatePtr L)
         {
 		    try {
@@ -91,25 +123,27 @@ namespace XLua.CSObjectWrap
             
 			    int gen_param_count = LuaAPI.lua_gettop(L);
             
-                if(gen_param_count == 4&& (LuaAPI.lua_isnil(L, 2) || LuaAPI.lua_type(L, 2) == LuaTypes.LUA_TSTRING)&& translator.Assignable<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 3)&& translator.Assignable<UnityEngine.Transform>(L, 4)) 
+                if(gen_param_count == 5&& (LuaAPI.lua_isnil(L, 2) || LuaAPI.lua_type(L, 2) == LuaTypes.LUA_TSTRING)&& (LuaAPI.lua_isnil(L, 3) || LuaAPI.lua_type(L, 3) == LuaTypes.LUA_TSTRING)&& translator.Assignable<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 4)&& translator.Assignable<UnityEngine.Transform>(L, 5)) 
                 {
-                    string _bundleName = LuaAPI.lua_tostring(L, 2);
-                    System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup> _callback = translator.GetDelegate<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 3);
-                    UnityEngine.Transform _parent = (UnityEngine.Transform)translator.GetObject(L, 4, typeof(UnityEngine.Transform));
+                    string _uiLayer = LuaAPI.lua_tostring(L, 2);
+                    string _bundleName = LuaAPI.lua_tostring(L, 3);
+                    System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup> _callback = translator.GetDelegate<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 4);
+                    UnityEngine.Transform _parent = (UnityEngine.Transform)translator.GetObject(L, 5, typeof(UnityEngine.Transform));
                     
-                    gen_to_be_invoked.LoadUI( _bundleName, _callback, _parent );
+                    gen_to_be_invoked.LoadUI( _uiLayer, _bundleName, _callback, _parent );
                     
                     
                     
                     return 0;
                 }
-                if(gen_param_count == 4&& (LuaAPI.lua_isnil(L, 2) || LuaAPI.lua_type(L, 2) == LuaTypes.LUA_TSTRING)&& translator.Assignable<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 3)&& translator.Assignable<UnityEngine.GameObject>(L, 4)) 
+                if(gen_param_count == 5&& (LuaAPI.lua_isnil(L, 2) || LuaAPI.lua_type(L, 2) == LuaTypes.LUA_TSTRING)&& (LuaAPI.lua_isnil(L, 3) || LuaAPI.lua_type(L, 3) == LuaTypes.LUA_TSTRING)&& translator.Assignable<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 4)&& translator.Assignable<UnityEngine.GameObject>(L, 5)) 
                 {
-                    string _bundleName = LuaAPI.lua_tostring(L, 2);
-                    System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup> _callback = translator.GetDelegate<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 3);
-                    UnityEngine.GameObject _parent = (UnityEngine.GameObject)translator.GetObject(L, 4, typeof(UnityEngine.GameObject));
+                    string _uiLayer = LuaAPI.lua_tostring(L, 2);
+                    string _bundleName = LuaAPI.lua_tostring(L, 3);
+                    System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup> _callback = translator.GetDelegate<System.Action<UnityEngine.GameObject, XLua.LuaTable, UnityEngine.CanvasGroup>>(L, 4);
+                    UnityEngine.GameObject _parent = (UnityEngine.GameObject)translator.GetObject(L, 5, typeof(UnityEngine.GameObject));
                     
-                    gen_to_be_invoked.LoadUI( _bundleName, _callback, _parent );
+                    gen_to_be_invoked.LoadUI( _uiLayer, _bundleName, _callback, _parent );
                     
                     
                     

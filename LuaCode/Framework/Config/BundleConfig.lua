@@ -4,65 +4,71 @@
 
 local BundleConfig = {
     UI = {
-        Path = {
-            ["Panel_Login"] = "Prefab/UI/LoginScene/Panel_Login",
+        ["Panel_Login"] = { ["UILayer"] = "Normal",
+                            ["AssetPath"] = "Prefab/UI/LoginScene/Panel_Login",
+                            ["CodePath"] = "ApplicationLayer/UI/LoginScene/Panel_Login", },
+        ["Panel_Loading"] = { ["UILayer"] = "Normal",
+                              ["AssetPath"] = "Prefab/UI/LoadingScene/Panel_Loading",
+                              ["CodePath"] = "ApplicationLayer/UI/LoadingScene/Panel_Loading", },
+        ["Panel_MainScene"] = { ["UILayer"] = "Normal",
+                                ["AssetPath"] = "Prefab/UI/MainScene/Panel_MainScene",
+                                ["CodePath"] = "ApplicationLayer/UI/MainScene/Main/Panel_MainScene", },
+        ["Panel_WindowOnLeft"] = { ["UILayer"] = "Normal",
+                                   ["AssetPath"] = "Prefab/UI/MainScene/Panel_WindowOnLeft",
+                                   ["CodePath"] = "ApplicationLayer/UI/MainScene/Main/Panel_WindowOnLeft", },
+        ["Panel_WindowOnBelow"] = { ["UILayer"] = "Normal",
+                                    ["AssetPath"] = "Prefab/UI/MainScene/Panel_WindowOnBelow",
+                                    ["CodePath"] = "ApplicationLayer/UI/MainScene/Main/Panel_WindowOnBelow", },
+        ["Panel_WindowOnUp"] = { ["UILayer"] = "Top",
+                                 ["AssetPath"] = "Prefab/UI/MainScene/Panel_WindowOnUp",
+                                 ["CodePath"] = "ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp", },
+        ["Panel_Shop"] = { ["UILayer"] = "Normal",
+                           ["AssetPath"] = "Prefab/UI/MainScene/Shop/Panel_Shop",
+                           ["CodePath"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop", },
+        ["ImagePro_ShopSelectButtonItem"] = { ["UILayer"] = "Normal",
+                                              ["AssetPath"] = "Prefab/UI/MainScene/Shop/ImagePro_ShopSelectButtonItem",
+                                              ["CodePath"] = "ApplicationLayer/UI/MainScene/Shop/ImagePro_ShopSelectButtonItem", },
+        ["Panel_Shop_ZhanGui"] = { ["UILayer"] = "Normal",
+                                   ["AssetPath"] = "Prefab/UI/MainScene/Shop/Panel_Shop_ZhanGui",
+                                   ["CodePath"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ZhanGui", },
+        ["Panel_Shop_LingJian"] = { ["UILayer"] = "Normal",
+                                    ["AssetPath"] = "Prefab/UI/MainScene/Shop/Panel_Shop_LingJian",
+                                    ["CodePath"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian", },
+        ["Panel_Shop_LingJianItem"] = { ["UILayer"] = "Normal",
+                                        ["AssetPath"] = "Prefab/UI/MainScene/Shop/Panel_Shop_LingJianItem",
+                                        ["CodePath"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJianItem", },
+        ["Panel_QianDao"] = { ["UILayer"] = "Normal",
+                              ["AssetPath"] = "Prefab/UI/MainScene/QianDao/Panel_QianDao",
+                              ["CodePath"] = "ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao", },
+        ["Panel_BuJi"] = { ["UILayer"] = "Normal",
+                           ["AssetPath"] = "Prefab/UI/MainScene/BuJi/Panel_BuJi",
+                           ["CodePath"] = "ApplicationLayer/UI/MainScene/BuJi/Panel_BuJi", },
+        ["Panel_BuJiResult"] = { ["UILayer"] = "Normal",
+                                 ["AssetPath"] = "Prefab/UI/MainScene/BuJi/Panel_BuJiResult",
+                                 ["CodePath"] = "ApplicationLayer/UI/MainScene/BuJi/Panel_BuJiResult", },
+        ["Panel_BiSai"] = { ["UILayer"] = "Normal",
+                            ["AssetPath"] = "Prefab/UI/MainScene/BiSai/Panel_BiSai",
+                            ["CodePath"] = "ApplicationLayer/UI/MainScene/BiSai/Panel_BiSai", },
+        ["Panel_DuiZhanDaTing_Map"] = { ["UILayer"] = "Normal",
+                                        ["AssetPath"] = "Prefab/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map",
+                                        ["CodePath"] = "ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map", },
+        ["Panel_TiaoZhan"] = { ["UILayer"] = "Normal",
+                               ["AssetPath"] = "Prefab/UI/MainScene/TiaoZhan/Panel_TiaoZhan",
+                               ["CodePath"] = "ApplicationLayer/UI/MainScene/TiaoZhan/Panel_TiaoZhan", },
+        ["Panel_JuQing"] = { ["UILayer"] = "Normal",
+                             ["AssetPath"] = "Prefab/UI/MainScene/JuQing/Panel_JuQing",
+                             ["CodePath"] = "ApplicationLayer/UI/MainScene/JuQing/Panel_JuQing", },
 
-            ["Panel_Loading"] = "Prefab/UI/LoadingScene/Panel_Loading",
-
-            ["Panel_MainScene"] = "Prefab/UI/MainScene/Panel_MainScene",
-            ["Panel_WindowOnLeft"] = "Prefab/UI/MainScene/Panel_WindowOnLeft",
-            ["Panel_WindowOnBelow"] = "Prefab/UI/MainScene/Panel_WindowOnBelow",
-            ["Panel_WindowOnUp"] = "Prefab/UI/MainScene/Panel_WindowOnUp",
-
-            ["Panel_Shop"] = "Prefab/UI/MainScene/Shop/Panel_Shop",
-            ["ImagePro_ShopSelectButtonItem"] = "Prefab/UI/MainScene/Shop/ImagePro_ShopSelectButtonItem",
-            ["Panel_Shop_ZhanGui"] = "Prefab/UI/MainScene/Shop/Panel_Shop_ZhanGui",
-            ["Panel_Shop_LingJian"] = "Prefab/UI/MainScene/Shop/Panel_Shop_LingJian",
-            ["Panel_Shop_LingJianItem"] = "Prefab/UI/MainScene/Shop/Panel_Shop_LingJianItem",
-
-            ["Panel_QianDao"] = "Prefab/UI/MainScene/QianDao/Panel_QianDao",
-
-            ["Panel_BuJi"] = "Prefab/UI/MainScene/BuJi/Panel_BuJi",
-            ["Panel_BuJiResult"] = "Prefab/UI/MainScene/BuJi/Panel_BuJiResult",
-
-            ["Panel_BiSai"] = "Prefab/UI/MainScene/BiSai/Panel_BiSai",
-            ["Panel_DuiZhanDaTing_Map"] = "Prefab/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map",
-            ["Panel_TiaoZhan"] = "Prefab/UI/MainScene/TiaoZhan/Panel_TiaoZhan",
-            ["Panel_JuQing"] = "Prefab/UI/MainScene/JuQing/Panel_JuQing",
-        },
-        Code = {
-            ["Panel_Login"] = "ApplicationLayer/UI/LoginScene/Panel_Login",
-
-            ["Panel_Loading"] = "ApplicationLayer/UI/LoadingScene/Panel_Loading",
-
-            ["Panel_MainScene"] = "ApplicationLayer/UI/MainScene/Main/Panel_MainScene",
-            ["Panel_WindowOnLeft"] = "ApplicationLayer/UI/MainScene/Main/Panel_WindowOnLeft",
-            ["Panel_WindowOnBelow"] = "ApplicationLayer/UI/MainScene/Main/Panel_WindowOnBelow",
-            ["Panel_WindowOnUp"] = "ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp",
-
-            ["Panel_Shop"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop",
-            ["ImagePro_ShopSelectButtonItem"] = "ApplicationLayer/UI/MainScene/Shop/ImagePro_ShopSelectButtonItem",
-            ["Panel_Shop_ZhanGui"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ZhanGui",
-            ["Panel_Shop_LingJian"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian",
-            ["Panel_Shop_LingJianItem"] = "ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJianItem",
-
-            ["Panel_QianDao"] = "ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao",
-
-            ["Panel_BuJi"] = "ApplicationLayer/UI/MainScene/BuJi/Panel_BuJi",
-            ["Panel_BuJiResult"] = "ApplicationLayer/UI/MainScene/BuJi/Panel_BuJiResult",
-
-            ["Panel_BiSai"] = "ApplicationLayer/UI/MainScene/BiSai/Panel_BiSai",
-            ["Panel_DuiZhanDaTing_Map"] = "ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map",
-            ["Panel_TiaoZhan"] = "ApplicationLayer/UI/MainScene/TiaoZhan/Panel_TiaoZhan",
-            ["Panel_JuQing"] = "ApplicationLayer/UI/MainScene/JuQing/Panel_JuQing",
-        },
     }
 }
 
 function BundleConfig.Get_UIAsset(name)
-    return BundleConfig.UI.Path[name]
+    return BundleConfig.UI[name]["AssetPath"]
 end
 function BundleConfig.Get_UICode(name)
-    return BundleConfig.UI.Code[name]
+    return BundleConfig.UI[name]["CodePath"]
+end
+function BundleConfig.Get_UILayer(name)
+    return BundleConfig.UI[name]["UILayer"]
 end
 return BundleConfig

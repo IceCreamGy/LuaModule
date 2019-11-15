@@ -22,16 +22,15 @@ local function InitPanel(panelName, Panel, UiTable, CanvasGroup, args)
     local panel_instance = panel_class.New(panelName, Panel, UiTable, CanvasGroup, args)
     return panel_instance
 end
-local function LoadUI(panelPath, args, callBack, parent)
+local function LoadUI(panelName, args, callBack, parent)
     --从硬盘加载面板
-    local panelPathInUnity = BundleConfig.Get_UIAsset(panelPath)
+    local panelPathInUnity = BundleConfig.Get_UIAsset(panelName)
     local callbackFromUnity = function(Panel, UiTable, CanvasGroup)
-        local panel_instance = InitPanel(panelPath, Panel, UiTable, CanvasGroup, args)
+        local panel_instance = InitPanel(panelName, Panel, UiTable, CanvasGroup, args)
         callBack(panel_instance)
     end
-    --未来要加入Layer的概念。
-    --local layer = UIConfig[ui_name].Layer
-    LoadManager.LoadUI(panelPathInUnity, callbackFromUnity, parent)
+    local layer = BundleConfig.Get_UILayer(panelName)
+    LoadManager.LoadUI(layer, panelPathInUnity, callbackFromUnity, parent)
 end
 local function SaveUI(panel_instance)
     panel_dic[panel_instance:get_dlg_name()] = panel_instance
@@ -65,8 +64,8 @@ function UIManager.OpenUI(panelPath, args)
         end)
     end
 end
-function UIManager.OpenPoPupUI(panelPath, args, parent)
-    local panel_instance = panel_dic[panelPath]
+function UIManager.OpenPoPupUI(panelName, args, parent)
+    local panel_instance = panel_dic[panelName]
     if panel_instance then
         if panel_instance:is_panel_released() == false then
             panel_instance:Show(args)
@@ -77,14 +76,14 @@ function UIManager.OpenPoPupUI(panelPath, args, parent)
         end
     else
         --没有的话，从磁盘加载，实例化面板
-        LoadUI(panelPath, args, function(panel_instance)
+        LoadUI( panelName, args, function(panel_instance)
             SaveUI(panel_instance)
         end, parent)
     end
 end
-function UIManager.OpenOneUI(panelPath,args)
+function UIManager.OpenOneUI(panelName, args)
     UIManager.CloseAllUI()
-    UIManager.OpenUI(panelPath,args)
+    UIManager.OpenUI(panelName, args)
 end
 function UIManager.CloseUI()
     if not panel_stack:isEmpty() then

@@ -44,6 +44,7 @@ function Panel_BiSai:On_Close()
     Panel_BiSai.CloseTweener:OnComplete(function()
         --位移动画完成后，关闭所有面板
         self.CG.alpha = 0
+        EventManager.DispachEvent(Event_InLua.ReturnMain)
     end)
 end
 

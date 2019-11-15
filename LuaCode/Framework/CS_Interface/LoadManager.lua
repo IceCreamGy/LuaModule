@@ -6,8 +6,8 @@ local CS_LoadManager = CS.AppFacade.instance:GetLoadManager()
 local LoadManager = {}
 
 --加载UI
-function LoadManager.LoadUI(bundleName, func, parent)
-    CS_LoadManager:LoadUI(bundleName, func, parent)
+function LoadManager.LoadUI(layer, bundleName, func, parent)
+    CS_LoadManager:LoadUI(layer, bundleName, func, parent)
 end
 
 --复制UI，并设置父物体
@@ -35,8 +35,8 @@ function LoadManager.CopyGameobject(bundleName)
     return CS_LoadManager:CopyGameobject(bundleName)
 end
 
-function LoadManager.LoadScene(SceneName,EndAction)
-    CS_LoadManager:LoadScene(SceneName,EndAction)
+function LoadManager.LoadScene(SceneName, EndAction)
+    CS_LoadManager:LoadScene(SceneName, EndAction)
 end
 
 --[[

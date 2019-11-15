@@ -17,20 +17,15 @@ public class AppFacade : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        InitManager();
-
         DontDestroyOnLoad(this.gameObject);
-
         Canvas = GameObject.Find("Canvas").transform;
-        DontDestroyOnLoad(Canvas.gameObject);
-
         GameObject uiroot = GameObject.Find("UIRoot");
         DontDestroyOnLoad(uiroot);
-
         GoContainer = new GameObject("GoContainer").transform;
         GoContainer.transform.SetParent(transform);
 
-        Invoke("InitLua", 0.5f);
+        InitManager();      
+        Invoke("InitLua", 0.3f);
     }
 
     void InitLua()
@@ -43,6 +38,12 @@ public class AppFacade : MonoBehaviour
         managerDic.Add(typeof(LuaManager), gameObject.AddComponent<LuaManager>());
         managerDic.Add(typeof(LoadManager), gameObject.AddComponent<LoadManager>());
         managerDic.Add(typeof(TimerManager), gameObject.AddComponent<TimerManager>());
+
+        Transform Normal = Canvas.Find("Normal");
+        Transform Top = Canvas.Find("Top");
+        Transform Tips = Canvas.Find("Tips");
+        Transform Mask = Canvas.Find("Mask");
+        GetLoadManager().Init(Normal, Top, Tips, Mask);
     }
 
     public LuaManager GetLuaManager()

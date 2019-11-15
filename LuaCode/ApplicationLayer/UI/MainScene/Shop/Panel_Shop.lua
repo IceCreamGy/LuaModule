@@ -52,6 +52,7 @@ function Panel_Shop:On_Close()
     local tweenerBack = self.uitable.ImagePro_Mask.Rt:DOSizeDelta(Vector2(0, 1080), 0.4)
     tweenerBack:OnComplete(function()
         self.CG.alpha = 0
+        EventManager.DispachEvent(Event_InLua.ReturnMain)
     end)
 end
 

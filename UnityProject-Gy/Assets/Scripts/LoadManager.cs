@@ -7,8 +7,16 @@ using UnityEngine.SceneManagement;
 
 public class LoadManager : BaseManager
 {
+    Transform normalLayer, TopLayer, tipsLayer, maskLayer;
+    public void Init(Transform normalLayer, Transform TopLayer, Transform tipsLayer, Transform maskLayer)
+    {
+        this.normalLayer = normalLayer;
+        this.tipsLayer = tipsLayer;
+        this.TopLayer = TopLayer;
+        this.maskLayer = maskLayer;
+    }
     //加载UI
-    public void LoadUI(string bundleName, Action<GameObject, LuaTable, CanvasGroup> callback, Transform parent)
+    public void LoadUI(string uiLayer, string bundleName, Action<GameObject, LuaTable, CanvasGroup> callback, Transform parent)
     {
         GameObject panel = Resources.Load<GameObject>(bundleName);
         panel = GameObject.Instantiate(panel);
@@ -24,11 +32,26 @@ public class LoadManager : BaseManager
 
         if (parent == null)
         {
-            panel.transform.SetParent(Canvas);
-            rectTransform.anchorMin = Vector2.zero;
-            rectTransform.anchorMax = Vector2.one;
-            rectTransform.offsetMax = Vector2.zero;
-            rectTransform.offsetMin = Vector2.zero;
+            if (uiLayer == "Normal")
+            {
+                panel.transform.SetParent(normalLayer);
+                rectTransform.anchorMin = Vector2.zero;
+                rectTransform.anchorMax = Vector2.one;
+                rectTransform.offsetMax = Vector2.zero;
+                rectTransform.offsetMin = Vector2.zero;
+            }
+            if (uiLayer == "Top")
+            {
+                panel.transform.SetParent(TopLayer);
+            }
+            if (uiLayer == "Tips")
+            {
+                panel.transform.SetParent(tipsLayer);
+            }
+            if (uiLayer == "Mask")
+            {
+                panel.transform.SetParent(tipsLayer);
+            }            
         }
         else
         {
@@ -42,9 +65,9 @@ public class LoadManager : BaseManager
         callback(panel, uIComponentCollector.uitable, canvasGroup);
     }
     //加载UI
-    public void LoadUI(string bundleName, Action<GameObject, LuaTable, CanvasGroup> callback, GameObject parent)
+    public void LoadUI(string uiLayer, string bundleName, Action<GameObject, LuaTable, CanvasGroup> callback, GameObject parent)
     {
-        LoadUI(bundleName, callback, parent.transform);
+        LoadUI(uiLayer, bundleName, callback, parent.transform);
     }
 
     //加载Texture
@@ -101,6 +124,7 @@ public class LoadManager : BaseManager
                 ao.allowSceneActivation = true;
             }
             yield return new WaitForSeconds(0.2f);
+            yield return new WaitForEndOfFrame();
         }
 
         myCallback();
