@@ -65,6 +65,27 @@ function UIManager.OpenUI(panelPath, args)
         end)
     end
 end
+function UIManager.OpenPoPupUI(panelPath, args, parent)
+    local panel_instance = panel_dic[panelPath]
+    if panel_instance then
+        if panel_instance:is_panel_released() == false then
+            panel_instance:Show(args)
+            panel_instance:SetPriority()
+            return
+        else
+            --暂不考虑释放后
+        end
+    else
+        --没有的话，从磁盘加载，实例化面板
+        LoadUI(panelPath, args, function(panel_instance)
+            SaveUI(panel_instance)
+        end, parent)
+    end
+end
+function UIManager.OpenOneUI(panelPath,args)
+    UIManager.CloseAllUI()
+    UIManager.OpenUI(panelPath,args)
+end
 function UIManager.CloseUI()
     if not panel_stack:isEmpty() then
         --第一层元素，执行关闭流程
@@ -90,24 +111,6 @@ function UIManager.CloseAllUI()
 end
 function UIManager.CloseTarget(panelName)
     panel_dic[panelName]:Close()
-end
-
-function UIManager.OpenPoPupUI(panelPath, args, parent)
-    local panel_instance = panel_dic[panelPath]
-    if panel_instance then
-        if panel_instance:is_panel_released() == false then
-            panel_instance:Show(args)
-            panel_instance:SetPriority()
-            return
-        else
-            --暂不考虑释放后
-        end
-    else
-        --没有的话，从磁盘加载，实例化面板
-        LoadUI(panelPath, args, function(panel_instance)
-            SaveUI(panel_instance)
-        end, parent)
-    end
 end
 
 function UIManager.GetPanel(panelName)

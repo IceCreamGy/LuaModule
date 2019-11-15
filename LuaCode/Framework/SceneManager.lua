@@ -1,8 +1,9 @@
 --场景管理器
 
 local function LoadScene(Name,EndAction)
-    UIManager.CloseAllUI()
-    UIManager.OpenUI("Panel_Loading")
+    UIManager.OpenOneUI("Panel_Loading")
+    --要去清空对象池
+    --要去释放资源
     LoadManager.LoadScene(Name,EndAction)
 end
 
