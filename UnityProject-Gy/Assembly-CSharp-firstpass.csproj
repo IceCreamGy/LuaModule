@@ -315,6 +315,9 @@
     <Reference Include="DOTweenPro">
       <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Plugins/protobuf-net.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -323,9 +326,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Plugins/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Unity-Application/2018-4/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

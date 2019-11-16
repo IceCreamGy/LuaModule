@@ -343,6 +343,9 @@
     <Reference Include="DOTweenProEditor">
       <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Plugins/protobuf-net.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -357,9 +360,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Plugins/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Unity-Application/2018-4/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

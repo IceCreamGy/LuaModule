@@ -2,8 +2,8 @@
 --外部只提供给网络模块调用！！！
 
 require "msgconfig/net_msg_config"
-local pb = require 'pb'
-local protoc = require 'protoc'
+local pb = require 'pb'       --Lua虚拟机启动时，XLua进行注册
+local protoc = require 'protoc'      --Lua虚拟机启动时，XLua进行注册
 
 local function gen_msg_map()
     MSG_TYPE = {}
@@ -14,7 +14,7 @@ end
 
 local function init()
     --解析所有pb文件
-    local pb_message = LuaManager.GetPBString("pb/net_msg.pb")
+    local pb_message = LuaManager.GetPBString("Framework/Config/Net_Msg.pb")
     protoc:load(pb_message)
     gen_msg_map()
 end

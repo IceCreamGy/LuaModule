@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ba5f4f-dabd-47d3-8a04-b3540a480b9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework/Config/NetMsg.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework/Config/Net_Msg.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/Config/Event_InLua.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Config/Event_InLua.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_BiSai.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_BiSai.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BuJi/Panel_BuJi.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BuJi/Panel_BuJi.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/JuQing/Panel_JuQing.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/JuQing/Panel_JuQing.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/TiaoZhan/Panel_TiaoZhan.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/TiaoZhan/Panel_TiaoZhan.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/Base/BaseUI.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Base/BaseUI.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/EventManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/EventManager.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/ProtobufManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/ProtobufManager.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Main.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/TODO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/BiSai/Panel_BiSai.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/BiSai/Panel_BiSai.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/BuJi/Panel_BuJi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/BuJi/Panel_BuJi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/JuQing/Panel_JuQing.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/JuQing/Panel_JuQing.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/Panel_WindowOnUp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/Panel_WindowOnUp.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/Shop/Panel_Shop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/Shop/Panel_Shop.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/TiaoZhan/Panel_TiaoZhan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/UI/MainScene/TiaoZhan/Panel_TiaoZhan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/Test/QiGuai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/Test/QiGuai.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/Hierarchy/9cf899-6d485dff582963844b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/Hierarchy/9cf899-6d485dff582963844b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/Hierarchy/9cf899-ac3c4ba13dba62d42a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/Hierarchy/9cf899-ac3c4ba13dba62d42a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/SceneView/d9b8b2-6d485dff582963844b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/StateCache/SceneView/d9b8b2-6d485dff582963844b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor-firstpass.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-firstpass.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/AppFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/AppFacade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/LuaManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/LuaManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,73 +35,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/Config/Event_InLua.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/EventManager.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="616">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Framework/ProtobufManager.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Framework/Config/NetMsg.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="6" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/NetworkManager.lua">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadMe/TODO.txt">
+        <entry file="file://$PROJECT_DIR$/Framework/NetworkManager.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="572">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua">
+        <entry file="file://$PROJECT_DIR$/Framework/Config/Net_Msg.pb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258">
-              <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReadMe/对应表、">
+        <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="154">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -124,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -157,13 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_BiSai.lua" />
-        <option value="$PROJECT_DIR$/Framework/CS_Interface/TimerManager.lua" />
-        <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/MapData.lua" />
-        <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_DuiZhanDaTing_MapItem.lua" />
-        <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/Panel_DuiZhanDaTing_Map.lua" />
-        <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ClassifySelectButton.lua" />
-        <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/DataCenter/PlayerInfo.lua" />
         <option value="$PROJECT_DIR$/TestOrder.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/BiSai/MapNanDuButton.lua" />
@@ -202,12 +186,19 @@
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/JuQing/Panel_JuQing.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_BiSai.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/Config/Event_InLua.lua" />
-        <option value="$PROJECT_DIR$/Main.lua" />
         <option value="$PROJECT_DIR$/Framework/Config/Event_InLua.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua" />
         <option value="$PROJECT_DIR$/Framework/EventManager.lua" />
         <option value="$PROJECT_DIR$/ReadMe/TODO.txt" />
+        <option value="$PROJECT_DIR$/Framework/NetWork.lua" />
+        <option value="$PROJECT_DIR$/Framework/Network.lua" />
+        <option value="$PROJECT_DIR$/Framework/NetworkManager.lua" />
+        <option value="$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua" />
+        <option value="$PROJECT_DIR$/Framework/ProtobufManager.lua" />
+        <option value="$PROJECT_DIR$/Framework/Config/Net_Msg.pb" />
+        <option value="$PROJECT_DIR$/Framework/Config/NetMsg.lua" />
+        <option value="$PROJECT_DIR$/Main.lua" />
       </list>
     </option>
   </component>
@@ -219,7 +210,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2277" />
+    <option name="x" value="1912" />
     <option name="y" value="-13" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -232,7 +223,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,21 +244,6 @@
             <path>
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="MainScene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="MainScene" type="462c0819:PsiDirectoryNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
               <item name="Framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,16 +255,18 @@
             <path>
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="ReadMe" type="462c0819:PsiDirectoryNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="CS_Interface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/Gy-project-master/LuaCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -351,7 +328,7 @@
     <frame x="1912" y="-13" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23880596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,30 +357,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/Scenes/Config/SceneConfig.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/Scenes/BattleScene.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/Tools/DataStructure/Stack.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/HuoDong/Panel_Active.lua" />
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/DataCenter/ActiveData.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe/项目的说明文档，放在这个文件夹下.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe/性能优化" />
     <entry file="file://$PROJECT_DIR$/ReadMe/代码规范.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -411,9 +364,6 @@
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/NetworkManager.lua">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/UIEventHelper.lua">
       <provider selected="true" editor-type-id="text-editor">
@@ -564,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/LoadingScene/Panel_Loading.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/LoginScene/Panel_Login.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -589,13 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -672,13 +608,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/Config/Event_InLua.lua">
+    <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="1408">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Config/Event_InLua.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/NetManager_InLua.lua" />
     <entry file="file://$PROJECT_DIR$/Framework/EventManager.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -686,10 +637,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.lua">
+    <entry file="file://$PROJECT_DIR$/ReadMe/TODO.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="330">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/LoadingScene/Panel_Loading.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -700,38 +665,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua">
+    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+        <state relative-caret-position="286">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe/TODO.txt">
+    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="154">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/ProtobufManager.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Config/Net_Msg.pb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/NetworkManager.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Config/NetMsg.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="6" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/NetworkManager.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>

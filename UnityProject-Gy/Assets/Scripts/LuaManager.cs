@@ -79,4 +79,10 @@ public class LuaManager : BaseManager
     {
         return env.NewTable();
     }
+
+    public string GetPBString(string fileName)
+    {
+        string PbDirectory = "../LuaCode";
+        return File.ReadAllText(string.Format("{0}/{1}", PbDirectory, fileName));
+    }
 }

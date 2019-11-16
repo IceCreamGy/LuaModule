@@ -9,6 +9,7 @@ DataManager = require("ApplicationLayer/DataCenter/DataManager")
 BundleConfig = require("Framework/Config/BundleConfig")
 Tools = require("Framework/Tools/Tools")
 NetworkManager = require "Framework/NetworkManager"
+LuaManager = require "Framework/CS_Interface/LuaManager"
 
 --暂时放到这里，后期整理
 UnityEngine = CS.UnityEngine
@@ -24,6 +25,8 @@ function init()
 
     UIManager.OpenUI("Panel_Login", nil)           --登陆场景
     --UIManager.OpenUI("Panel_MainScene", nil)     --跳过登录场景
+
+    NetworkManager.Send(NetMsg.UserInfo, { name = "gaoyuan", level = 10, diamond = 500 })
 end
 
 --c# update
