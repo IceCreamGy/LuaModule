@@ -8,6 +8,7 @@ UIEventHelper = require("Framework/CS_Interface/UIEventHelper")
 DataManager = require("ApplicationLayer/DataCenter/DataManager")
 BundleConfig = require("Framework/Config/BundleConfig")
 Tools = require("Framework/Tools/Tools")
+NetworkManager = require "Framework/NetworkManager"
 
 --暂时放到这里，后期整理
 UnityEngine = CS.UnityEngine

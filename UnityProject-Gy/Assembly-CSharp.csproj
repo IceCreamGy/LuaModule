@@ -114,9 +114,11 @@
     <Compile Include="Assets\Scripts\DeleteMeta.cs" />
     <Compile Include="Assets\Scripts\LoadManager.cs" />
     <Compile Include="Assets\Scripts\LuaManager.cs" />
+    <Compile Include="Assets\Scripts\NetworkManager.cs" />
     <Compile Include="Assets\Scripts\Test\QiGuai.cs" />
     <Compile Include="Assets\Scripts\Test\QiGuai_Try.cs" />
     <Compile Include="Assets\Scripts\TimerManager.cs" />
+    <Compile Include="Assets\Scripts\Tools\BinarySerializeOpt.cs" />
     <Compile Include="Assets\Scripts\Tools\UIComponentCollector.cs" />
     <Compile Include="Assets\Scripts\Tools\UIEventHelper.cs" />
     <Compile Include="Assets\Scripts\Tools\UnityExtension.cs" />
@@ -141,70 +143,6 @@
     <Compile Include="Assets\XLua\Examples\11_RawObject\RawObjectTest.cs" />
     <Compile Include="Assets\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
     <Compile Include="Assets\XLua\Examples\ExampleGenConfig.cs" />
-    <Compile Include="Assets\XLua\Gen\AppFacadeWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DelegatesGensBridge.cs" />
-    <Compile Include="Assets\XLua\Gen\DGTweeningDOTweenAnimationWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DGTweeningDOTweenWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DGTweeningShortcutExtensions46Wrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DGTweeningShortcutExtensionsWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DGTweeningTweenExtensionsWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DGTweeningTweenSettingsExtensionsWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\EnumWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\ImageProWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\LoadManagerWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\LuaManagerWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
-    <Compile Include="Assets\XLua\Gen\SystemCollectionsGenericList1SystemInt32Wrap.cs" />
-    <Compile Include="Assets\XLua\Gen\SystemCollectionsIEnumeratorBridge.cs" />
-    <Compile Include="Assets\XLua\Gen\SystemObjectWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\TutorialBaseClassWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\TutorialCSCallLuaItfDBridge.cs" />
-    <Compile Include="Assets\XLua\Gen\TutorialDerivedClassExtensionsWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\TutorialDerivedClassWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\TutorialICalcWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UIEventHelperWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineAnimationClipWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineAnimationCurveWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineBehaviourWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineBoundsWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineColorWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineComponentWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineDebugWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineGameObjectWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineKeyframeWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineLightWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineMathfWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineMonoBehaviourWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineObjectWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineParticleSystemWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineQuaternionWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineRay2DWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineRayWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineRendererWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineResourcesWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineSkinnedMeshRendererWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineTextAssetWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineTimeWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineTransformWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineVector2Wrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineVector3Wrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineVector4Wrap.cs" />
-    <Compile Include="Assets\XLua\Gen\UnityEngineWaitForSecondsWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\WrapPusher.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaGenAutoRegister.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestBaseTestWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestFoo1ChildWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestFoo1ParentWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestFoo2ChildWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestFoo2ParentWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestFooExtensionWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestFooWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestIExchangerBridge.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestInvokeLuaICalcBridge.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestLuaBehaviourWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestMyStructWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestNoGcWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\XLuaTestPeddingWrap.cs" />
     <Compile Include="Assets\XLua\Src\CodeEmit.cs" />
     <Compile Include="Assets\XLua\Src\CopyByValue.cs" />
     <Compile Include="Assets\XLua\Src\DelegateBridge.cs" />
@@ -247,7 +185,6 @@
     <None Include="Assets\XLua\Examples\07_AsyncTest\Resources\message_box.lua.txt" />
     <None Include="Assets\Shaders\fx\TransparentVetexAdvance.shader" />
     <None Include="Assets\Shaders\Character\CharacterHighQualityHair.shader" />
-    <None Include="Assets\XLua\Gen\link.xml" />
     <None Include="Assets\XLua\Examples\06_Coroutine\Resources\cs_coroutine.lua.txt" />
     <None Include="Assets\Shaders\MADFINGER-Unlit-Scroll2Layers-Mul-Sine.shader" />
     <None Include="Assets\Shaders\Displacement MapMask.shader" />
@@ -627,6 +564,9 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>D:/GitProject/LuaModule-GaoYuan/UnityProject-Gy/Assets/Plugins/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Unity-Application/2018-4/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

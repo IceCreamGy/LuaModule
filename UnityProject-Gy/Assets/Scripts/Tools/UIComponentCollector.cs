@@ -21,10 +21,6 @@ public class UICollectorHelper : MonoBehaviour
     public const string MASK = "Mask";
     public const string TOGGLEPRO = "TogglePro";
 
-    //BaiBing -2019-10-25
-    //    public const string ScrollView = "ScrollView";
-
-
     private static Dictionary<string, bool> recursion_check_dic = new Dictionary<string, bool>() {
         {BUTTON,true },
         {TEXT,true },

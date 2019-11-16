@@ -10,9 +10,10 @@ public class LuaManager : BaseManager
 {
     LuaEnv env = null;
 
-    Action lua_init = null;
-    Action lua_update = null;
-    Action lua_late_update = null;
+    Action Lua_Init = null;
+    Action Lua_Update = null;
+    Action Lua_LateUpdate = null;
+    Action<int, byte[]> Lua_Dispatch = null;
 
     float timer = 0;
 
@@ -27,10 +28,7 @@ public class LuaManager : BaseManager
             string filePath = string.Format("{0}/{1}{2}", LuaDirectory, filename, ".lua");
 
             return File.ReadAllBytes(filePath);
-
-        });
-
-      
+        });      
     }
 
     /// <summary>
@@ -39,28 +37,34 @@ public class LuaManager : BaseManager
     public void InitLuaFunction()
     {
         env.DoString("require 'main'");
-        lua_init = env.Global.Get<Action>("init");
-        if (lua_init != null)
+        Lua_Init = env.Global.Get<Action>("init");
+        if (Lua_Init != null)
         {
-            lua_init();
+            Lua_Init();
         }
-        lua_update = env.Global.Get<Action>("update");
-        lua_late_update = env.Global.Get<Action>("late_update");
+        Lua_Update = env.Global.Get<Action>("update");
+        Lua_LateUpdate = env.Global.Get<Action>("late_update");
+        Lua_Dispatch = env.Global.Get<Action<int, byte[]>>("Dispatch");
+    }
+
+    public void DispachNetMsg2Lua(NetMsg msg)
+    {
+        Lua_Dispatch(msg.msgType, msg.msgBytes);
     }
 
     private void Update()
     {
-        if (lua_update != null)
+        if (Lua_Update != null)
         {
-            lua_update();
+            Lua_Update();
         }
     }
 
     private void LateUpdate()
     {
-        if (lua_late_update != null)
+        if (Lua_LateUpdate != null)
         {
-            lua_late_update();
+            Lua_LateUpdate();
         }
     }
 
