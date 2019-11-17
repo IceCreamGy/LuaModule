@@ -1,9 +1,8 @@
-CS_LuaManager = CS.C_Framework.AppFacade.instance:GetLuaManager()
+CS_LuaManager = CS.AppFacade.instance:GetLuaManager()
 
-local function GetPBString (fileName)
+local LuaManager={}
+function LuaManager.GetPBString (fileName)
     return CS_LuaManager:GetPBString(fileName)
 end
 
-LuaManager = {
-    GetPBString = GetPBString,
-}
+return LuaManager

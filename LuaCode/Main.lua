@@ -9,7 +9,10 @@ DataManager = require("ApplicationLayer/DataCenter/DataManager")
 BundleConfig = require("Framework/Config/BundleConfig")
 Tools = require("Framework/Tools/Tools")
 NetworkManager = require "Framework/NetworkManager"
+NetworkManager_InCS = require "Framework/CS_Interface/NetworkManager_InCS"
 LuaManager = require "Framework/CS_Interface/LuaManager"
+NetMsg = require("Framework/Config/NetMsg")
+ProtobufManager = require"Framework/ProtobufManager"
 
 --暂时放到这里，后期整理
 UnityEngine = CS.UnityEngine
@@ -18,10 +21,10 @@ Vector2 = UnityEngine.Vector2
 Color = UnityEngine.Color
 Quaternion = UnityEngine.Quaternion
 
-
 -- 进入游戏
 function init()
     print("GameMain start...")
+    ProtobufManager.init()
 
     UIManager.OpenUI("Panel_Login", nil)           --登陆场景
     --UIManager.OpenUI("Panel_MainScene", nil)     --跳过登录场景

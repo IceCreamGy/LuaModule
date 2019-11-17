@@ -1,7 +1,7 @@
 --面板的基类
 
 local eventmanager = require "Framework/EventManager"
-local network = require "Framework/NetManager_InLua"
+--local network = require "Framework/NetManager_InLua"
 
 local Base_UI = Class("Base_UI")
 

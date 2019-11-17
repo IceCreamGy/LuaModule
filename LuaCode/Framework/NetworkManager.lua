@@ -5,7 +5,7 @@
 --网络层从pb层获取解析、加密的数据进行发送
 --网络消息中心，注册、移除、分发、发送
 
-local pbmanager = require"Framework/ProtobufManager"
+local ProtobufManager = require"Framework/ProtobufManager"
 
 --消息表
 local msg_register_table = {}
@@ -13,7 +13,7 @@ local msg_register_table = {}
 local register_id = 0
 
 local function Dispatch(msgType , bytes )
-    local msg_table = pbmanager.get_msg_table(msgType,bytes)
+    local msg_table = ProtobufManager.get_msg_table(msgType,bytes)
     if(msg_table ~= nil) then
         print(string.format("receive msg========= type: %s , name:%s , value: %s",msgType , MSG_TYPE[msgType] ,util.table_to_string(msg_table)))
         local funcs =  msg_register_table[msgType]
@@ -28,9 +28,9 @@ end
 
 local function Send(msgType, msgTalbe)
     --根据协议type和table，解析成bytes
-    local msg_bytes = pbmanager.get_msg_bytes(msgType,msgTalbe)
+    local msg_bytes = ProtobufManager.get_msg_bytes(msgType,msgTalbe)
     if(msg_bytes~=nil) then
-        NetworkManager.SendNetMsg(msgType,msg_bytes)
+        NetworkManager_InCS.SendNetMsg(msgType,msg_bytes)
     end
 end
 

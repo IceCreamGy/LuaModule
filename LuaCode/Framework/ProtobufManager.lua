@@ -1,13 +1,14 @@
 --pb文件管理类，负责加载pb文件，解析，加密
 --外部只提供给网络模块调用！！！
 
-require "msgconfig/net_msg_config"
+require "Framework/Config/NetMsg"
 local pb = require 'pb'       --Lua虚拟机启动时，XLua进行注册
 local protoc = require 'protoc'      --Lua虚拟机启动时，XLua进行注册
 
 local function gen_msg_map()
+    print("Init gen_msg_map")
     MSG_TYPE = {}
-    for msg_name, msg_type in pairs(Net_MSG) do
+    for msg_name, msg_type in pairs(NetMsg) do
         MSG_TYPE[msg_type] = msg_name
     end
 end

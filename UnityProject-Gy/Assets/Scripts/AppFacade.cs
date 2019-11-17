@@ -25,7 +25,7 @@ public class AppFacade : MonoBehaviour
         GoContainer.transform.SetParent(transform);
 
         InitManager();      
-        Invoke("InitLua", 0.3f);
+        Invoke("InitLua", 0.6f);
     }
 
     void InitLua()
@@ -38,8 +38,9 @@ public class AppFacade : MonoBehaviour
         managerDic.Add(typeof(LuaManager), gameObject.AddComponent<LuaManager>());
         managerDic.Add(typeof(LoadManager), gameObject.AddComponent<LoadManager>());
         managerDic.Add(typeof(TimerManager), gameObject.AddComponent<TimerManager>());
+		managerDic.Add(typeof(NetworkManager), gameObject.AddComponent<NetworkManager>());
 
-        Transform Normal = Canvas.Find("Normal");
+		Transform Normal = Canvas.Find("Normal");
         Transform Top = Canvas.Find("Top");
         Transform Tips = Canvas.Find("Tips");
         Transform Mask = Canvas.Find("Mask");
@@ -60,4 +61,9 @@ public class AppFacade : MonoBehaviour
     {
         return managerDic[typeof(TimerManager)] as TimerManager;
     }
+
+	public NetworkManager GetNetworkManager()
+	{
+		return managerDic[typeof(NetworkManager)] as NetworkManager;
+	}	
 }

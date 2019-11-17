@@ -13,9 +13,10 @@ namespace XLua.LuaDLL
     using System.Runtime.InteropServices;
     using System.Text;
     using XLua;
+	using LuaCSFunction = XLua.LuaDLL.lua_CSFunction;
 
 #if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN || XLUA_GENERAL || (UNITY_WSA && !UNITY_EDITOR)
-    [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
+	[UnmanagedFunctionPointer(CallingConvention.Cdecl)]
     public delegate int lua_CSFunction(IntPtr L);
 
 #if GEN_CODE_MINIMIZE
@@ -39,7 +40,43 @@ namespace XLua.LuaDLL
         const string LUADLL = "xlua";
 #endif
 
-        [DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
+		[DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
+		public static extern int luaopen_rapidjson(System.IntPtr L);
+
+		[MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]
+		public static int LoadRapidJson(System.IntPtr L)
+		{
+			return luaopen_rapidjson(L);
+		}
+
+		[DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
+		public static extern int luaopen_lpeg(System.IntPtr L);
+
+		[MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]
+		public static int LoadLpeg(System.IntPtr L)
+		{
+			return luaopen_lpeg(L);
+		}
+
+		[DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
+		public static extern int luaopen_pb(System.IntPtr L);
+
+		[MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]
+		public static int LoadLuaProfobuf(System.IntPtr L)
+		{
+			return luaopen_pb(L);
+		}
+
+		[DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
+		public static extern int luaopen_ffi(System.IntPtr L);
+
+		[MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]
+		public static int LoadFFI(System.IntPtr L)
+		{
+			return luaopen_ffi(L);
+		}
+
+		[DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
         public static extern IntPtr lua_tothread(IntPtr L, int index);
 
         [DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
@@ -397,7 +434,7 @@ namespace XLua.LuaDLL
         [DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
         public static extern int xluaL_loadbuffer(IntPtr L, byte[] buff, int size, string name);
 
-        public static int luaL_loadbuffer(IntPtr L, string buff, string name)//[-0, +1, m]
+		public static int luaL_loadbuffer(IntPtr L, string buff, string name)//[-0, +1, m]
         {
             byte[] bytes = Encoding.UTF8.GetBytes(buff);
             return xluaL_loadbuffer(L, bytes, bytes.Length, name);
@@ -457,7 +494,7 @@ namespace XLua.LuaDLL
         public static extern int luaopen_i64lib(IntPtr L);//[,,m]
 
 #if (!UNITY_SWITCH && !UNITY_WEBGL) || UNITY_EDITOR
-        [DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
+		[DllImport(LUADLL, CallingConvention = CallingConvention.Cdecl)]
         public static extern int luaopen_socket_core(IntPtr L);//[,,m]
 #endif
 
