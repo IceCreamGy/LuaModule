@@ -36,8 +36,9 @@ public class NetworkManager : BaseManager
 	Dictionary<int, IMessageResponse> Dic = new Dictionary<int, IMessageResponse>();
 	private void Start()
 	{
-		Dic.Add(1001, new LoginResponse());
-	}
+        Dic.Add(1000, new RegisterResponse());
+        Dic.Add(1001, new LoginResponse());
+    }
 	public void ConnectServer(string address, int port)
 	{
 

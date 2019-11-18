@@ -1,4 +1,5 @@
-local BaseUI = require("Framework/Base/BaseUI")
+--挑战模块
+
 local Panel_TiaoZhan = Class("Panel_TiaoZhan", BaseUI)
 
 function Panel_TiaoZhan:On_Init(arg)

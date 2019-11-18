@@ -1,6 +1,5 @@
 --签到面板
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_QianDao = Class("Panel_QianDao", BaseUI)
 
 local toggles = {}

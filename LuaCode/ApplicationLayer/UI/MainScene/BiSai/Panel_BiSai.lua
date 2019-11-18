@@ -2,7 +2,6 @@
 --竞速匹配
 --对战大厅
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_BiSai = Class("Panel_BiSai", BaseUI)
 
 function Panel_BiSai:On_Init(args)

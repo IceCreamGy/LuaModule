@@ -3,7 +3,6 @@
 local MapItem = require("ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_MapItem")
 local NanDuButtonItem = require("ApplicationLayer/UI/MainScene/BiSai/MapNanDuButton")
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_DuiZhanDaTing_Map = Class("Panel_DuiZhanDaTing_Map", BaseUI)
 local MapItems = {}
 

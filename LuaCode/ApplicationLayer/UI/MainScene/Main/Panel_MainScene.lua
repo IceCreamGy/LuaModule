@@ -1,5 +1,4 @@
 --主场景初始面板（大厅）
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_MainScene = Class("Panel_MainScene", BaseUI)
 
 --暂存变量
@@ -26,12 +25,10 @@ function Panel_MainScene.InitLeftPanel()
 end
 
 function Panel_MainScene:On_ReShow()
-    print("Show Main")
     self.CG.alpha = 1
 end
 function Panel_MainScene:On_Hide()
     self.CG.alpha = 0
-    print("Close Main")
 end
 
 return Panel_MainScene

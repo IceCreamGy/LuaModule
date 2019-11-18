@@ -1,6 +1,5 @@
 --补给码头（抽奖模块）
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_BuJi = Class("Panel_BuJi", BaseUI)
 
 function Panel_BuJi:On_Init(args)

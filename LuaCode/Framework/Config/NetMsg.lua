@@ -2,7 +2,7 @@
 local NetMsg = {
     S_LogOut = 101,
 
-
+    UserRegister = 1000,
     UserInfo = 1001,
     User = 1002,
 }

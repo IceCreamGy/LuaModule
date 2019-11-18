@@ -1,6 +1,5 @@
 --抽奖结果展示面板
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_BuJiResult = Class("Panel_BuJiResult", BaseUI)
 
 --初始化

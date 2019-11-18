@@ -1,4 +1,3 @@
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_Loading = Class("Panel_Loading", BaseUI)
 
 local CG

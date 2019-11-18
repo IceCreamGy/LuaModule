@@ -2,7 +2,6 @@
 
 local selectButton = require("ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton")
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_Shop = Class("Panel_Shop", BaseUI)
 
 local showContentArea = nil    --右边，实例化面板（推荐、零件）的位置

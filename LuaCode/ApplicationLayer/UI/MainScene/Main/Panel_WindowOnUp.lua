@@ -1,7 +1,6 @@
 --主面板上方的一些按钮
 --玩家信息，金币，点券，石油，车库，设置，wifi
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_WindowOnUp = Class("Panel_WindowOnUp", BaseUI)
 
 local buttons = {}

@@ -2,7 +2,6 @@
 
 local Panel_Shop_LingJianItem = require("ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJianItem")
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_Shop_LingJian = Class("Panel_Shop_LingJian", BaseUI)
 
 local ClassifySelectButtons = {}  --对已经创建的按钮的持有

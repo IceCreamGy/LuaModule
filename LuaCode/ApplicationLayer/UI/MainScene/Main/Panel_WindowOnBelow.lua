@@ -1,7 +1,6 @@
 --主面板下方的一些按钮
 --商城，补给码头，挑战赛事，多人对战，主线剧情
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_WindowOnBelow = Class("Panel_WindowOnBelow", BaseUI)
 
 local buttons = {}

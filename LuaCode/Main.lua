@@ -6,6 +6,8 @@ LuaManager_InCS = require("Framework/CS_Interface/LuaManager")
 --UIEventHelper = require("Framework/CS_Interface/UIEventHelper")
 
 -- 一些工具变量，暂时放到这里，后期整理
+require("Framework/Base/Class/Class")
+BaseUI = require("Framework/Base/BaseUI")
 Tools = require("Framework/Tools/Tools")
 NetMsg = require("Framework/Config/NetMsg")
 BundleConfig = require("Framework/Config/BundleConfig")

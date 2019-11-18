@@ -1,5 +1,4 @@
 
-local BaseUI = require("Framework/Base/BaseUI")
 local Panel_JuQing = Class("Panel_JuQing",BaseUI)
 
 function Panel_JuQing:On_Init(args)
