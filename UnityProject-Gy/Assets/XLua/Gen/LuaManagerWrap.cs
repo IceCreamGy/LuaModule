@@ -115,9 +115,10 @@ namespace XLua.CSObjectWrap
             
                 
                 {
-                    NetMsg _msg = (NetMsg)translator.GetObject(L, 2, typeof(NetMsg));
+                    int _msgType = LuaAPI.xlua_tointeger(L, 2);
+                    byte[] _msgBytes = LuaAPI.lua_tobytes(L, 3);
                     
-                    gen_to_be_invoked.DispachNetMsg2Lua( _msg );
+                    gen_to_be_invoked.DispachNetMsg2Lua( _msgType, _msgBytes );
                     
                     
                     

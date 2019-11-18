@@ -26,17 +26,18 @@ EventManager = require("Framework/Manager_InLua/EventManager")
 NetworkManager = require("Framework/Manager_InLua/NetworkManager")
 ProtobufManager = require("Framework/Manager_InLua/ProtobufManager")
 
+Dispatch = NetworkManager.Dispatch
+
 
 -- 进入游戏
 function init()
     print("GameMain start...")
+    print("Dispatch",Dispatch)
+    print("Dispatch",NetworkManager.Dispatch)
     ProtobufManager.init()
 
     UIManager.OpenUI("Panel_Login", nil)           --登陆场景
     --UIManager.OpenUI("Panel_MainScene", nil)     --跳过登录场景
-
-    local loginData = { name = "gaoyuan", age = 24, phone = "15210276982", password = "YGWH" }
-    NetworkManager.Send(NetMsg.UserInfo, loginData)
 end
 
 --c# update

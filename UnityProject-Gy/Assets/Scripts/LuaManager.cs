@@ -47,9 +47,9 @@ public class LuaManager : BaseManager
         Lua_Dispatch = env.Global.Get<Action<int, byte[]>>("Dispatch");
     }
 
-    public void DispachNetMsg2Lua(NetMsg msg)
+    public void DispachNetMsg2Lua(int msgType,byte[] msgBytes)
     {
-        Lua_Dispatch(msg.msgType, msg.msgBytes);
+        Lua_Dispatch(msgType, msgBytes);
     }
 
     private void Update()

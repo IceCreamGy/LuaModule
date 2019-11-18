@@ -1,6 +1,8 @@
 --网络层从pb层获取解析、加密的数据进行发送
 --网络消息中心，注册、移除、分发、发送
 
+local util = require("Framework/Tools/util")
+
 --消息表
 local msg_register_table = {}
 --注册的消息id

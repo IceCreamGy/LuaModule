@@ -111,7 +111,9 @@
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\AppFacade.cs" />
     <Compile Include="Assets\Scripts\BaseManager.cs" />
+    <Compile Include="Assets\Scripts\Data\DataConst.cs" />
     <Compile Include="Assets\Scripts\Data\LoginResponse.cs" />
+    <Compile Include="Assets\Scripts\Data\RegisterResponse.cs" />
     <Compile Include="Assets\Scripts\DeleteMeta.cs" />
     <Compile Include="Assets\Scripts\LoadManager.cs" />
     <Compile Include="Assets\Scripts\LuaManager.cs" />

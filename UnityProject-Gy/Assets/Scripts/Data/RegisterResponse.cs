@@ -8,7 +8,9 @@ public class RegisterResponse : IMessageResponse
     public void ResponseData(byte[] data)
     {
         RegisterData register = BinarySerializeOpt.ProtoDeSerialize<RegisterData>(data);
-        Debug.Log("请求注册：" + register.name + register.password);
+        //Debug.Log("请求注册：" + register.name + register.password);
+        PlayerPrefs.SetString(DataConst.PlayerName, register.name);
+        PlayerPrefs.SetString(DataConst.PlayerPassword, register.password);
     }
 }
 
