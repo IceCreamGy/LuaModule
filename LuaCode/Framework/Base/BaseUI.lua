@@ -1,8 +1,5 @@
 --面板的基类
 
-local eventmanager = require "Framework/EventManager"
---local network = require "Framework/NetManager_InLua"
-
 local Base_UI = Class("Base_UI")
 
 function Base_UI:ctor(arg_name, arg_GameObject, arg_uitable, canvas_group, args)
@@ -27,7 +24,7 @@ end
 ---初始化
 function Base_UI:Init(args)
     if self.on_change_language then
-        eventmanager.register_lua_event(Lua_Event.ChangeLanguage,
+        EventManager.register_lua_event(Lua_Event.ChangeLanguage,
                 function()
                     self:on_change_language()
                 end)
@@ -93,13 +90,13 @@ end
 
 --注册lua事件
 function Base_UI:register_lua_event(eventType, func)
-    local register_id = eventmanager.register_lua_event(eventType, func)
+    local register_id = EventManager.register_lua_event(eventType, func)
     self.lua_event_register_table[eventType] = register_id
 end
 
 --移除注册事件
 function Base_UI:unregister_lua_event(eventType, register_id)
-    eventmanager.unregister_lua_event(eventType, register_id)
+    EventManager.unregister_lua_event(eventType, register_id)
 end
 
 function Base_UI:get_dlg_name()

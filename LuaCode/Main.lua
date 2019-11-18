@@ -17,12 +17,12 @@ Color = UnityEngine.Color
 Quaternion = UnityEngine.Quaternion
 
 --LUA端的管理器
-UIManager = require "Framework/UIManager"
-SceneManager = require("Framework/SceneManager")
-DataManager = require("ApplicationLayer/DataCenter/DataManager")
-EventManager = require "Framework/EventManager"
-NetworkManager = require "Framework/NetworkManager"
-ProtobufManager = require "Framework/ProtobufManager"
+UIManager = require("Framework/Manager_InLua/UIManager")
+SceneManager = require("Framework/Manager_InLua/SceneManager")
+DataManager = require("Framework/Manager_InLua/DataManager")
+EventManager = require("Framework/Manager_InLua/EventManager")
+NetworkManager = require("Framework/Manager_InLua/NetworkManager")
+ProtobufManager = require("Framework/Manager_InLua/ProtobufManager")
 
 
 -- 进入游戏
