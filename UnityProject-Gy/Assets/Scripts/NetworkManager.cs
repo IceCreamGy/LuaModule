@@ -24,19 +24,20 @@ public class NetworkManager : BaseManager
     Dictionary<int, IMessageResponse> Dic = new Dictionary<int, IMessageResponse>();
     private void Start()
     {
-        Dic.Add(1000, new RegisterResponse());
-        Dic.Add(1001, new LoginResponse());
+        Dic.Add(ProtobufID.UserRegister, new RegisterResponse());
+        Dic.Add(ProtobufID.UserLogin, new LoginResponse());
     }
     public void ConnectServer(string address, int port)
     {
 
     }
+    //从LUA端 发送过来的
     public void SendNetMsg(int msgType, byte[] bytes)
     {
         Dic[msgType].ResponseData(bytes);
     }
 
-    //网络协议，转发到lua执行
+    //网络协议，要转发到LUA执行的
     public void OnReceiveData(int msgID, byte[] msgBytes)
     {
         LuaManager.DispachNetMsg2Lua(msgID, msgBytes);

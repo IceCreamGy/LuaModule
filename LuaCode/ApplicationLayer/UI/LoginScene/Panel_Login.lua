@@ -14,12 +14,13 @@ local function OnClick_Login()
         password = inputPassword.text,
     }
     NetworkManager.Send(NetMsg.UserLogin, loginData)
-
 end
 
 local function OnReceiveResult(data)
     if (data.result) then
         SceneManager.LoadScene("Scene_Garage03", EnterToMain)         --三维场景
+    else
+        --弹出提示面板
     end
     print("登陆结果", data.reason)
 end

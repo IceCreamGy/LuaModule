@@ -8,11 +8,11 @@ local msg_register_table = {}
 --注册的消息id
 local register_id = 0
 
-local function Dispatch(msgType , bytes )
-    local msg_table = ProtobufManager.DeSerialize(msgType,bytes)
+local function Dispatch(msg_ID, bytes )
+    local msg_table = ProtobufManager.DeSerialize(msg_ID,bytes)
     if(msg_table ~= nil) then
-        print(string.format("receive msg========= type: %s , name:%s , value: %s",msgType , MSG_TYPE[msgType] ,util.table_to_string(msg_table)))
-        local funcs =  msg_register_table[msgType]
+        print(string.format("receive msg========= type: %s , name:%s , value: %s", msg_ID, MSG_TYPE[msg_ID] ,util.table_to_string(msg_table)))
+        local funcs =  msg_register_table[msg_ID]
         if funcs ~= nil then
 
             for key, func in pairs(funcs) do
@@ -30,12 +30,12 @@ local function Send(msg_ID, msgTalbe)
     end
 end
 
-local function Register(msgType, func)
-    if msg_register_table[msgType] == nil then
-        msg_register_table[msgType] = {}
+local function Register(msg_ID, func)
+    if msg_register_table[msg_ID] == nil then
+        msg_register_table[msg_ID] = {}
     end
     local net_msg_register_id = register_id
-    msg_register_table[msgType][net_msg_register_id] = func
+    msg_register_table[msg_ID][net_msg_register_id] = func
     register_id = register_id + 1
     return net_msg_register_id
 end

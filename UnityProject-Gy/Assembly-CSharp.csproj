@@ -118,6 +118,7 @@
     <Compile Include="Assets\Scripts\LoadManager.cs" />
     <Compile Include="Assets\Scripts\LuaManager.cs" />
     <Compile Include="Assets\Scripts\NetworkManager.cs" />
+    <Compile Include="Assets\Scripts\ProtobufID.cs" />
     <Compile Include="Assets\Scripts\Test\QiGuai.cs" />
     <Compile Include="Assets\Scripts\Test\QiGuai_Try.cs" />
     <Compile Include="Assets\Scripts\Test\Try_MyProtobuf.cs" />

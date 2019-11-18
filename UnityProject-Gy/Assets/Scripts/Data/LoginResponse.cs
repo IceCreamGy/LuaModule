@@ -33,12 +33,12 @@ public class LoginResponse : IMessageResponse
         {
             //用户不存在
             result.result = false;
-            result.reason = "用户不存在";
+            result.reason = "该用户暂未注册";
         }
 
         byte[] buffer = BinarySerializeOpt.ProtoSerialize(result);
 
-        AppFacade.instance.GetNetworkManager().OnReceiveData(102, buffer);
+        AppFacade.instance.GetNetworkManager().OnReceiveData(ProtobufID.S_LoginResult, buffer);
 
         //Debug.Log("name " + loadedPhone.name);
         //Debug.Log("password " + loadedPhone.password);
