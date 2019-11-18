@@ -34,8 +34,8 @@ end
 function Panel_QianDao:On_Show()
     self.CG:DOFade(1, 0.6)
     BgDiBan(self)      --底板动画
-    TimerManager.Add(0.15, 1, Panel_QianDao.BgAnimation, self)      --底板动画2
-    TimerManager.Add(0.3, 1, Panel_QianDao.ShowToggles)        --Toggle组动画
+    TimerManager_InCS.Add(0.15, 1, Panel_QianDao.BgAnimation, self)      --底板动画2
+    TimerManager_InCS.Add(0.3, 1, Panel_QianDao.ShowToggles)        --Toggle组动画
 end
 
 --上方Logo字体动画，下方汽车插图动画

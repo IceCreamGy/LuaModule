@@ -35,14 +35,14 @@ local function OpenUI()
 
     index = index + 1
     if (index <= #uiItem) then
-        TimerManager.Add(0.3, 1, OpenUI)
+        TimerManager_InCS.Add(0.3, 1, OpenUI)
     end
 end
 
 function Panel_Login:On_Init(args)
     self.uitable.ImagePro_Login:AddClickListener(LoadMainScene)
     InitUiItem(self)
-    TimerManager.Add(0.4, 1, OpenUI)
+    TimerManager_InCS.Add(0.4, 1, OpenUI)
 end
 
 function Panel_Login:On_Show()

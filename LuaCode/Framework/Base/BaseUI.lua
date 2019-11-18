@@ -42,7 +42,7 @@ end
 --释放
 function Base_UI:clear_res_and_register()
     if self.gameObject ~= nil then
-        LoadManager.DestroyGameobject(self.gameObject)
+        LoadManager_InCS.DestroyGameobject(self.gameObject)
     end
     self.gameObject = nil
     self.uitable = nil

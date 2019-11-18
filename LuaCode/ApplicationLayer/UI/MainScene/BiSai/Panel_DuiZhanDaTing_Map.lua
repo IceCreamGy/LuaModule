@@ -33,11 +33,11 @@ end
 --初始化 地图选择卡片的加载
 function Panel_DuiZhanDaTing_Map:InitMapCard()
     mapLenght = #mapData
-    mapItemGo = LoadManager.LoadGameObject("Prefab/UI/MainScene/BiSai/Panel_DuiZhanDaTing_MapItem")
+    mapItemGo = LoadManager_InCS.LoadGameObject("Prefab/UI/MainScene/BiSai/Panel_DuiZhanDaTing_MapItem")
     putPos = self.gameObject.transform:Find("ScrollView_MapContainer/Viewport/Content")
 
     for i, v in ipairs(mapData) do
-        LoadManager.CopyUI_WithParent(mapItemGo, putPos, function(go, uitable)
+        LoadManager_InCS.CopyUI_WithParent(mapItemGo, putPos, function(go, uitable)
             local createdButton = MapItem.New(go, uitable, v)
             MapItems[v.MapId] = createdButton
         end)
@@ -95,7 +95,7 @@ function Panel_DuiZhanDaTing_Map.ShowTween()
     index = index + 1
 
     if (index <= mapLenght) then
-        TimerManager.Add(0.2, 1, Panel_DuiZhanDaTing_Map.ShowTween)
+        TimerManager_InCS.Add(0.2, 1, Panel_DuiZhanDaTing_Map.ShowTween)
     end
 end
 

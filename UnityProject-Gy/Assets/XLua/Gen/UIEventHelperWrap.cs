@@ -31,10 +31,8 @@ namespace XLua.CSObjectWrap
 			Utils.EndObjectRegister(type, L, translator, null, null,
 			    null, null, null);
 
-		    Utils.BeginClassRegister(type, L, __CreateInstance, 3, 0, 0);
-			Utils.RegisterFunc(L, Utils.CLS_IDX, "SetButtonClick", _m_SetButtonClick_xlua_st_);
-            Utils.RegisterFunc(L, Utils.CLS_IDX, "SetGoSetActive", _m_SetGoSetActive_xlua_st_);
-            
+		    Utils.BeginClassRegister(type, L, __CreateInstance, 1, 0, 0);
+			
 			
             
 			
@@ -72,61 +70,6 @@ namespace XLua.CSObjectWrap
         
         
         
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _m_SetButtonClick_xlua_st_(RealStatePtr L)
-        {
-		    try {
-            
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-            
-            
-            
-                
-                {
-                    UnityEngine.UI.Button _button = (UnityEngine.UI.Button)translator.GetObject(L, 1, typeof(UnityEngine.UI.Button));
-                    UnityEngine.Events.UnityAction _func = translator.GetDelegate<UnityEngine.Events.UnityAction>(L, 2);
-                    
-                    UIEventHelper.SetButtonClick( _button, _func );
-                    
-                    
-                    
-                    return 0;
-                }
-                
-            } catch(System.Exception gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
-            }
-            
-        }
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _m_SetGoSetActive_xlua_st_(RealStatePtr L)
-        {
-		    try {
-            
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-            
-            
-            
-                
-                {
-                    UnityEngine.GameObject _selectGo = (UnityEngine.GameObject)translator.GetObject(L, 1, typeof(UnityEngine.GameObject));
-                    string _path = LuaAPI.lua_tostring(L, 2);
-                    bool _state = LuaAPI.lua_toboolean(L, 3);
-                    
-                    UIEventHelper.SetGoSetActive( _selectGo, _path, _state );
-                    
-                    
-                    
-                    return 0;
-                }
-                
-            } catch(System.Exception gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
-            }
-            
-        }
         
         
         

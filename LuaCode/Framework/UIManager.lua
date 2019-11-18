@@ -30,7 +30,7 @@ local function LoadUI(panelName, args, callBack, parent)
         callBack(panel_instance)
     end
     local layer = BundleConfig.Get_UILayer(panelName)
-    LoadManager.LoadUI(layer, panelPathInUnity, callbackFromUnity, parent)
+    LoadManager_InCS.LoadUI(layer, panelPathInUnity, callbackFromUnity, parent)
 end
 local function SaveUI(panel_instance)
     panel_dic[panel_instance:get_dlg_name()] = panel_instance

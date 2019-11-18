@@ -12,10 +12,10 @@ function Panel_Shop_LingJian:On_Init(args)
 
     Panel_Shop_LingJian.putButtonPos = self.gameObject.transform:Find("ScrollView_DownCar/Viewport/Content")             --存放按钮的位置
     local itemPath = BundleConfig.Get_UIAsset("Panel_Shop_LingJianItem")
-    Panel_Shop_LingJian.selectButton = LoadManager.LoadGameObject(itemPath)           --需要被复制的按钮
+    Panel_Shop_LingJian.selectButton = LoadManager_InCS.LoadGameObject(itemPath)           --需要被复制的按钮
 
     for k, v in pairs(DataManager.GetShopData():GetData(args)) do
-        LoadManager.CopyUI_WithParent(Panel_Shop_LingJian.selectButton, Panel_Shop_LingJian.putButtonPos, function(go, uitable)
+        LoadManager_InCS.CopyUI_WithParent(Panel_Shop_LingJian.selectButton, Panel_Shop_LingJian.putButtonPos, function(go, uitable)
             local createdButton = Panel_Shop_LingJianItem.New(go, uitable, v)
             ClassifySelectButtons[v.showOrder] = createdButton
         end)
@@ -32,7 +32,7 @@ function Panel_Shop_LingJian:On_Show(args)
             if (ClassifySelectButtons[v.showOrder]) then
                 ClassifySelectButtons[v.showOrder]:Refresh(v)
             else
-                LoadManager.CopyUI_WithParent(Panel_Shop_LingJian.selectButton, Panel_Shop_LingJian.putButtonPos, function(go, uitable)
+                LoadManager_InCS.CopyUI_WithParent(Panel_Shop_LingJian.selectButton, Panel_Shop_LingJian.putButtonPos, function(go, uitable)
                     local createdButton = Panel_Shop_LingJianItem.New(go, uitable, v)
                     ClassifySelectButtons[v.showOrder] = createdButton
                 end)

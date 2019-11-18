@@ -3,21 +3,104 @@
   <component name="ChangeListManager">
     <list default="true" id="95ba5f4f-dabd-47d3-8a04-b3540a480b9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/LoginScene/Panel_Login.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/LoginScene/Panel_Login.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian.lua" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_LingJian.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/Base/BaseUI.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Base/BaseUI.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/CS_Interface/NetworkManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/CS_Interface/NetworkManager_InCS.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/Config/NetMsg.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Config/NetMsg.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/CS_Interface/UIEventHelper.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/CS_Interface/UIEventHelper.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Config/Net_Msg.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Config/ProtobufDefine.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/NetworkManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/NetworkManager.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/ProtobufManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/ProtobufManager.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/SceneManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/SceneManager.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Tools/XLua/coruntine_test.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Tools/XLua/cs_coroutine.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/UIManager.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/UIManager.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Main.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protoc.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Tools/protoc.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/.vs/UnityProject-Gy/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Resources/Prefab/Car.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/AppFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/AppFacade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/NetworkManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/metadata/3c/3c17093265e48b6438cfaf8d94b78fe9.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/metadata/3c/3c17093265e48b6438cfaf8d94b78fe9.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scenes/QuickScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scenes/QuickScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/Data/LoginResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/Data/LoginResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/Test/QiGuai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/Test/QiGuai.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/Tools/UIEventHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/Scripts/Tools/UIEventHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Doc/~$ua增加删除第三方lua库.doc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/AppFacadeWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/AppFacadeWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningDOTweenAnimationWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningDOTweenAnimationWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningDOTweenWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningDOTweenWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningShortcutExtensions46Wrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningShortcutExtensions46Wrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningShortcutExtensionsWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningShortcutExtensionsWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningTweenExtensionsWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningTweenExtensionsWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningTweenSettingsExtensionsWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DGTweeningTweenSettingsExtensionsWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DelegatesGensBridge.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/DelegatesGensBridge.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/EnumWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/EnumWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/ImageProWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/ImageProWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/LoadManagerWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/LoadManagerWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/LuaManagerWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/LuaManagerWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/PackUnpack.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/PackUnpack.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/SystemCollectionsGenericList1SystemInt32Wrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/SystemCollectionsGenericList1SystemInt32Wrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/SystemCollectionsIEnumeratorBridge.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/SystemCollectionsIEnumeratorBridge.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/SystemObjectWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/SystemObjectWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialBaseClassWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialBaseClassWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialCSCallLuaItfDBridge.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialCSCallLuaItfDBridge.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialDerivedClassExtensionsWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialDerivedClassExtensionsWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialDerivedClassWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialDerivedClassWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialICalcWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/TutorialICalcWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UIEventHelperWrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UIEventHelperWrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UIEventHelperWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UIEventHelperWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineAnimationClipWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineAnimationClipWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineAnimationCurveWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineAnimationCurveWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineBehaviourWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineBehaviourWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineBoundsWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineBoundsWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineColorWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineColorWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineComponentWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineComponentWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineDebugWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineDebugWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineGameObjectWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineGameObjectWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineKeyframeWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineKeyframeWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineLightWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineLightWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineMathfWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineMathfWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineMonoBehaviourWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineMonoBehaviourWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineObjectWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineObjectWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineParticleSystemWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineParticleSystemWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineQuaternionWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineQuaternionWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineRay2DWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineRay2DWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineRayWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineRayWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineRendererWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineRendererWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineResourcesWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineResourcesWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineSkinnedMeshRendererWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineSkinnedMeshRendererWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineTextAssetWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineTextAssetWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineTimeWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineTimeWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineTransformWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineTransformWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineVector2Wrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineVector2Wrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineVector3Wrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineVector3Wrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineVector4Wrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineVector4Wrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineWaitForSecondsWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/UnityEngineWaitForSecondsWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/WrapPusher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/WrapPusher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaGenAutoRegister.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaGenAutoRegister.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestBaseTestWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestBaseTestWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFoo1ChildWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFoo1ChildWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFoo1ParentWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFoo1ParentWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFoo2ChildWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFoo2ChildWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFoo2ParentWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFoo2ParentWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFooExtensionWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFooExtensionWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFooWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestFooWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestIExchangerBridge.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestIExchangerBridge.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestInvokeLuaICalcBridge.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestInvokeLuaICalcBridge.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestLuaBehaviourWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestLuaBehaviourWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestMyStructWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestMyStructWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestNoGcWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestNoGcWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestPeddingWrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/XLuaTestPeddingWrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/link.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Assets/XLua/Gen/link.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/UnityProject-Gy.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/UnityProject-Gy.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UnityProject-Gy/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterDir="false" />
@@ -39,17 +122,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="726">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Framework/NetworkManager.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/NetworkManager.lua">
+        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="2134">
+              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Framework/Config/ProtobufDefine.pb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Framework/Config/NetMsg.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1408">
+              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -57,67 +194,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Framework/ProtobufManager.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/NetworkManager_InCS.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="154">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="lua-dummy://root/chunk">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="lua-dummy://root/main">
+        <entry file="file://$PROJECT_DIR$/Framework/Tools/protoc.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pb/net_msg.pb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protoc.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26858">
-              <caret line="1033" column="12" selection-start-line="1033" selection-start-column="12" selection-end-line="1033" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <state relative-caret-position="3037">
+              <caret line="1034" column="21" selection-start-line="1034" selection-start-column="21" selection-end-line="1034" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -151,8 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_ToggleGroup.lua" />
-        <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/ToggleItem.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Panel_WindowOnLeft.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_ZhanGui.lua" />
         <option value="$PROJECT_DIR$/ApplicationLayer/UI/Shop/Panel_Shop_LingJian.lua" />
@@ -195,13 +280,15 @@
         <option value="$PROJECT_DIR$/Framework/Config/Net_Msg.pb" />
         <option value="$PROJECT_DIR$/Framework/Base/BaseUI.lua" />
         <option value="$PROJECT_DIR$/Framework/Config/NetMsg.lua" />
-        <option value="$PROJECT_DIR$/Framework/NetworkManager.lua" />
-        <option value="$PROJECT_DIR$/Main.lua" />
         <option value="$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua" />
-        <option value="$PROJECT_DIR$/Framework/ProtobufManager.lua" />
         <option value="$PROJECT_DIR$/pb/net_msg.pb.lua" />
         <option value="$PROJECT_DIR$/pb/net_msg.pb" />
         <option value="$PROJECT_DIR$/Framework/CS_Interface/NetworkManager_InCS.lua" />
+        <option value="$PROJECT_DIR$/Framework/CS_Interface/UIEventHelper.lua" />
+        <option value="$PROJECT_DIR$/Framework/ProtobufManager.lua" />
+        <option value="$PROJECT_DIR$/Framework/Config/ProtobufDefine.pb" />
+        <option value="$PROJECT_DIR$/Main.lua" />
+        <option value="$PROJECT_DIR$/Framework/NetworkManager.lua" />
       </list>
     </option>
   </component>
@@ -213,7 +300,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-34" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -225,7 +312,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +328,13 @@
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
               <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="CS_Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LuaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LuaCode" type="b2602c69:ProjectViewProjectNode" />
@@ -253,6 +345,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -261,16 +354,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\UnityProject\Work\Learn\LuaCode\ApplicationLayer\UI\Active" />
+      <recent name="E:\UnityProject\LuaFramework\XluaFramework-5.5\LuaScripts-XluaFramework\DataCenter\ServerData" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitProject\LuaModule-GaoYuan\LuaCode\Framework\Tools" />
       <recent name="D:\GitProject\LuaModule-GaoYuan\LuaCode\Framework\Config" />
       <recent name="D:\GitProject\LuaModule-GaoYuan\LuaCode\ApplicationLayer\UI\MainScene" />
       <recent name="D:\GitProject\LuaModule-GaoYuan\LuaCode\ApplicationLayer\UI\MainScene\Main" />
       <recent name="E:\git_project\Car\LuaCode\ApplicationLayer\UI\QianDao" />
-      <recent name="E:\git_project\Car\LuaCode\ApplicationLayer\UI\MainScene" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\UnityProject\Work\Learn\LuaCode\ApplicationLayer\UI\Active" />
-      <recent name="E:\UnityProject\LuaFramework\XluaFramework-5.5\LuaScripts-XluaFramework\DataCenter\ServerData" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,9 +409,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2468017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,7 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/Tools/Tools.lua" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/DataCenter/DataManager.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -439,7 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map.lua" />
     <entry file="file://$PROJECT_DIR$/Framework/SceneManager.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -448,7 +540,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnLeft.lua" />
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao.lua" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/MapNanDuButton.lua" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnBelow.lua" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BuJi/Panel_BuJi.lua" />
@@ -462,15 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_WindowOnUp.lua" />
-    <entry file="file://$PROJECT_DIR$/Framework/Config/Event_InLua.lua" />
     <entry file="file://$PROJECT_DIR$/Framework/NetManager_InLua.lua" />
     <entry file="file://$PROJECT_DIR$/Framework/EventManager.lua">
       <provider selected="true" editor-type-id="text-editor">
@@ -488,15 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/LoadingScene/Panel_Loading.lua" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop.lua" />
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua" />
     <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Shop/Panel_Shop_ClassifySelectButton.lua" />
-    <entry file="file://$PROJECT_DIR$/Framework/Config/Net_Msg.pb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Framework/UIManager.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1586">
@@ -511,102 +586,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/LoginScene/Panel_Login.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/Config/NetMsg.lua">
+    <entry file="file://$PROJECT_DIR$/pb/net_msg.pb.lua" />
+    <entry file="file://$PROJECT_DIR$/pb/net_msg.pb" />
+    <entry file="lua-dummy://root/chunk" />
+    <entry file="lua-dummy://root/main" />
+    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/NetworkManager_InCS.lua" />
+    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LoadManager.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
+        <state relative-caret-position="550">
           <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/LuaManager.lua">
+    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/UIEventHelper.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="lua-dummy://root/main">
+    <entry file="file://$PROJECT_DIR$/Framework/Tools/Tools.lua">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="lua-dummy://root/main">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="lua-dummy://root/main">
+    <entry file="file://$PROJECT_DIR$/Framework/Config/Event_InLua.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="lua-dummy://root/main">
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/LoginScene/Panel_Login.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="968">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protoc.lua">
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/BiSai/Panel_DuiZhanDaTing_Map.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26858">
-          <caret line="1033" column="12" selection-start-line="1033" selection-start-column="12" selection-end-line="1033" selection-end-column="12" />
+        <state relative-caret-position="2134">
+          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pb/net_msg.pb.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pb/net_msg.pb">
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/Main/Panel_MainScene.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="264">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="lua-dummy://root/chunk">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="lua-dummy://root/main">
+    <entry file="file://$PROJECT_DIR$/ApplicationLayer/UI/MainScene/QianDao/Panel_QianDao.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="836">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Config/BundleConfig.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Tools/protoc.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3037">
+          <caret line="1034" column="21" selection-start-line="1034" selection-start-column="21" selection-end-line="1034" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Framework/ProtobufManager.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Config/NetMsg.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Config/ProtobufDefine.pb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="726">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Framework/NetworkManager.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Framework/CS_Interface/NetworkManager_InCS.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="264">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
         </state>
       </provider>
     </entry>
