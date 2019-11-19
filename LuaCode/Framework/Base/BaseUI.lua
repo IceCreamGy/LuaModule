@@ -33,7 +33,7 @@ function Base_UI:Init(args)
     if self.On_Init then
         self:On_Init(args)
     end
-    self:Show()
+    self:Show(args)
 end
 
 --释放

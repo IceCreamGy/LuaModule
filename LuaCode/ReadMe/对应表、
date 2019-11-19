@@ -69,3 +69,11 @@ end
     NetworkManager.Send(NetMsg.UserLogin, loginData)
     接受
     NetworkManager.Register(NetMsg.S_LoginResult, OnReceiveResult)
+
+
+
+ --弹出提示面板
+ --注意参数一定要Table ，后期可能还会传入 确定，取消 等事件回调。
+        UIManager.OpenPoPupUI("Panel_Tips",{ content = data.result })
+ --关闭提示面板
+         UIManager.CloseTarget("Panel_Tips")

@@ -49,7 +49,7 @@ end
 function Panel_Register:On_Init(args)
     self.uitable.ImagePro_Register:AddClickListener(SendData)
     InitUiItem(self)
-    TimerManager_InCS.Add(0.4, 1, OpenUI)
+    TimerManager_InCS.Add(0.1, 1, OpenUI)
 end
 
 function Panel_Register:On_Show()

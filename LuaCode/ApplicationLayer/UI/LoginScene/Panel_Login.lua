@@ -21,8 +21,8 @@ local function OnReceiveResult(data)
         SceneManager.LoadScene("Scene_Garage03", EnterToMain)         --三维场景
     else
         --弹出提示面板
+        UIManager.OpenPoPupUI("Panel_Tips", { content = data.reason })
     end
-    print("登陆结果", data.reason)
 end
 
 local function OpenRegister()
