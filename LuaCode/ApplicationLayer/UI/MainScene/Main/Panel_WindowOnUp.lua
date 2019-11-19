@@ -43,8 +43,8 @@ function Panel_WindowOnUp:Init(args)
     self:InitData(data)
 
     self.uitable.ImagePro_ReturnToMain:AddClickListener(OnClick_Close)
-    EventManager.AddEvent(Event_InLua.LeaveMain,Panel_WindowOnUp.LeaveMain)
-    EventManager.AddEvent(Event_InLua.ReturnMain,Panel_WindowOnUp.ReturnMain)
+    EventManager.RegistEvent(Event_InLua.LeaveMain,Panel_WindowOnUp.LeaveMain)
+    EventManager.RegistEvent(Event_InLua.ReturnMain,Panel_WindowOnUp.ReturnMain)
 end
 
 --初始化 数据

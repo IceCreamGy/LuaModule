@@ -1,26 +1,24 @@
---初始化，加载到内存
+--数据中心
 
-local ActiveData = require("ApplicationLayer/DataCenter/ActiveData")        --活动中心
 local ShopData = require("ApplicationLayer/DataCenter/ShopData")        --商店数据
 local PlayerInfo = require("ApplicationLayer/DataCenter/PlayerInfo")      --玩家信息
 local MapData = require("ApplicationLayer/DataCenter/MapData")      --对战大厅的地图选择
 
---数据中心
-local DataManager = {};
-function DataManager.GetActiveData()
-    return ActiveData
-end
 
-function DataManager.GetShopData()
+local function GetShopData()
     return ShopData
 end
 
-function DataManager.GetPlayerInfo()
+local function GetPlayerInfo()
     return PlayerInfo
 end
 
-function DataManager.GetMapInfo()
+local function GetMapInfo()
     return MapData
 end
 
-return DataManager;
+return {
+    GetShopData = GetShopData,      --商店，
+    GetPlayerInfo = GetPlayerInfo,      --玩家信息，
+    GetMapInfo = GetMapInfo,        --地图信息
+}

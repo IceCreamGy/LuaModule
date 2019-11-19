@@ -36,7 +36,7 @@ local function SaveUI(panel_instance)
     panel_dic[panel_instance:get_dlg_name()] = panel_instance
 end
 
-function UIManager.OpenUI(panelPath, args)
+local function OpenUI(panelPath, args)
     --打开UI 经过栈
     if not panel_stack:isEmpty() then
         --如果最上面就是目标UI，不做处理。
@@ -64,7 +64,7 @@ function UIManager.OpenUI(panelPath, args)
         end)
     end
 end
-function UIManager.OpenPoPupUI(panelName, args, parent)
+local function OpenPoPupUI(panelName, args, parent)
     local panel_instance = panel_dic[panelName]
     if panel_instance then
         if panel_instance:is_panel_released() == false then
@@ -76,16 +76,16 @@ function UIManager.OpenPoPupUI(panelName, args, parent)
         end
     else
         --没有的话，从磁盘加载，实例化面板
-        LoadUI( panelName, args, function(panel_instance)
+        LoadUI(panelName, args, function(panel_instance)
             SaveUI(panel_instance)
         end, parent)
     end
 end
-function UIManager.OpenOneUI(panelName, args)
+local function OpenOneUI(panelName, args)
     UIManager.CloseAllUI()
     UIManager.OpenUI(panelName, args)
 end
-function UIManager.CloseUI()
+local function CloseUI()
     if not panel_stack:isEmpty() then
         --第一层元素，执行关闭流程
         local top_panel = panel_stack:pop()
@@ -102,19 +102,27 @@ function UIManager.CloseUI()
         end
     end
 end
-function UIManager.CloseAllUI()
+local function CloseAllUI()
     --暂时粗糙一点
     for i, v in pairs(panel_dic) do
         v:Close()
     end
 end
-function UIManager.CloseTarget(panelName)
+local function CloseTarget(panelName)
     panel_dic[panelName]:Close()
 end
 
-function UIManager.GetPanel(panelName)
+local function GetPanel(panelName)
     --返回指定面板控制器
     return panel_dic[panelName]
 end
 
-return UIManager
+return {
+    OpenUI = OpenUI,
+    OpenPoPupUI = OpenPoPupUI,
+    OpenOneUI = OpenOneUI,
+    CloseUI = CloseUI,
+    CloseAllUI = CloseAllUI,
+    CloseTarget = CloseTarget,
+    GetPanel = GetPanel
+}

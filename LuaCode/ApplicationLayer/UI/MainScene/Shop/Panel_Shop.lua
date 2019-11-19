@@ -13,7 +13,7 @@ local selectButtonGo = nil   --左边选择的按钮
 function Panel_Shop:On_Init(args)
     self:LoadShopButtonItem()     --实例化左边选择的按钮
     self.uitable.TogglePro_ZhanGui:OnSelect()    --设置一个默认值
-    EventManager.AddEvent(Event_InLua.ChangeShopRightPanel, Panel_Shop.OnChangeRightShow)
+    EventManager.RegistEvent(Event_InLua.ChangeShopRightPanel, Panel_Shop.OnChangeRightShow)
 end
 
 function Panel_Shop:LoadShopButtonItem()

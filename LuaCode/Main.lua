@@ -34,7 +34,7 @@ function init()
     print("GameMain start...")
     print("Dispatch",Dispatch)
     print("Dispatch",NetworkManager.Dispatch)
-    ProtobufManager.init()
+    ProtobufManager.Init()
 
     UIManager.OpenUI("Panel_Login", nil)           --登陆场景
     --UIManager.OpenUI("Panel_MainScene", nil)     --跳过登录场景

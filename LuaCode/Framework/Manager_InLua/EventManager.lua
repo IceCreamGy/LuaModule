@@ -1,14 +1,12 @@
 -- 消息系统
 
-local EventManager = {}
-
 --消息表   登出时重置
 local event_register_table = {}
 --注册的消息id
 local register_id = 0
 
 --注册消息
-function EventManager.AddEvent(eventType, func)
+local function RegistEvent(eventType, func)
     if event_register_table[eventType] == nil then
         event_register_table[eventType] = {}
     end
@@ -18,15 +16,8 @@ function EventManager.AddEvent(eventType, func)
     return event_register_id
 end
 
---移除消息
-function EventManager.RemoveEvent(eventType, event_register_id)
-    if event_register_table[eventType] ~= nil then
-        event_register_table[eventType][event_register_id] = nil
-    end
-end
-
 --分发消息
-function EventManager.DispachEvent(eventType, params)
+local function DispachEvent(eventType, params)
     if event_register_table[eventType] ~= nil then
         for key, func in pairs(event_register_table[eventType]) do
             func(params)
@@ -34,9 +25,20 @@ function EventManager.DispachEvent(eventType, params)
     end
 end
 
-function EventManager.RemoveAll()
+--移除消息
+local function RemoveEvent(eventType, event_register_id)
+    if event_register_table[eventType] ~= nil then
+        event_register_table[eventType][event_register_id] = nil
+    end
+end
+
+
+local function RemoveAll()
     event_register_table = {}
     register_id = 0
 end
 
-return EventManager
+return {
+    RegistEvent = RegistEvent,
+    DispachEvent=DispachEvent,
+}

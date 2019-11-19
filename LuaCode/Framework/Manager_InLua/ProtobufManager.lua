@@ -11,7 +11,7 @@ local function gen_msg_map()
     end
 end
 
-local function init()
+local function Init()
     --解析所有pb文件
     local pb_message = LuaManager_InCS.GetPBString("Framework/Config/ProtobufDefine.pb")
     protoc:load(pb_message)
@@ -39,7 +39,7 @@ local function Serialize(msg_ID, table)
 end
 
 return {
-    init = init,
-    DeSerialize = DeSerialize,
-    Serialize = Serialize,
+    Init = Init,
+    DeSerialize = DeSerialize,      --反序列化
+    Serialize = Serialize,      --序列化
 }
