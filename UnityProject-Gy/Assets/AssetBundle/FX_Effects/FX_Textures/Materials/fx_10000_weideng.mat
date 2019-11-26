@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_10000_weideng
+  m_Shader: {fileID: 4800000, guid: 6df3f87cc0715ee429a4d3c1e27f53b8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _AlphaTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseAlpha
+      second:
+        m_Texture: {fileID: 2800000, guid: f0eb2b44b942eef42a967c6a50d031be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DisolveTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FLTex
+      second:
+        m_Texture: {fileID: 2800000, guid: f0eb2b44b942eef42a967c6a50d031be, type: 3}
+        m_Scale: {x: 1, y: 1.86}
+        m_Offset: {x: 0, y: -0.48}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 1e900ae9d2203d14b988b2ed49ec3594, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: DstFactor
+      second: 9
+    - first:
+        name: OpColor
+      second: 0
+    - first:
+        name: SrcFactor
+      second: 1
+    - first:
+        name: _BlackEdgeFade
+      second: 0
+    - first:
+        name: _BlinkSpeed
+      second: 8
+    - first:
+        name: _ClipValue
+      second: 0
+    - first:
+        name: _ColorMulti
+      second: 2
+    - first:
+        name: _Disolve
+      second: 0
+    - first:
+        name: _DisolveCutoff
+      second: 0.5
+    - first:
+        name: _DisolveKeepColor
+      second: 0
+    - first:
+        name: _EnableBillboard
+      second: 0
+    - first:
+        name: _EnableBlackEdgeFadeAndInnerColor
+      second: 0
+    - first:
+        name: _EnableDissolve
+      second: 0
+    - first:
+        name: _EnableFade
+      second: 0
+    - first:
+        name: _EnableFog
+      second: 0
+    - first:
+        name: _EnableVertexColorAsUVSpeed
+      second: 0
+    - first:
+        name: _FLIntensity
+      second: 0.95
+    - first:
+        name: _InvFade
+      second: 3
+    - first:
+        name: _RimIntensity
+      second: 1.36
+    - first:
+        name: _RimLightRamp
+      second: 0
+    - first:
+        name: _U
+      second: 0
+    - first:
+        name: _V
+      second: 0
+    - first:
+        name: _VertexColoAsUVSpped_UMax
+      second: 10
+    - first:
+        name: _VertexColoAsUVSpped_UMin
+      second: -10
+    - first:
+        name: _VertexColoAsUVSpped_VMax
+      second: 10
+    - first:
+        name: _VertexColoAsUVSpped_VMin
+      second: -10
+    - first:
+        name: _fadeParamA
+      second: 0
+    - first:
+        name: _fadeParamB
+      second: 0
+    - first:
+        name: _fadeStrength
+      second: 2
+    - first:
+        name: _frontAmount
+      second: 0
+    - first:
+        name: fRimLightScale
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.5441177, g: 0.5441177, b: 0.5441177, a: 0.5}
+    - first:
+        name: _FLColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Speed
+      second: {r: -1, g: 0, b: 0, a: 0}
+    - first:
+        name: _TintColor
+      second: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.19607843}
+    - first:
+        name: fRimLightRampColor
+      second: {r: 1, g: 1, b: 1, a: 1}

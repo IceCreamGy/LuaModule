@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 53708f49af98c8747b9f7ee0aeca8a34
+timeCreated: 1499848531
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Corvette_C7R_Body_LOD2
+    100004: Corvette_C7R_Body_LOD4
+    100006: Corvette_C7R_Cover_LOD2
+    100008: Corvette_C7R_Cover_LOD4
+    100010: Corvette_C7R_Glass_LOD2
+    100012: Corvette_C7R_Glass_LOD4
+    100014: Corvette_C7R_Int_LOD2
+    100016: Corvette_C7R_Int_LOD4
+    100018: Corvette_C7R_LOD2
+    100020: Corvette_C7R_LOD4
+    100022: Corvette_C7R_Other_LOD2
+    100024: Corvette_C7R_Other_LOD4
+    100026: Corvette_C7R_Spoiler_LOD2
+    100028: Corvette_C7R_Spoiler_LOD4
+    100030: Corvette_C7R_Wheel_BL_LOD2
+    100032: Corvette_C7R_Wheel_BL_LOD4
+    100034: Corvette_C7R_Wheel_BR_LOD2
+    100036: Corvette_C7R_Wheel_BR_LOD4
+    100038: Corvette_C7R_Wheel_FL_LOD2
+    100040: Corvette_C7R_Wheel_FL_LOD4
+    100042: Corvette_C7R_Wheel_FR_LOD2
+    100044: Corvette_C7R_Wheel_FR_LOD4
+    100046: Corvette_C7R_Wheel_LOD2
+    100048: Corvette_C7R_Wheel_LOD4
+    100050: Body_LOD0
+    100052: Body_LOD1
+    100054: Cover_LOD0
+    100056: Cover_LOD1
+    100058: Glass_LOD0
+    100060: Glass_LOD1
+    100062: Int_LOD0
+    100064: Int_LOD1
+    100066: LOD0
+    100068: LOD1
+    100070: Other_LOD0
+    100072: Other_LOD1
+    100074: Spoiler_LOD0
+    100076: Spoiler_LOD1
+    100078: Wheel_BL_LOD0
+    100080: Wheel_BL_LOD0 1
+    100082: Wheel_BR_LOD0
+    100084: Wheel_BR_LOD0 1
+    100086: Wheel_FL_LOD0
+    100088: Wheel_FL_LOD0 1
+    100090: Wheel_FR_LOD0
+    100092: Wheel_FR_LOD0 1
+    100094: Wheel_LOD0
+    100096: Wheel_LOD1
+    100098: Wheel_BL_LOD1
+    100100: Wheel_BL_LOD3
+    100102: Wheel_BR_LOD1
+    100104: Wheel_BR_LOD3
+    100106: Wheel_FL_LOD1
+    100108: Wheel_FL_LOD3
+    100110: Wheel_FR_LOD1
+    100112: Wheel_FR_LOD3
+    100114: Mirror_LOD0
+    100116: Together_LOD1
+    100118: Together
+    400000: //RootNode
+    400002: Corvette_C7R_Body_LOD2
+    400004: Corvette_C7R_Body_LOD4
+    400006: Corvette_C7R_Cover_LOD2
+    400008: Corvette_C7R_Cover_LOD4
+    400010: Corvette_C7R_Glass_LOD2
+    400012: Corvette_C7R_Glass_LOD4
+    400014: Corvette_C7R_Int_LOD2
+    400016: Corvette_C7R_Int_LOD4
+    400018: Corvette_C7R_LOD2
+    400020: Corvette_C7R_LOD4
+    400022: Corvette_C7R_Other_LOD2
+    400024: Corvette_C7R_Other_LOD4
+    400026: Corvette_C7R_Spoiler_LOD2
+    400028: Corvette_C7R_Spoiler_LOD4
+    400030: Corvette_C7R_Wheel_BL_LOD2
+    400032: Corvette_C7R_Wheel_BL_LOD4
+    400034: Corvette_C7R_Wheel_BR_LOD2
+    400036: Corvette_C7R_Wheel_BR_LOD4
+    400038: Corvette_C7R_Wheel_FL_LOD2
+    400040: Corvette_C7R_Wheel_FL_LOD4
+    400042: Corvette_C7R_Wheel_FR_LOD2
+    400044: Corvette_C7R_Wheel_FR_LOD4
+    400046: Corvette_C7R_Wheel_LOD2
+    400048: Corvette_C7R_Wheel_LOD4
+    400050: Body_LOD0
+    400052: Body_LOD1
+    400054: Cover_LOD0
+    400056: Cover_LOD1
+    400058: Glass_LOD0
+    400060: Glass_LOD1
+    400062: Int_LOD0
+    400064: Int_LOD1
+    400066: LOD0
+    400068: LOD1
+    400070: Other_LOD0
+    400072: Other_LOD1
+    400074: Spoiler_LOD0
+    400076: Spoiler_LOD1
+    400078: Wheel_BL_LOD0
+    400080: Wheel_BL_LOD0 1
+    400082: Wheel_BR_LOD0
+    400084: Wheel_BR_LOD0 1
+    400086: Wheel_FL_LOD0
+    400088: Wheel_FL_LOD0 1
+    400090: Wheel_FR_LOD0
+    400092: Wheel_FR_LOD0 1
+    400094: Wheel_LOD0
+    400096: Wheel_LOD1
+    400098: Wheel_BL_LOD1
+    400100: Wheel_BL_LOD3
+    400102: Wheel_BR_LOD1
+    400104: Wheel_BR_LOD3
+    400106: Wheel_FL_LOD1
+    400108: Wheel_FL_LOD3
+    400110: Wheel_FR_LOD1
+    400112: Wheel_FR_LOD3
+    400114: Mirror_LOD0
+    400116: Together_LOD1
+    400118: Together
+    2300000: Corvette_C7R_Body_LOD2
+    2300002: Corvette_C7R_Body_LOD4
+    2300004: Corvette_C7R_Cover_LOD2
+    2300006: Corvette_C7R_Cover_LOD4
+    2300008: Corvette_C7R_Glass_LOD2
+    2300010: Corvette_C7R_Glass_LOD4
+    2300012: Corvette_C7R_Int_LOD2
+    2300014: Corvette_C7R_Int_LOD4
+    2300016: Corvette_C7R_Other_LOD2
+    2300018: Corvette_C7R_Other_LOD4
+    2300020: Corvette_C7R_Spoiler_LOD2
+    2300022: Corvette_C7R_Spoiler_LOD4
+    2300024: Corvette_C7R_Wheel_BL_LOD2
+    2300026: Corvette_C7R_Wheel_BL_LOD4
+    2300028: Corvette_C7R_Wheel_BR_LOD2
+    2300030: Corvette_C7R_Wheel_BR_LOD4
+    2300032: Corvette_C7R_Wheel_FL_LOD2
+    2300034: Corvette_C7R_Wheel_FL_LOD4
+    2300036: Corvette_C7R_Wheel_FR_LOD2
+    2300038: Corvette_C7R_Wheel_FR_LOD4
+    2300040: Body_LOD0
+    2300042: Body_LOD1
+    2300044: Cover_LOD0
+    2300046: Cover_LOD1
+    2300048: Glass_LOD0
+    2300050: Glass_LOD1
+    2300052: Int_LOD0
+    2300054: Int_LOD1
+    2300056: Other_LOD0
+    2300058: Other_LOD1
+    2300060: Spoiler_LOD0
+    2300062: Spoiler_LOD1
+    2300064: Wheel_BL_LOD0
+    2300066: Wheel_BL_LOD0 1
+    2300068: Wheel_BR_LOD0
+    2300070: Wheel_BR_LOD0 1
+    2300072: Wheel_FL_LOD0
+    2300074: Wheel_FL_LOD0 1
+    2300076: Wheel_FR_LOD0
+    2300078: Wheel_FR_LOD0 1
+    2300080: Wheel_BL_LOD1
+    2300082: Wheel_BL_LOD3
+    2300084: Wheel_BR_LOD1
+    2300086: Wheel_BR_LOD3
+    2300088: Wheel_FL_LOD1
+    2300090: Wheel_FL_LOD3
+    2300092: Wheel_FR_LOD1
+    2300094: Wheel_FR_LOD3
+    2300096: Mirror_LOD0
+    2300098: Together_LOD1
+    2300100: Together
+    3300000: Corvette_C7R_Body_LOD2
+    3300002: Corvette_C7R_Body_LOD4
+    3300004: Corvette_C7R_Cover_LOD2
+    3300006: Corvette_C7R_Cover_LOD4
+    3300008: Corvette_C7R_Glass_LOD2
+    3300010: Corvette_C7R_Glass_LOD4
+    3300012: Corvette_C7R_Int_LOD2
+    3300014: Corvette_C7R_Int_LOD4
+    3300016: Corvette_C7R_Other_LOD2
+    3300018: Corvette_C7R_Other_LOD4
+    3300020: Corvette_C7R_Spoiler_LOD2
+    3300022: Corvette_C7R_Spoiler_LOD4
+    3300024: Corvette_C7R_Wheel_BL_LOD2
+    3300026: Corvette_C7R_Wheel_BL_LOD4
+    3300028: Corvette_C7R_Wheel_BR_LOD2
+    3300030: Corvette_C7R_Wheel_BR_LOD4
+    3300032: Corvette_C7R_Wheel_FL_LOD2
+    3300034: Corvette_C7R_Wheel_FL_LOD4
+    3300036: Corvette_C7R_Wheel_FR_LOD2
+    3300038: Corvette_C7R_Wheel_FR_LOD4
+    3300040: Body_LOD0
+    3300042: Body_LOD1
+    3300044: Cover_LOD0
+    3300046: Cover_LOD1
+    3300048: Glass_LOD0
+    3300050: Glass_LOD1
+    3300052: Int_LOD0
+    3300054: Int_LOD1
+    3300056: Other_LOD0
+    3300058: Other_LOD1
+    3300060: Spoiler_LOD0
+    3300062: Spoiler_LOD1
+    3300064: Wheel_BL_LOD0
+    3300066: Wheel_BL_LOD0 1
+    3300068: Wheel_BR_LOD0
+    3300070: Wheel_BR_LOD0 1
+    3300072: Wheel_FL_LOD0
+    3300074: Wheel_FL_LOD0 1
+    3300076: Wheel_FR_LOD0
+    3300078: Wheel_FR_LOD0 1
+    3300080: Wheel_BL_LOD1
+    3300082: Wheel_BL_LOD3
+    3300084: Wheel_BR_LOD1
+    3300086: Wheel_BR_LOD3
+    3300088: Wheel_FL_LOD1
+    3300090: Wheel_FL_LOD3
+    3300092: Wheel_FR_LOD1
+    3300094: Wheel_FR_LOD3
+    3300096: Mirror_LOD0
+    3300098: Together_LOD1
+    3300100: Together
+    4300000: Corvette_C7R_Glass_LOD2
+    4300002: Corvette_C7R_Other_LOD2
+    4300004: Corvette_C7R_Int_LOD2
+    4300006: Corvette_C7R_Body_LOD2
+    4300008: Corvette_C7R_Cover_LOD2
+    4300010: Corvette_C7R_Spoiler_LOD2
+    4300012: Corvette_C7R_Wheel_FL_LOD2
+    4300014: Corvette_C7R_Wheel_BL_LOD2
+    4300016: Corvette_C7R_Wheel_BR_LOD2
+    4300018: Corvette_C7R_Wheel_FR_LOD2
+    4300020: Corvette_C7R_Glass_LOD4
+    4300022: Corvette_C7R_Body_LOD4
+    4300024: Corvette_C7R_Other_LOD4
+    4300026: Corvette_C7R_Int_LOD4
+    4300028: Corvette_C7R_Cover_LOD4
+    4300030: Corvette_C7R_Spoiler_LOD4
+    4300032: Corvette_C7R_Wheel_FL_LOD4
+    4300034: Corvette_C7R_Wheel_BL_LOD4
+    4300036: Corvette_C7R_Wheel_FR_LOD4
+    4300038: Corvette_C7R_Wheel_BR_LOD4
+    4300040: Glass_LOD0
+    4300042: Other_LOD0
+    4300044: Int_LOD0
+    4300046: Body_LOD0
+    4300048: Cover_LOD0
+    4300050: Spoiler_LOD0
+    4300052: Wheel_FL_LOD0
+    4300054: Wheel_BL_LOD0
+    4300056: Wheel_BR_LOD0
+    4300058: Wheel_FR_LOD0
+    4300060: Glass_LOD1
+    4300062: Body_LOD1
+    4300064: Other_LOD1
+    4300066: Int_LOD1
+    4300068: Cover_LOD1
+    4300070: Spoiler_LOD1
+    4300072: Wheel_FL_LOD0
+    4300074: Wheel_BL_LOD0
+    4300076: Wheel_FR_LOD0
+    4300078: Wheel_BR_LOD0
+    4300080: Wheel_FL_LOD1
+    4300082: Wheel_BL_LOD1
+    4300084: Wheel_BR_LOD1
+    4300086: Wheel_FR_LOD1
+    4300088: Wheel_FL_LOD3
+    4300090: Wheel_BL_LOD3
+    4300092: Wheel_FR_LOD3
+    4300094: Wheel_BR_LOD3
+    4300096: Mirror_LOD0
+    4300098: Together_LOD1
+    4300100: Together
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

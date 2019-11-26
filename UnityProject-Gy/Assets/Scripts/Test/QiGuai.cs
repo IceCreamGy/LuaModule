@@ -12,6 +12,7 @@ public class QiGuai : MonoBehaviour
 {
     private void Start()
     {
+        GetComponent<Transform>();
       //GetComponent<RectTransform>().localScale
     }
 }
